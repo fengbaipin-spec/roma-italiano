@@ -20,7 +20,8 @@ export const DEFAULTS = {
   exOpen: false, playEx: false,
   essayView: "sent", essayZh: true, essayEn: true, essayHide: false, echo: false,
   newPerDay: 10, newFrom: 1, autoSay: true,
-  talkRole: "B", talkZh: true, talkEn: true, recognize: false
+  talkRole: "B", talkZh: true, talkEn: true, recognize: false,
+  reviewSrc: "recent", reviewDays: 7, reviewVol: 1, reviewWhole: false, reviewDir: "it", reviewN: 20
 };
 export const settings = Object.assign({}, DEFAULTS, store.get("settings", {}));
 export const saveSettings = () => store.set("settings", settings);

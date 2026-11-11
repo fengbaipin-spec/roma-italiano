@@ -52,6 +52,20 @@ export function review(it, remembered) {
   saveSrs();
   count(1);
 }
+// extra practice outside the schedule (随时复习): a forgotten word comes back tomorrow; a remembered one keeps its
+// date, unless it was due anyway, and then this counts as its review. Words not learned yet are not recorded.
+export function practise(it, remembered) {
+  const r = srs.get(it);
+  if (!r) return;
+  if (!remembered || r[1] <= today()) review(it, remembered);
+  else count(1);
+}
+// the day a word was last learned or reviewed, worked out from its stage and due day
+export function lastStudied(it) {
+  const r = srs.get(it);
+  return r ? r[1] - INTERVALS[Math.min(r[0], INTERVALS.length - 1)] : null;
+}
+export const lapsesOf = it => (srs.has(it) ? srs.get(it)[2] : 0);
 // the most overdue first; among words due the same day, the weaker ones first
 export function dueWords() {
   const t = today();

@@ -9,6 +9,7 @@ import { renderLearn, renderStudy } from "./learn.js";
 import { renderDictation } from "./dictation.js";
 import { setPairs, renderPairs } from "./pairs.js";
 import { setTalks, renderTalks, renderTalk } from "./talks.js";
+import { renderReview } from "./review.js";
 import { renderSettings } from "./settings.js";
 import { warmLookup } from "./wordinfo.js";
 
@@ -17,6 +18,7 @@ const view = $("view");
 const ROUTES = {
   learn: [renderLearn, "learn"],
   study: [renderStudy, "learn"],
+  review: [renderReview, "learn"],
   dictation: [renderDictation, "learn"],
   pairs: [renderPairs, "learn"],
   talks: [renderTalks, "learn"],
@@ -28,7 +30,7 @@ const ROUTES = {
   settings: [renderSettings, "settings"]
 };
 // screens you go into from a tab and leave with a close or back button; they always start at the top
-const FLOWS = new Set(["essay", "study", "dictation", "pairs", "talks", "talk"]);
+const FLOWS = new Set(["essay", "study", "review", "dictation", "pairs", "talks", "talk"]);
 const scrollMemo = {};
 
 function show() {
