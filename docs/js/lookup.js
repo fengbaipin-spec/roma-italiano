@@ -3,6 +3,7 @@
 // dictionary lists basic forms, so the index also holds the forms Italian grammar makes from each headword.
 // No DOM here, so it can be tested on its own with Node.
 import { GLOSS, STOP } from "./gloss.js";
+import { numberValue } from "./numbers.js";
 
 const LETTERS = "A-Za-zÀ-ÖØ-öø-ÿ";
 const WORD = new RegExp(`[${LETTERS}]+(?:['’][${LETTERS}]+)*['’]?`, "g");
@@ -342,6 +343,9 @@ export function createLookup(entries, conjLabel = () => "变位") {
       res.hits.push(h);
       if (res.hits.length >= 2) break;
     }
+    // a number written as a word: trentotto, cinquecentoventi
+    const n = !res.hits.length && !res.phrases.length && !res.gloss ? numberValue(main) : null;
+    if (n !== null) { res.gloss = ["数字", String(n)]; res.glossFor = main; }
     if (!res.hits.length && !res.phrases.length && !res.gloss) res.guess = guess(main);
     // a capital letter inside a sentence, with nothing better than a phrase that mentions it, is probably a name
     res.name = k > 0 && /^[A-ZÀ-Ö]/.test(raw) && !res.phrases.length && !res.gloss && res.hits.every(h => h.rank === 3);

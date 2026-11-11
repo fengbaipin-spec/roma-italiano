@@ -14,6 +14,8 @@ const MAX_CLIP = 15000;
 
 let TALKS = [];
 export function setTalks(data) { TALKS = data.dialogues; }
+export const talkCount = () => TALKS.length;
+const LEVEL_NAMES = { A1: "入门", A2: "基础", B1: "进阶", B2: "中高级" };
 
 let cur = null;            // the dialogue on screen
 let rp = null;             // role-play in progress: { role, pos, waiting } (waiting: it is the user's turn)
@@ -54,6 +56,18 @@ export function renderTalks(view) {
   if (nav.prev === "learn") listFromLearn = true;
   else if (!nav.prev.startsWith("talk/")) listFromLearn = false;
   const done = TALKS.filter(d => talked.has(d.id)).length;
+  const item = d => `<li><a class="titem" href="#talk/${d.id}">
+        <span><b>${esc(d.zh)}</b><small lang="it">${esc(d.title)} · ${d.lines.length} 句</small></span>
+        ${talked.has(d.id) ? `<span class="ok" title="练过">${ICON.check}</span>` : "<span></span>"}
+      </a></li>`;
+  // grouped by level, in the order the data lists them
+  const groups = [...new Set(TALKS.map(d => d.level))].map(level => {
+    const ds = TALKS.filter(d => d.level === level);
+    return `<section class="tgroup">
+      <h2 class="sub">${level} · ${LEVEL_NAMES[level] || ""}<span>练过 ${ds.filter(d => talked.has(d.id)).length} / ${ds.length}</span></h2>
+      <ul class="tlist">${ds.map(item).join("")}</ul>
+    </section>`;
+  }).join("");
   view.innerHTML = `
     <header class="vbar"><div class="vrow">
       <button type="button" class="iconbtn" id="tkClose" aria-label="返回学习首页">${ICON.close}</button>
@@ -61,11 +75,7 @@ export function renderTalks(view) {
     </div></header>
     <div class="drill pad">
       <p class="lead">在罗马生活最常遇到的 ${TALKS.length} 个场景。先听整段对话，再做角色扮演：App 说对方的台词，停下来等你说自己的那一句。</p>
-      <ul class="tlist">${TALKS.map(d => `<li><a class="titem" href="#talk/${d.id}">
-        <span class="lvl">${d.level}</span>
-        <span><b>${esc(d.zh)}</b><small lang="it">${esc(d.title)} · ${d.lines.length} 句</small></span>
-        ${talked.has(d.id) ? `<span class="ok" title="练过">${ICON.check}</span>` : "<span></span>"}
-      </a></li>`).join("")}</ul>
+      ${groups}
     </div>`;
   $("tkClose").onclick = () => (listFromLearn ? history.back() : location.replace("#learn"));
   return false;

@@ -5,6 +5,7 @@ import { speakOne } from "./speech.js";
 import { words, volumes, byHead, CONJ_LABELS } from "./dict.js";
 import * as rec from "./srs.js";
 import { tapWords, showWord, hintOnce } from "./wordinfo.js";
+import { talkCount } from "./talks.js";
 
 const LEVEL_NAMES = { A2: "基础", B1: "进阶", B2: "中高级" };
 const MAX_REVIEWS = 60;   // after a long break hundreds can be due; take them one session at a time
@@ -48,7 +49,7 @@ export function renderLearn(view) {
         <p class="note">新词来自 <button type="button" class="linkbtn" id="pickFrom">${volumes()[fromVolume() - 1].name}${ICON.down}</button>，<button type="button" class="linkbtn" id="pickPerDay">${settings.newPerDay ? `每天 ${settings.newPerDay} 个` : "已暂停新词"}${ICON.down}</button>，收藏的词优先。记得的词会隔 1、3、7、14、30 天再出现。</p>
       </section>
       <div class="pcards">
-        <a class="pcard wide" href="#talks"><b>情景对话</b><span>咖啡馆、药店、看医生、在警察局续居留……先听对话，再和 App 分角色练说</span></a>
+        <a class="pcard wide" href="#talks"><b>情景对话</b><span>超市、看医生、坐公交、办居留……${talkCount()} 个罗马生活场景。先听对话，再和 App 分角色练说</span></a>
         <a class="pcard" href="#dictation"><b>听写</b><span>听例句写意大利语，标出拼错的地方</span></a>
         <a class="pcard" href="#pairs"><b>难点听辨</b><span>r 和 l、双辅音、清浊音、gli 和 gn</span></a>
       </div>
