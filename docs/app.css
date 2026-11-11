@@ -252,6 +252,12 @@ body.playing .fab{display:none}
 .switch{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:46px;border-bottom:1px solid var(--line)}
 .switch input{width:22px;height:22px;flex:none;accent-color:var(--accent)}
 .btnrow{display:flex;flex-wrap:wrap;gap:8px}
+.fieldrow.wrap{flex-wrap:wrap;gap:10px 14px}
+.numfield{display:inline-flex;align-items:center;gap:6px;font-size:.88rem;color:var(--muted)}
+.numfield input{width:4.4em;height:38px;padding:0 6px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font-size:16px;text-align:center;font-variant-numeric:tabular-nums}
+.numfield input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.perday{display:flex;flex-direction:column;gap:14px;padding-top:6px}
+.perday .note{margin:0}
 .note{font-size:.84rem;color:var(--muted)}
 .about p{font-size:.9rem;color:var(--muted)}
 

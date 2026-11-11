@@ -6,6 +6,7 @@ import { pwa, onPwa, promptInstall, checkForUpdate } from "./pwa.js";
 import { wordCount, clearFlips } from "./dict.js";
 import { essayCount } from "./essays.js";
 import { learnedCount, masteredCount, exportRecords, importRecords } from "./srs.js";
+import { setNewPerDay, MAX_NEW } from "./learn.js";
 import { VERSION } from "./version.js";
 
 const SAMPLE = { it: "Buongiorno, vorrei un caffè, per favore.", en: "Good morning. How are you today?" };
@@ -40,9 +41,14 @@ export function renderSettings(view) {
         <h2>学习</h2>
         <div class="field">
           <span class="flabel">每天新词</span>
-          <div class="fieldrow"><div class="seg" id="perDay" role="group" aria-label="每天新词">
-            <button type="button" data-n="5">5 个</button><button type="button" data-n="10">10 个</button><button type="button" data-n="15">15 个</button><button type="button" data-n="20">20 个</button>
-          </div></div>
+          <div class="fieldrow wrap">
+            <div class="seg" id="perDay" role="group" aria-label="每天新词">
+              <button type="button" data-n="5">5</button><button type="button" data-n="10">10</button><button type="button" data-n="15">15</button><button type="button" data-n="20">20</button>
+            </div>
+            <label class="numfield" for="perDayNum">自定义
+              <input type="number" id="perDayNum" inputmode="numeric" min="0" max="${MAX_NEW}" step="1">个</label>
+          </div>
+          <p class="note">可以填 0 到 ${MAX_NEW}。填 0 表示先暂停新词，只做复习。</p>
         </div>
         <label class="switch"><span>新词、听写和听辨自动朗读</span><input type="checkbox" id="sAuto"></label>
       </section>
@@ -93,10 +99,19 @@ export function renderSettings(view) {
   $("perDay").onclick = e => {
     const b = e.target.closest("[data-n]");
     if (!b) return;
-    settings.newPerDay = Number(b.dataset.n);
-    saveSettings();
+    setNewPerDay(Number(b.dataset.n));
     drawPerDay();
   };
+  // a typed number is saved when the box loses focus or Enter is pressed; anything that is not a number is undone
+  $("perDayNum").onchange = e => {
+    const n = Number(e.target.value);
+    if (e.target.value.trim() !== "" && Number.isFinite(n)) {
+      const saved = setNewPerDay(n);
+      toast(saved ? `每天 ${saved} 个新词` : "已暂停新词，只做复习");
+    }
+    drawPerDay();
+  };
+  $("perDayNum").onkeydown = e => { if (e.key === "Enter") e.target.blur(); };
   $("sAuto").checked = settings.autoSay;
   $("sAuto").onchange = e => { settings.autoSay = e.target.checked; saveSettings(); };
   $("sExOpen").checked = settings.exOpen;
@@ -159,6 +174,7 @@ function drawRates() {
 }
 function drawPerDay() {
   document.querySelectorAll("#perDay button").forEach(b => b.setAttribute("aria-pressed", String(Number(b.dataset.n) === settings.newPerDay)));
+  if ($("perDayNum")) $("perDayNum").value = settings.newPerDay;
 }
 function drawRecords() {
   if ($("records")) {

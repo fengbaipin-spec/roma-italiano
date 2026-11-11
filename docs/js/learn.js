@@ -8,6 +8,15 @@ import * as rec from "./srs.js";
 const LEVEL_NAMES = { A2: "基础", B1: "进阶", B2: "中高级" };
 const MAX_REVIEWS = 60;   // after a long break hundreds can be due; take them one session at a time
 const EXTRA = 5;          // "再学 5 个新词"
+const PRESETS = [0, 5, 10, 15, 20, 30];
+export const MAX_NEW = 100;
+
+// 0 pauses new words and leaves only the reviews
+export function setNewPerDay(n) {
+  settings.newPerDay = Math.max(0, Math.min(MAX_NEW, Math.round(n)));
+  saveSettings();
+  return settings.newPerDay;
+}
 
 const fromVolume = () => (volumes()[settings.newFrom - 1] ? settings.newFrom : 1);
 const newLeft = () => Math.max(0, settings.newPerDay - rec.doneToday()[0]);
@@ -33,9 +42,9 @@ export function renderLearn(view) {
         </div>
         ${due || fresh
           ? `<button type="button" class="bigbtn" id="startStudy">${ICON.play}${done[0] + done[1] ? "继续今天的学习" : "开始今天的学习"}</button>`
-          : `<p class="donetext">今天的复习和新词都完成了。</p>
+          : `<p class="donetext">${settings.newPerDay ? "今天的复习和新词都完成了。" : "今天的复习都完成了，新词已暂停。"}</p>
              <button type="button" class="bigbtn soft" id="startMore">再学 ${EXTRA} 个新词</button>`}
-        <p class="note">新词来自 <button type="button" class="linkbtn" id="pickFrom">${volumes()[fromVolume() - 1].name}${ICON.down}</button>，每天 ${settings.newPerDay} 个，收藏的词优先。记得的词会隔 1、3、7、14、30 天再出现。</p>
+        <p class="note">新词来自 <button type="button" class="linkbtn" id="pickFrom">${volumes()[fromVolume() - 1].name}${ICON.down}</button>，<button type="button" class="linkbtn" id="pickPerDay">${settings.newPerDay ? `每天 ${settings.newPerDay} 个` : "已暂停新词"}${ICON.down}</button>，收藏的词优先。记得的词会隔 1、3、7、14、30 天再出现。</p>
       </section>
       <div class="pcards">
         <a class="pcard" href="#dictation"><b>听写</b><span>听例句写意大利语，标出拼错的地方</span></a>
@@ -50,7 +59,37 @@ export function renderLearn(view) {
   if ($("startStudy")) $("startStudy").onclick = () => { location.hash = "#study"; };
   if ($("startMore")) $("startMore").onclick = () => { location.hash = "#study/more"; };
   $("pickFrom").onclick = () => pickFrom(view);
+  $("pickPerDay").onclick = () => pickPerDay(view);
   return false;
+}
+
+function pickPerDay(view) {
+  const html = `<div class="perday">
+    <div class="chiprow">${PRESETS.map(n =>
+      `<button type="button" class="chip" data-n="${n}" aria-pressed="${n === settings.newPerDay}">${n ? `${n} 个` : "暂停新词"}</button>`).join("")}</div>
+    <div class="fieldrow">
+      <label class="numfield" for="pdInput">自定义
+        <input type="number" id="pdInput" inputmode="numeric" min="0" max="${MAX_NEW}" step="1" value="${settings.newPerDay}">个</label>
+      <button type="button" class="txtbtn primary" id="pdOk">确定</button>
+    </div>
+    <p class="note">可以填 0 到 ${MAX_NEW}。填 0 表示先暂停新词，只做复习。今天已经学过的新词也算在里面。</p>
+  </div>`;
+  const done = n => {
+    setNewPerDay(n);
+    closeSheet();
+    renderLearn(view);
+  };
+  const typed = () => {
+    const box = $("pdInput"), n = Number(box.value);
+    if (box.value.trim() === "" || !Number.isFinite(n)) { box.focus(); return; }
+    done(n);
+  };
+  openSheet("每天学几个新词", html, e => {
+    const b = e.target.closest("[data-n]");
+    if (b) done(Number(b.dataset.n));
+    else if (e.target.closest("#pdOk")) typed();
+  });
+  $("pdInput").addEventListener("keydown", e => { if (e.key === "Enter") typed(); });
 }
 
 function progressRows() {
