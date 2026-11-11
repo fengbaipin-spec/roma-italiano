@@ -5,6 +5,7 @@ import { speech, voicesFor, chooseVoice, onVoices, speakOne } from "./speech.js"
 import { pwa, onPwa, promptInstall, checkForUpdate } from "./pwa.js";
 import { wordCount, clearFlips } from "./dict.js";
 import { essayCount } from "./essays.js";
+import { learnedCount, masteredCount, exportRecords, importRecords } from "./srs.js";
 import { VERSION } from "./version.js";
 
 const SAMPLE = { it: "Buongiorno, vorrei un caffè, per favore.", en: "Good morning. How are you today?" };
@@ -36,6 +37,17 @@ export function renderSettings(view) {
       </section>
 
       <section class="group">
+        <h2>学习</h2>
+        <div class="field">
+          <span class="flabel">每天新词</span>
+          <div class="fieldrow"><div class="seg" id="perDay" role="group" aria-label="每天新词">
+            <button type="button" data-n="5">5 个</button><button type="button" data-n="10">10 个</button><button type="button" data-n="15">15 个</button><button type="button" data-n="20">20 个</button>
+          </div></div>
+        </div>
+        <label class="switch"><span>新词、听写和听辨自动朗读</span><input type="checkbox" id="sAuto"></label>
+      </section>
+
+      <section class="group">
         <h2>词典</h2>
         <label class="switch"><span>例句默认展开</span><input type="checkbox" id="sExOpen"></label>
         <label class="switch"><span>连读时也读例句</span><input type="checkbox" id="sPlayEx"></label>
@@ -49,7 +61,7 @@ export function renderSettings(view) {
           <button type="button" class="txtbtn" id="importBtn">导入备份</button>
           <input type="file" id="importFile" accept="application/json,.json" hidden>
         </div>
-        <p class="note">收藏和“已掌握”只保存在这台手机上。换手机或清除浏览器数据之前，先导出一份备份。</p>
+        <p class="note">学习进度、收藏和“已掌握”只保存在这台手机上。换手机或清除浏览器数据之前，先导出一份备份。</p>
       </section>
 
       <section class="group">
@@ -78,6 +90,15 @@ export function renderSettings(view) {
     saveSettings();
     drawRates();
   };
+  $("perDay").onclick = e => {
+    const b = e.target.closest("[data-n]");
+    if (!b) return;
+    settings.newPerDay = Number(b.dataset.n);
+    saveSettings();
+    drawPerDay();
+  };
+  $("sAuto").checked = settings.autoSay;
+  $("sAuto").onchange = e => { settings.autoSay = e.target.checked; saveSettings(); };
   $("sExOpen").checked = settings.exOpen;
   $("sExOpen").onchange = e => { settings.exOpen = e.target.checked; clearFlips(); saveSettings(); };
   $("sPlayEx").checked = settings.playEx;
@@ -90,6 +111,7 @@ export function renderSettings(view) {
   drawInstall();
   drawVoices();
   drawRates();
+  drawPerDay();
   drawRecords();
   drawOffline();
   return false;
@@ -135,8 +157,13 @@ onVoices(drawVoices);
 function drawRates() {
   document.querySelectorAll("#rates button").forEach(b => b.setAttribute("aria-pressed", String(Number(b.dataset.rate) === settings.rate)));
 }
+function drawPerDay() {
+  document.querySelectorAll("#perDay button").forEach(b => b.setAttribute("aria-pressed", String(Number(b.dataset.n) === settings.newPerDay)));
+}
 function drawRecords() {
-  if ($("records")) $("records").textContent = `收藏 ${stars.size} 个词 · 已掌握 ${learned.size} 篇范文`;
+  if ($("records")) {
+    $("records").textContent = `已学 ${learnedCount()} 个词（已掌握 ${masteredCount()} 个）· 收藏 ${stars.size} 个词 · 已掌握范文 ${learned.size} 篇`;
+  }
 }
 function drawOffline() {
   const p = $("offline");
@@ -149,7 +176,7 @@ function drawOffline() {
 onPwa(() => { drawInstall(); drawOffline(); });
 
 function exportBackup() {
-  const data = { app: "roma-italiano", format: 1, exported: new Date().toISOString(), stars: [...stars], learned: [...learned] };
+  const data = { app: "roma-italiano", format: 2, exported: new Date().toISOString(), stars: [...stars], learned: [...learned], ...exportRecords() };
   const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 1)], { type: "application/json" }));
   const a = document.createElement("a");
   a.href = url;
@@ -172,8 +199,9 @@ async function importBackup(e) {
     data.learned.forEach(k => { if (typeof k === "string") learned.add(k); });
     saveStars();
     saveLearned();
+    importRecords(data);
     drawRecords();
-    toast(`已导入：收藏 ${stars.size} 个词，已掌握 ${learned.size} 篇`);
+    toast(`已导入：已学 ${learnedCount()} 个词，收藏 ${stars.size} 个，已掌握范文 ${learned.size} 篇`);
   } catch (err) {
     toast("这个文件不是本 App 导出的备份");
   }

@@ -5,6 +5,13 @@ export const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(
 export const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 export const wordsIn = text => text.split(/\s+/).filter(w => /[\p{L}\d]/u.test(w)).length;
 export const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+export function shuffle(list) {
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+  return list;
+}
 
 // where the router has been, so a view can tell whether "back" returns to the list it came from
 export const nav = { prev: "", current: "" };

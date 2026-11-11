@@ -5,13 +5,14 @@ import { speech, onVoices, speakOne, playList, stopList, player } from "./speech
 import { pwa, onPwa, promptInstall } from "./pwa.js";
 
 /* scenes whose conjugation row is not the present tense */
-const CONJ_LABELS = { 过去时: "近过去时", 将来时: "将来时", 未完成过去时: "未完成过去时", 虚拟式: "现在虚拟式", 条件式: "条件式",
+export const CONJ_LABELS = { 过去时: "近过去时", 将来时: "将来时", 未完成过去时: "未完成过去时", 虚拟式: "现在虚拟式", 条件式: "条件式",
   远过去时: "远过去时", 先过去时: "先过去时", 未完成虚拟式: "未完成虚拟式", 过去虚拟式: "过去虚拟式", 过去条件式: "过去条件式" };
 const LEVEL_NAMES = { A2: "基础", B1: "进阶", B2: "中高级" };
 const PAGE = 120;   // search results shown at a time
 
 let VOLS = [];
 const ALL = [];
+const HEAD = new Map();   // headword → entry
 let INDEX = null;
 const flip = new Set();   // entries whose example is shown (or hidden) against the default
 let quiz = false;         // favourites self-test: meanings stay blurred until tapped
@@ -22,11 +23,16 @@ export function setVocab(data) {
     V.first = ALL.length;
     V.count = V.words.length;
     for (const w of V.words) {
-      ALL.push({ i: ALL.length, v: V.v, it: w[0], zh: w[1], en: w[2], ex: w[3], exZh: w[4], exEn: w[5], tag: w[6], conj: w[7] || "" });
+      const entry = { i: ALL.length, v: V.v, it: w[0], zh: w[1], en: w[2], ex: w[3], exZh: w[4], exEn: w[5], tag: w[6], conj: w[7] || "" };
+      ALL.push(entry);
+      HEAD.set(entry.it, entry);
     }
   }
 }
 export const wordCount = () => ALL.length;
+export const words = () => ALL;
+export const volumes = () => VOLS;
+export const byHead = it => HEAD.get(it);
 export const clearFlips = () => flip.clear();
 const volume = v => VOLS[v - 1];
 const isOpen = i => settings.exOpen !== flip.has(i);

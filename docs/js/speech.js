@@ -64,8 +64,9 @@ let current = null;
 function unmark() {
   document.querySelectorAll(".speaking,.echo").forEach(el => el.classList.remove("speaking", "echo"));
 }
-// resolves with how long the utterance took, whether it finished, failed or was cut off
-export function say(text, lang, el) {
+// resolves with how long the utterance took, whether it finished, failed or was cut off;
+// rate overrides the speed from settings for this one utterance
+export function say(text, lang, el, rate) {
   return new Promise(resolve => {
     if (!synth) { resolve(0); return; }
     const busy = synth.speaking || synth.pending;
@@ -75,7 +76,7 @@ export function say(text, lang, el) {
     const v = lang === "it" ? speech.it : speech.en;
     u.lang = v ? v.lang : lang === "it" ? "it-IT" : "en-GB";
     if (v) u.voice = v;
-    u.rate = settings.rate;
+    u.rate = rate || settings.rate;
     const t0 = performance.now();
     const job = { done: false };
     job.finish = () => {
@@ -89,7 +90,7 @@ export function say(text, lang, el) {
     u.onend = job.finish;
     u.onerror = job.finish;
     // some Android engines never report the end of an utterance; give up after a generous estimate
-    job.timer = setTimeout(job.finish, 4000 + words.length * 160 / settings.rate);
+    job.timer = setTimeout(job.finish, 4000 + words.length * 160 / u.rate);
     current = job;
     if (el) el.classList.add("speaking");
     // Android Chrome can drop an utterance queued right after cancel()
@@ -174,9 +175,9 @@ export function stopList(quiet) {
   if (was && !quiet) emit();
 }
 // a single tap always wins over a list that is playing
-export function speakOne(text, lang, el) {
+export function speakOne(text, lang, el, rate) {
   if (player.active) stopList();
-  return say(text, lang, el);
+  return say(text, lang, el, rate);
 }
 
 function bringIntoView(el) {

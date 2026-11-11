@@ -18,7 +18,8 @@ export const store = {
 export const DEFAULTS = {
   rate: 0.8, voiceIt: null, voiceEn: null,
   exOpen: false, playEx: false,
-  essayView: "sent", essayZh: true, essayEn: true, essayHide: false, echo: false
+  essayView: "sent", essayZh: true, essayEn: true, essayHide: false, echo: false,
+  newPerDay: 10, newFrom: 1, autoSay: true
 };
 export const settings = Object.assign({}, DEFAULTS, store.get("settings", {}));
 export const saveSettings = () => store.set("settings", settings);

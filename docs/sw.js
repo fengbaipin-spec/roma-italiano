@@ -1,10 +1,11 @@
 // Service worker: keeps a copy of the whole app so it opens without a network.
 // tools/build.js fills in VERSION and ASSETS and writes the result to docs/sw.js.
-const VERSION = "055084816c";
+const VERSION = "91ccee205d";
 const ASSETS = [
   "./",
   "app.css",
   "data/essays.json",
+  "data/pairs.json",
   "data/vocab.json",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
@@ -12,11 +13,16 @@ const ASSETS = [
   "icons/maskable-512.png",
   "index.html",
   "js/dict.js",
+  "js/dictation.js",
+  "js/diff.js",
   "js/essays.js",
+  "js/learn.js",
   "js/main.js",
+  "js/pairs.js",
   "js/pwa.js",
   "js/settings.js",
   "js/speech.js",
+  "js/srs.js",
   "js/store.js",
   "js/util.js",
   "manifest.webmanifest",

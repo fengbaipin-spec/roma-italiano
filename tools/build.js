@@ -41,6 +41,23 @@ for (const e of essays) {
     if (!Array.isArray(s) || s.length !== 3 || s.some(x => typeof x !== "string" || !x.trim())) errors.push(`${e.title}: bad sentence ${k}`);
   });
 }
+const pairCats = JSON.parse(read("data/pairs.json")).categories;
+const catIds = new Set();
+let pairCount = 0;
+for (const c of pairCats) {
+  if (!c.id || catIds.has(c.id)) errors.push(`pairs: missing or repeated category id ${c.id}`);
+  catIds.add(c.id);
+  for (const k of ["name", "tip"]) if (typeof c[k] !== "string" || !c[k].trim()) errors.push(`pairs ${c.id}: missing ${k}`);
+  if (!Array.isArray(c.pairs) || !c.pairs.length) { errors.push(`pairs ${c.id}: no pairs`); continue; }
+  for (const p of c.pairs) {
+    // [word, 中文, other word, 中文]
+    if (!Array.isArray(p) || p.length !== 4 || p.some(x => typeof x !== "string" || !x.trim()) || p[0] === p[2]) {
+      errors.push(`pairs ${c.id}: bad pair ${JSON.stringify(p)}`);
+    }
+    pairCount++;
+  }
+}
+
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);
@@ -72,5 +89,5 @@ const sw = fs.readFileSync(path.join(__dirname, "sw-template.js"), "utf8")
 fs.writeFileSync(path.join(docs, "sw.js"), sw);
 
 const kb = files.reduce((n, f) => n + fs.statSync(path.join(docs, f)).size, 0) / 1024;
-console.log(`${vocab.volumes.length} volumes, ${heads.size} words, ${essays.length} essays`);
+console.log(`${vocab.volumes.length} volumes, ${heads.size} words, ${essays.length} essays, ${pairCount} minimal pairs`);
 console.log(`version ${version}: ${assets.length} files cached for offline use, ${kb.toFixed(0)} KB`);

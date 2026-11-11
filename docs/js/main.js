@@ -5,23 +5,32 @@ import { initVoices, player, onPlayer, togglePause, skip, stopList } from "./spe
 import { initPwa } from "./pwa.js";
 import { setVocab, renderDict, renderFavs } from "./dict.js";
 import { setEssays, renderEssays, renderReader } from "./essays.js";
+import { renderLearn, renderStudy } from "./learn.js";
+import { renderDictation } from "./dictation.js";
+import { setPairs, renderPairs } from "./pairs.js";
 import { renderSettings } from "./settings.js";
 
 const view = $("view");
 // route name → [render(view, arg), tab to highlight]; a render returns true when it placed the scroll itself
 const ROUTES = {
+  learn: [renderLearn, "learn"],
+  study: [renderStudy, "learn"],
+  dictation: [renderDictation, "learn"],
+  pairs: [renderPairs, "learn"],
   dict: [renderDict, "dict"],
   favs: [renderFavs, "favs"],
   essays: [renderEssays, "essays"],
   essay: [renderReader, "essays"],
   settings: [renderSettings, "settings"]
 };
+// screens you go into from a tab and leave with a close or back button; they always start at the top
+const FLOWS = new Set(["essay", "study", "dictation", "pairs"]);
 const scrollMemo = {};
 
 function show() {
   closeSheet(true);
   const [name, arg = ""] = decodeURIComponent(location.hash.slice(1)).split("/");
-  const route = ROUTES[name] ? name : "dict";
+  const route = ROUTES[name] ? name : "learn";
   const key = arg ? `${route}/${arg}` : route;
   if (nav.current) scrollMemo[nav.current] = scrollY;
   nav.prev = nav.current;
@@ -31,13 +40,13 @@ function show() {
   setFab(null);
   view.dataset.view = route;
   const placed = render(view, arg);
-  if (!placed) window.scrollTo(0, route === "essay" ? 0 : scrollMemo[key] || 0);
+  if (!placed) window.scrollTo(0, FLOWS.has(route) ? 0 : scrollMemo[key] || 0);
 }
 
-// tapping the tab you are already on scrolls back to the top
+// tapping the tab you are already on scrolls back to the top (inside a flow it goes back to the tab's first screen)
 $("tabbar").addEventListener("click", e => {
   const a = e.target.closest("a[data-tab]");
-  if (!a || a.getAttribute("aria-current") !== "page" || view.dataset.view === "essay") return;
+  if (!a || a.getAttribute("aria-current") !== "page" || FLOWS.has(view.dataset.view)) return;
   e.preventDefault();
   view.querySelector(".vbar")?.classList.remove("hide");
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -100,9 +109,10 @@ async function boot() {
     return r.json();
   });
   try {
-    const [vocab, essays] = await Promise.all([load("data/vocab.json"), load("data/essays.json")]);
+    const [vocab, essays, pairs] = await Promise.all([load("data/vocab.json"), load("data/essays.json"), load("data/pairs.json")]);
     setVocab(vocab);
     setEssays(essays);
+    setPairs(pairs);
   } catch (err) {
     view.innerHTML = '<p class="loading">内容没有加载出来。第一次打开需要联网，请连上网络后重新打开。</p>';
     return;
