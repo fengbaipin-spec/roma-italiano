@@ -17,6 +17,8 @@
 | `docs/data/essays.json` | 范文数据 |
 | `docs/data/pairs.json` | 难点听辨的词对：每对是 [词, 中文, 另一个词, 中文] |
 | `docs/js/diff.js` | 听写比对：逐词对齐，判断错误类型。不依赖页面，可以单独用 Node 测试 |
+| `docs/js/lookup.js` | 点词查义：由词典词条推出各种变形（动词变位、名词复数、形容词阴阳性），再加固定搭配和代词连写。不依赖页面，可以单独用 Node 测试 |
+| `docs/js/gloss.js` | 冠词、介词（含 della、nel 这类缩合）、代词等小词的说明，以及几十个词典里没有的常用词 |
 | `tools/build.js` | 检查数据，生成离线文件清单 `docs/sw.js` 和版本号 `docs/js/version.js` |
 | `tools/icons.js` | 生成 `docs/icons/` 里的图标 |
 | `tools/extract.js` | 一次性脚本：从旧的词典网页里提取数据（已经运行过，不需要再运行） |

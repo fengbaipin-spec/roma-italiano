@@ -61,11 +61,15 @@ export function openSheet(title, html, onClick) {
   history.pushState({ sheet: true }, "");
   $("sheet").querySelector('[aria-current="true"]')?.scrollIntoView({ block: "center" });
 }
-export function closeSheet(fromHistory) {
-  if (!sheetOpen) return;
+// then runs once the sheet's history entry is gone, so it can safely move to another page
+export function closeSheet(fromHistory, then) {
+  if (!sheetOpen) { if (then) then(); return; }
   sheetOpen = false;
   $("sheet").hidden = $("sheetBack").hidden = true;
-  if (!fromHistory) history.back();
+  document.querySelectorAll(".wd.on").forEach(el => el.classList.remove("on"));
+  if (fromHistory) { if (then) then(); return; }
+  if (then) addEventListener("popstate", () => setTimeout(then, 0), { once: true });
+  history.back();
 }
 addEventListener("popstate", () => closeSheet(true));
 addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });

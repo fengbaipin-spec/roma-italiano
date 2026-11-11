@@ -2,6 +2,7 @@
 import { $, esc, ICON, nav, wordsIn } from "./util.js";
 import { store, settings, saveSettings, learned, saveLearned } from "./store.js";
 import { speakOne, playList, stopList, player, onPlayer } from "./speech.js";
+import { tapWords, showWord, hintOnce } from "./wordinfo.js";
 
 const LEVELS = [{ id: "A1", name: "入门" }, { id: "A2", name: "基础" }, { id: "B1", name: "进阶" }, { id: "B2", name: "中高级" }];
 const TYPES = ["描述", "叙述", "非正式信件", "正式信件", "观点", "文章"];
@@ -150,15 +151,26 @@ export function renderReader(view, slug) {
   view.querySelector(".vbar").onclick = goTo;
   $("essay").onclick = ev => {
     if (goTo(ev)) return;
+    // a hidden sentence is shown (and read) by the first tap, wherever it lands
+    const hidden = settings.essayHide && ev.target.closest(".s-it:not(.shown), .paper .fs:not(.shown)");
+    if (hidden) {
+      hidden.classList.add("shown");
+      speakOne(e.s[Number(hidden.dataset.k)][0], "it", hidden);
+      return;
+    }
+    const wd = ev.target.closest(".wd");
+    if (wd) {
+      const box = wd.closest("[data-say]"), k = Number(box.dataset.k);
+      showWord(e.s[k][0], Number(wd.dataset.k), wd, () => speakOne(e.s[k][0], "it", box));
+      return;
+    }
     const b = ev.target.closest("[data-act]");
     if (!b) return;
     const act = b.dataset.act, k = Number(b.dataset.k);
     if (act === "title") speakOne(e.title, "it", b);
     else if (act === "task") speakOne(e.pit, "it", b);
-    else if (act === "s") {
-      if (settings.essayHide) b.classList.add("shown");
-      speakOne(e.s[k][0], "it", b);
-    } else if (act === "t") speakOne(e.s[k][2], "en", b);
+    else if (act === "s") speakOne(e.s[k][0], "it", b.closest("[data-say]") || b);
+    else if (act === "t") speakOne(e.s[k][2], "en", b);
   };
   $("essay").onkeydown = ev => {
     if ((ev.key === "Enter" || ev.key === " ") && ev.target.matches(".fs")) { ev.preventDefault(); ev.target.click(); }
@@ -192,6 +204,7 @@ export function renderReader(view, slug) {
   drawBody();
   applyOptions();
   drawPlayButtons();
+  hintOnce();
   return false;
 }
 
@@ -216,14 +229,15 @@ function drawBody() {
   const e = shown;
   if (settings.essayView !== "full") {
     $("ebody").innerHTML = `<ol class="sents">${e.s.map(([it, zh, en], k) => `<li class="sent">
-      <button type="button" class="s-it" data-act="s" data-k="${k}" data-say="s:${k}" lang="it"><span class="txt">${esc(it)}</span>${ICON.spk}</button>
+      <div class="s-it" data-k="${k}" data-say="s:${k}" lang="it"><span class="txt">${tapWords(it)}</span><button type="button" class="sspk" data-act="s" data-k="${k}" aria-label="朗读这一句">${ICON.spk}</button></div>
       <div class="s-zh zh-part">${esc(zh)}</div>
       <button type="button" class="s-en en-part" data-act="t" data-k="${k}" data-say="t:${k}" lang="en">${esc(en)}${ICON.spk}</button>
     </li>`).join("")}</ol>`;
     return;
   }
   const B = blocks(e), letter = isLetter(e);
-  const span = (k, col, act) => `<span class="fs" role="button" tabindex="0" data-act="${act}" data-k="${k}" data-say="${act}:${k}">${esc(e.s[k][col])}</span>`;
+  // Italian sentences have tappable words; a tap between words, or Enter, reads the sentence
+  const span = (k, col, act) => `<span class="fs" role="button" tabindex="0" data-act="${act}" data-k="${k}" data-say="${act}:${k}">${col === 0 ? tapWords(e.s[k][col]) : esc(e.s[k][col])}</span>`;
   const paper = B.map((b, bi) => `<p${letter && bi > 0 && b.length > 1 ? ' class="body"' : ""}>${b.map(k => span(k, 0, "s")).join(" ")}</p>`).join("");
   const zh = B.map(b => `<p>${b.map(k => esc(e.s[k][1])).join("")}</p>`).join("");
   const en = B.map(b => `<p>${b.map(k => span(k, 2, "t")).join(" ")}</p>`).join("");

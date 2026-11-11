@@ -9,6 +9,7 @@ import { renderLearn, renderStudy } from "./learn.js";
 import { renderDictation } from "./dictation.js";
 import { setPairs, renderPairs } from "./pairs.js";
 import { renderSettings } from "./settings.js";
+import { warmLookup } from "./wordinfo.js";
 
 const view = $("view");
 // route name → [render(view, arg), tab to highlight]; a render returns true when it placed the scroll itself
@@ -119,5 +120,6 @@ async function boot() {
   }
   addEventListener("hashchange", show);
   show();
+  warmLookup();
 }
 boot();

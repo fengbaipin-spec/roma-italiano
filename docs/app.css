@@ -99,6 +99,12 @@ body.playing .view{padding-bottom:calc(var(--nav-h) + var(--player-h) + var(--sa
 .ex{align-self:stretch;margin-top:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px 10px;display:flex;flex-direction:column;align-items:flex-start;gap:2px}
 .exit{font-family:var(--f-display);font-style:italic;font-size:1.08rem;line-height:1.4;text-align:left;display:inline-flex;align-items:baseline;gap:6px;padding:2px 8px;margin-left:-8px;border-radius:6px}
 .exit .spk{width:14px;height:14px;align-self:center}
+/* a sentence whose words can be tapped, with its own read-aloud button at the end */
+.exs{font-family:var(--f-display);font-style:italic;font-size:1.08rem;line-height:1.6;padding:2px 8px;margin-left:-8px;border-radius:6px}
+.exspk,.sspk{display:inline-flex;vertical-align:-3px;margin-left:4px;padding:4px;border-radius:6px;color:var(--accent)}
+.exspk .spk,.sspk .spk{width:15px;height:15px}
+.wd{cursor:pointer;border-radius:4px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.wd:active,.wd.on{background:var(--accent-soft);box-shadow:0 0 0 2px var(--accent-soft)}
 .exzh{font-size:.92rem;color:var(--muted)}
 .exen{font-size:.88rem;color:var(--en);text-align:left;display:inline-flex;align-items:baseline;gap:6px;padding:2px 8px;margin-left:-8px;border-radius:6px}
 .exen .spk{width:12px;height:12px;color:inherit;align-self:center}
@@ -111,11 +117,13 @@ body.playing .view{padding-bottom:calc(var(--nav-h) + var(--player-h) + var(--sa
 .empty{color:var(--muted);text-align:center;padding-top:36px;padding-bottom:12px;margin:0}
 
 /* touch feedback, hover only where a mouse exists, and the speaking highlight */
-.w:active,.conj:active,.exit:active,.btn-title:active,.btn-task:active,.s-it:active,.iconbtn:active,.volpick:active,.vitem:active{background:var(--accent-soft)}
+.w:active,.conj:active,.exit:active,.btn-title:active,.btn-task:active,.iconbtn:active,.volpick:active,.vitem:active,.exspk:active,.sspk:active{background:var(--accent-soft)}
 .en:active,.exen:active,.s-en:active{box-shadow:inset 0 0 0 1.5px var(--en)}
 @media (hover:hover){
-  .w:hover,.conj:hover,.exit:hover,.btn-title:hover,.btn-task:hover,.s-it:hover,.iconbtn:hover,.volpick:hover,.fs:hover,.vitem:hover{background:var(--accent-soft)}
-  .exen:hover,.s-en:hover,.trans.en .fs:hover{background:var(--en-soft)}
+  .w:hover,.conj:hover,.exit:hover,.btn-title:hover,.btn-task:hover,.iconbtn:hover,.volpick:hover,.vitem:hover,.exspk:hover,.sspk:hover{background:var(--accent-soft)}
+  .trans.en .fs:hover{background:var(--en-soft)}
+  .wd:hover{text-decoration:underline dotted;text-underline-offset:4px}
+  .exen:hover,.s-en:hover{background:var(--en-soft)}
   .chip:hover,.txtbtn:hover,.lv:hover,.pg:hover{border-color:var(--accent)}
   .eitem:hover{background:var(--surface)}
 }
@@ -212,8 +220,7 @@ body.playing .fab{display:none}
 .sents{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
 .sent{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:10px 0;border-bottom:1px dashed var(--line)}
 .sent:first-child{padding-top:2px}
-.s-it{font-family:var(--f-display);font-size:1.15rem;line-height:1.45;text-align:left;display:inline-flex;align-items:baseline;gap:7px;padding:2px 8px;margin-left:-8px;border-radius:6px}
-.s-it .spk{align-self:center;width:15px;height:15px}
+.s-it{font-family:var(--f-display);font-size:1.15rem;line-height:1.55;padding:2px 8px;margin-left:-8px;border-radius:6px}
 .s-zh{font-size:.96rem}
 .s-en{font-size:.9rem;color:var(--en);text-align:left;display:inline-flex;align-items:baseline;gap:6px;padding:2px 8px;margin-left:-8px;border-radius:6px}
 .s-en .spk{align-self:center;width:13px;height:13px;color:inherit}
@@ -260,6 +267,24 @@ body.playing .fab{display:none}
 .perday .note{margin:0}
 .note{font-size:.84rem;color:var(--muted)}
 .about p{font-size:.9rem;color:var(--muted)}
+
+/* word pop-up */
+.wordinfo{display:flex;flex-direction:column;gap:12px;padding-top:4px}
+.wi-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.wi-top .w{font-size:1.7rem}
+.wi-sec{margin:4px 0 -4px;font-size:.76rem;letter-spacing:.1em;color:var(--muted);font-weight:600}
+.wi-card{display:flex;flex-direction:column;align-items:flex-start;gap:3px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.wi-head{align-self:stretch;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.wi-head .star{margin-right:-8px}
+.wi-note{margin:0;font-size:.86rem;color:var(--accent);font-weight:600}
+.wi-conj{margin:2px 0 0;font-size:.84rem;color:var(--muted)}
+.wi-conj span{font-size:.72rem;letter-spacing:.06em}
+.wi-card .linkbtn{margin-top:4px;font-size:.88rem}
+.wi-gloss{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;padding:10px 12px;border-radius:12px;background:var(--accent-soft)}
+.wi-kind{font-size:.72rem;letter-spacing:.06em;color:var(--accent);font-weight:600}
+.wi-gloss b{font-family:var(--f-display);font-size:1.15rem;font-weight:600}
+.wi-links{margin:0;font-size:.84rem;color:var(--muted)}
+.wi-links a{color:var(--accent);font-weight:600}
 
 /* shared pieces of the study screens */
 .rtitle{font-size:1.02rem;font-weight:600;white-space:nowrap}

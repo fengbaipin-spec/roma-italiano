@@ -4,6 +4,7 @@ import { settings, saveSettings } from "./store.js";
 import { speakOne } from "./speech.js";
 import { words, volumes, byHead, CONJ_LABELS } from "./dict.js";
 import * as rec from "./srs.js";
+import { tapWords, showWord, hintOnce } from "./wordinfo.js";
 
 const LEVEL_NAMES = { A2: "基础", B1: "进阶", B2: "中高级" };
 const MAX_REVIEWS = 60;   // after a long break hundreds can be due; take them one session at a time
@@ -174,13 +175,14 @@ function drawCard() {
       ${w.conj ? `<button type="button" class="conj" data-s="conj" lang="it"><span class="lbl">${CONJ_LABELS[w.tag] || "现在时"}</span>${esc(w.conj)}${ICON.spk}</button>` : ""}
       <div class="meta"><button type="button" class="en" data-s="en" lang="en">${esc(w.en)}${ICON.spk}</button></div>
       <div class="ex">
-        <button type="button" class="exit" data-s="ex" lang="it">${esc(w.ex)}${ICON.spk}</button>
+        <div class="exs" lang="it">${tapWords(w.ex)}<button type="button" class="exspk" data-s="ex" aria-label="朗读例句">${ICON.spk}</button></div>
         <div class="exzh">${esc(w.exZh)}</div>
         <button type="button" class="exen" data-s="exen" lang="en">${esc(w.exEn)}${ICON.spk}</button>
       </div>
     </div>
     <div class="actions" id="actions"></div>`;
   drawActions(item);
+  if (open) hintOnce();
   if (settings.autoSay) speakOne(w.it, "it", $("sBody").querySelector(".w"));
 }
 
@@ -198,16 +200,23 @@ function show() {
   $("peek").hidden = true;
   $("answer").hidden = false;
   drawActions(ses.items[ses.pos]);
+  hintOnce();
 }
 
 function onCardClick(e) {
   const item = ses.items[ses.pos];
   if (!item) return;
   const w = item.w;
+  const wd = e.target.closest(".wd");
+  if (wd) {
+    const ex = $("sBody").querySelector(".exs");
+    showWord(w.ex, Number(wd.dataset.k), wd, () => speakOne(w.ex, "it", ex));
+    return;
+  }
   const s = e.target.closest("[data-s]");
   if (s) {
     const [text, lang] = { it: [w.it, "it"], conj: [w.conj, "it"], en: [w.en, "en"], ex: [w.ex, "it"], exen: [w.exEn, "en"] }[s.dataset.s];
-    speakOne(text, lang, s);
+    speakOne(text, lang, s.dataset.s === "ex" ? s.closest(".exs") : s);
     return;
   }
   if (e.target.closest("#peek")) { show(); return; }

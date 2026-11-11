@@ -3,6 +3,7 @@ import { $, esc, norm, ICON, setFab, openSheet, closeSheet } from "./util.js";
 import { store, settings, saveSettings, stars, saveStars } from "./store.js";
 import { speech, onVoices, speakOne, playList, stopList, player } from "./speech.js";
 import { pwa, onPwa, promptInstall } from "./pwa.js";
+import { tapWords, showWord, hintOnce } from "./wordinfo.js";
 
 /* scenes whose conjugation row is not the present tense */
 export const CONJ_LABELS = { 过去时: "近过去时", 将来时: "将来时", 未完成过去时: "未完成过去时", 虚拟式: "现在虚拟式", 条件式: "条件式",
@@ -66,7 +67,7 @@ function entryHTML(i, showVol, showTag) {
         ${where ? `<span class="tagl">${esc(where)}</span>` : ""}
       </div>
       <div class="ex"${open ? "" : " hidden"}>
-        <button type="button" class="exit" data-act="x" data-say="x:${i}" lang="it">${esc(w.ex)}${ICON.spk}</button>
+        <div class="exs" data-say="x:${i}" lang="it">${tapWords(w.ex)}<button type="button" class="exspk" data-act="x" aria-label="朗读例句">${ICON.spk}</button></div>
         <div class="exzh">${esc(w.exZh)}</div>
         <button type="button" class="exen" data-act="y" data-say="y:${i}" lang="en">${esc(w.exEn)}${ICON.spk}</button>
       </div>
@@ -80,6 +81,7 @@ function setExample(li, open) {
   li.querySelector(".ex").hidden = !open;
   li.querySelector(".exbtn").setAttribute("aria-expanded", String(open));
   if (open !== settings.exOpen) flip.add(i); else flip.delete(i);
+  if (open) hintOnce();
 }
 
 function onListClick(e) {
@@ -92,8 +94,15 @@ function onListClick(e) {
     li.classList.add("shown");
     return;
   }
-  if (!b) return;
   const w = ALL[Number(li.dataset.i)];
+  const wd = e.target.closest(".wd");
+  if (wd) {
+    const ex = li.querySelector(".exs");
+    showWord(w.ex, Number(wd.dataset.k), wd, () => speakOne(w.ex, "it", ex));
+    return;
+  }
+  if (!b) return;
+  if (act === "x") { speakOne(w.ex, "it", li.querySelector(".exs")); return; }
   if (act === "star") {
     if (stars.has(w.it)) stars.delete(w.it); else stars.add(w.it);
     saveStars();
@@ -104,7 +113,7 @@ function onListClick(e) {
     return;
   }
   if (act === "ex") { setExample(li, li.querySelector(".ex").hidden); return; }
-  const what = { w: [w.it, "it"], c: [w.conj, "it"], e: [w.en, "en"], x: [w.ex, "it"], y: [w.exEn, "en"] }[act];
+  const what = { w: [w.it, "it"], c: [w.conj, "it"], e: [w.en, "en"], y: [w.exEn, "en"] }[act];
   if (what) speakOne(what[0], what[1], b);
 }
 
@@ -211,7 +220,18 @@ export function renderDict(view) {
     const V = volume(ds.v);
     playFrom(ds.items, searchingText() ? "搜索结果" : ds.tag === "全部" ? V.name : `${V.name} · ${ds.tag}`);
   });
+  if (searchingText()) { window.scrollTo(0, 0); return true; }
   return restorePosition();
+}
+
+// from the word pop-up: show this entry in the dictionary, found by a search for its headword
+export function openInDict(headword) {
+  if (!ds.ready) initState();
+  ds.searching = true;
+  ds.query = headword;
+  ds.limit = PAGE;
+  if ($("view").dataset.view === "dict") renderDict($("view"));
+  else location.hash = "#dict";
 }
 
 function drawRow(focus) {
