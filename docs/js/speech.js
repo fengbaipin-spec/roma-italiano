@@ -43,6 +43,8 @@ export function initVoices() {
   setTimeout(() => { speech.checked = true; loadVoices(); }, 1500);
 }
 export const voicesFor = prefix => speech.voices.filter(v => langOf(v).startsWith(prefix));
+// a second Italian voice for the other person in a dialogue, when the phone has one
+export const otherVoice = () => voicesFor("it").find(v => v !== speech.it) || speech.it;
 export function chooseVoice(lang, name) {
   const v = speech.voices.find(x => x.name === name);
   if (!v) return;
@@ -65,15 +67,15 @@ function unmark() {
   document.querySelectorAll(".speaking,.echo").forEach(el => el.classList.remove("speaking", "echo"));
 }
 // resolves with how long the utterance took, whether it finished, failed or was cut off;
-// rate overrides the speed from settings for this one utterance
-export function say(text, lang, el, rate) {
+// rate and voice override the settings for this one utterance
+export function say(text, lang, el, rate, voice) {
   return new Promise(resolve => {
     if (!synth) { resolve(0); return; }
     const busy = synth.speaking || synth.pending;
     halt();
     const words = clean(text);
     const u = new SpeechSynthesisUtterance(words);
-    const v = lang === "it" ? speech.it : speech.en;
+    const v = voice || (lang === "it" ? speech.it : speech.en);
     u.lang = v ? v.lang : lang === "it" ? "it-IT" : "en-GB";
     if (v) u.voice = v;
     u.rate = rate || settings.rate;
@@ -126,7 +128,7 @@ async function run() {
       if (part.before) part.before();
       const el = part.sel ? document.querySelector(`[data-say="${part.sel}"]`) : null;
       if (el) bringIntoView(el);
-      const ms = await say(part.text, part.lang, el);
+      const ms = await say(part.text, part.lang, el, null, part.voice);
       if (token !== player.token) return;
       let gap = part.gap == null ? 600 : part.gap;
       if (part.echo) {
@@ -175,12 +177,12 @@ export function stopList(quiet) {
   if (was && !quiet) emit();
 }
 // a single tap always wins over a list that is playing
-export function speakOne(text, lang, el, rate) {
+export function speakOne(text, lang, el, rate, voice) {
   if (player.active) stopList();
-  return say(text, lang, el, rate);
+  return say(text, lang, el, rate, voice);
 }
 
-function bringIntoView(el) {
+export function bringIntoView(el) {
   const r = el.getBoundingClientRect();
   const bar = document.querySelector(".vbar:not(.hide)");
   const top = (bar ? bar.getBoundingClientRect().bottom : 0) + 12;

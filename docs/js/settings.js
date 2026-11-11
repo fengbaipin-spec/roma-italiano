@@ -1,12 +1,13 @@
 // Settings: voices and speed, display options, backup of starred words, install and updates.
 import { $, esc, toast } from "./util.js";
-import { settings, saveSettings, stars, learned, saveStars, saveLearned } from "./store.js";
+import { settings, saveSettings, stars, learned, saveStars, saveLearned, talked, saveTalked } from "./store.js";
 import { speech, voicesFor, chooseVoice, onVoices, speakOne } from "./speech.js";
 import { pwa, onPwa, promptInstall, checkForUpdate } from "./pwa.js";
 import { wordCount, clearFlips } from "./dict.js";
 import { essayCount } from "./essays.js";
 import { learnedCount, masteredCount, exportRecords, importRecords } from "./srs.js";
 import { setNewPerDay, MAX_NEW } from "./learn.js";
+import { canRecognize } from "./listen.js";
 import { VERSION } from "./version.js";
 
 const SAMPLE = { it: "Buongiorno, vorrei un caffè, per favore.", en: "Good morning. How are you today?" };
@@ -51,6 +52,12 @@ export function renderSettings(view) {
           <p class="note">可以填 0 到 ${MAX_NEW}。填 0 表示先暂停新词，只做复习。</p>
         </div>
         <label class="switch"><span>新词、听写和听辨自动朗读</span><input type="checkbox" id="sAuto"></label>
+      </section>
+
+      <section class="group">
+        <h2>口语</h2>
+        <label class="switch"><span>发音识别<small>说完一句，把录音转成文字，标出没听懂的词。需要联网，录音会发给 Google 识别。</small></span><input type="checkbox" id="sRecog"></label>
+        <p class="note" id="recogNote"></p>
       </section>
 
       <section class="group">
@@ -114,6 +121,17 @@ export function renderSettings(view) {
   $("perDayNum").onkeydown = e => { if (e.key === "Enter") e.target.blur(); };
   $("sAuto").checked = settings.autoSay;
   $("sAuto").onchange = e => { settings.autoSay = e.target.checked; saveSettings(); };
+  const recogOk = canRecognize();
+  $("sRecog").checked = settings.recognize && recogOk;
+  $("sRecog").disabled = !recogOk;
+  $("sRecog").onchange = e => {
+    settings.recognize = e.target.checked;
+    saveSettings();
+    toast(settings.recognize ? "已打开发音识别：说完会联网识别" : "已关闭发音识别：麦克风只录音");
+  };
+  $("recogNote").textContent = recogOk
+    ? "关着的时候，麦克风只是录音：录音只在这台手机上播放，不保存，也不上传。"
+    : "这个浏览器不支持语音识别。麦克风只是录音：录音只在这台手机上播放，不保存，也不上传。";
   $("sExOpen").checked = settings.exOpen;
   $("sExOpen").onchange = e => { settings.exOpen = e.target.checked; clearFlips(); saveSettings(); };
   $("sPlayEx").checked = settings.playEx;
@@ -178,7 +196,7 @@ function drawPerDay() {
 }
 function drawRecords() {
   if ($("records")) {
-    $("records").textContent = `已学 ${learnedCount()} 个词（已掌握 ${masteredCount()} 个）· 收藏 ${stars.size} 个词 · 已掌握范文 ${learned.size} 篇`;
+    $("records").textContent = `已学 ${learnedCount()} 个词（已掌握 ${masteredCount()} 个）· 收藏 ${stars.size} 个词 · 已掌握范文 ${learned.size} 篇 · 练过对话 ${talked.size} 个`;
   }
 }
 function drawOffline() {
@@ -192,7 +210,7 @@ function drawOffline() {
 onPwa(() => { drawInstall(); drawOffline(); });
 
 function exportBackup() {
-  const data = { app: "roma-italiano", format: 2, exported: new Date().toISOString(), stars: [...stars], learned: [...learned], ...exportRecords() };
+  const data = { app: "roma-italiano", format: 2, exported: new Date().toISOString(), stars: [...stars], learned: [...learned], talked: [...talked], ...exportRecords() };
   const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 1)], { type: "application/json" }));
   const a = document.createElement("a");
   a.href = url;
@@ -213,11 +231,13 @@ async function importBackup(e) {
     if (data.app !== "roma-italiano" || !Array.isArray(data.stars) || !Array.isArray(data.learned)) throw new Error("not a backup");
     data.stars.forEach(s => { if (typeof s === "string") stars.add(s); });
     data.learned.forEach(k => { if (typeof k === "string") learned.add(k); });
+    (Array.isArray(data.talked) ? data.talked : []).forEach(id => { if (typeof id === "string") talked.add(id); });
     saveStars();
     saveLearned();
+    saveTalked();
     importRecords(data);
     drawRecords();
-    toast(`已导入：已学 ${learnedCount()} 个词，收藏 ${stars.size} 个，已掌握范文 ${learned.size} 篇`);
+    toast(`已导入：已学 ${learnedCount()} 个词，收藏 ${stars.size} 个，已掌握范文 ${learned.size} 篇，练过对话 ${talked.size} 个`);
   } catch (err) {
     toast("这个文件不是本 App 导出的备份");
   }

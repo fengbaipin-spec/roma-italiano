@@ -57,6 +57,31 @@ for (const c of pairCats) {
     pairCount++;
   }
 }
+const str = x => typeof x === "string" && x.trim() !== "";
+const talks = JSON.parse(read("data/dialogues.json")).dialogues;
+const talkIds = new Set();
+let lineCount = 0;
+for (const d of talks) {
+  // the id goes into the address (#talk/bar), so keep it plain
+  if (!/^[a-z0-9-]+$/.test(d.id || "") || talkIds.has(d.id)) errors.push(`dialogues: missing, odd or repeated id ${d.id}`);
+  talkIds.add(d.id);
+  for (const k of ["title", "zh", "intro"]) if (!str(d[k])) errors.push(`dialogue ${d.id}: missing ${k}`);
+  if (!LEVELS.includes(d.level)) errors.push(`dialogue ${d.id}: unknown level ${d.level}`);
+  if (!d.roles || !str(d.roles.A) || !str(d.roles.B)) errors.push(`dialogue ${d.id}: needs names for roles A and B`);
+  if (!Array.isArray(d.tips) || !d.tips.length || d.tips.some(t => !Array.isArray(t) || t.length !== 2 || !t.every(str))) {
+    errors.push(`dialogue ${d.id}: tips must be [Italian, 中文] pairs`);
+  }
+  if (!Array.isArray(d.lines) || !d.lines.length) { errors.push(`dialogue ${d.id}: no lines`); continue; }
+  d.lines.forEach((l, k) => {
+    // [who, Italian, 中文, English]
+    if (!Array.isArray(l) || l.length !== 4 || !["A", "B"].includes(l[0]) || !l.slice(1).every(str)) errors.push(`dialogue ${d.id}: bad line ${k}`);
+  });
+  // either role can be played, so both need lines of their own
+  for (const who of ["A", "B"]) {
+    if (d.lines.filter(l => l[0] === who).length < 3) errors.push(`dialogue ${d.id}: role ${who} has fewer than 3 lines`);
+  }
+  lineCount += d.lines.length;
+}
 
 if (errors.length) {
   console.error(errors.join("\n"));
@@ -89,5 +114,5 @@ const sw = fs.readFileSync(path.join(__dirname, "sw-template.js"), "utf8")
 fs.writeFileSync(path.join(docs, "sw.js"), sw);
 
 const kb = files.reduce((n, f) => n + fs.statSync(path.join(docs, f)).size, 0) / 1024;
-console.log(`${vocab.volumes.length} volumes, ${heads.size} words, ${essays.length} essays, ${pairCount} minimal pairs`);
+console.log(`${vocab.volumes.length} volumes, ${heads.size} words, ${essays.length} essays, ${pairCount} minimal pairs, ${talks.length} dialogues (${lineCount} lines)`);
 console.log(`version ${version}: ${assets.length} files cached for offline use, ${kb.toFixed(0)} KB`);

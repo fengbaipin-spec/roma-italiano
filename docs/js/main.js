@@ -8,6 +8,7 @@ import { setEssays, renderEssays, renderReader } from "./essays.js";
 import { renderLearn, renderStudy } from "./learn.js";
 import { renderDictation } from "./dictation.js";
 import { setPairs, renderPairs } from "./pairs.js";
+import { setTalks, renderTalks, renderTalk } from "./talks.js";
 import { renderSettings } from "./settings.js";
 import { warmLookup } from "./wordinfo.js";
 
@@ -18,6 +19,8 @@ const ROUTES = {
   study: [renderStudy, "learn"],
   dictation: [renderDictation, "learn"],
   pairs: [renderPairs, "learn"],
+  talks: [renderTalks, "learn"],
+  talk: [renderTalk, "learn"],
   dict: [renderDict, "dict"],
   favs: [renderFavs, "favs"],
   essays: [renderEssays, "essays"],
@@ -25,7 +28,7 @@ const ROUTES = {
   settings: [renderSettings, "settings"]
 };
 // screens you go into from a tab and leave with a close or back button; they always start at the top
-const FLOWS = new Set(["essay", "study", "dictation", "pairs"]);
+const FLOWS = new Set(["essay", "study", "dictation", "pairs", "talks", "talk"]);
 const scrollMemo = {};
 
 function show() {
@@ -110,10 +113,12 @@ async function boot() {
     return r.json();
   });
   try {
-    const [vocab, essays, pairs] = await Promise.all([load("data/vocab.json"), load("data/essays.json"), load("data/pairs.json")]);
+    const [vocab, essays, pairs, talks] = await Promise.all(
+      ["vocab", "essays", "pairs", "dialogues"].map(name => load(`data/${name}.json`)));
     setVocab(vocab);
     setEssays(essays);
     setPairs(pairs);
+    setTalks(talks);
   } catch (err) {
     view.innerHTML = '<p class="loading">内容没有加载出来。第一次打开需要联网，请连上网络后重新打开。</p>';
     return;

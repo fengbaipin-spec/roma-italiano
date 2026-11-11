@@ -258,6 +258,9 @@ body.playing .fab{display:none}
 .fieldrow select{flex:1;min-width:0;height:42px;border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:0 10px}
 .switch{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:46px;border-bottom:1px solid var(--line)}
 .switch input{width:22px;height:22px;flex:none;accent-color:var(--accent)}
+.switch span{padding:8px 0}
+.switch small{display:block;margin-top:2px;font-size:.8rem;line-height:1.45;color:var(--muted)}
+.switch input:disabled{opacity:.4}
 .btnrow{display:flex;flex-wrap:wrap;gap:8px}
 .fieldrow.wrap{flex-wrap:wrap;gap:10px 14px}
 .numfield{display:inline-flex;align-items:center;gap:6px;font-size:.88rem;color:var(--muted)}
@@ -319,6 +322,7 @@ body.playing .fab{display:none}
 .pcard b{font-family:var(--f-display);font-weight:600;font-size:1.3rem;line-height:1.2}
 .pcard span{font-size:.84rem;color:var(--muted)}
 .pcard:active{border-color:var(--accent)}
+.pcard.wide{grid-column:1/-1}
 .vprogs{display:flex;flex-direction:column;gap:6px}
 .vprog{display:grid;grid-template-columns:5.2em minmax(0,1fr) 4.6em;gap:10px;align-items:center;font-size:.86rem}
 .vp-bar{position:relative;height:8px;border-radius:999px;background:var(--line);overflow:hidden}
@@ -372,9 +376,52 @@ body.playing .fab{display:none}
 .pw small{font-size:.78rem;color:var(--muted)}
 .pw:active{background:var(--accent-soft)}
 .vs{color:var(--muted)}
+
+/* 情景对话: list, chat bubbles, recording and role-play */
+.tlist{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.titem{display:grid;grid-template-columns:2.8em minmax(0,1fr) 20px;gap:10px;align-items:center;padding:12px 4px;border-bottom:1px solid var(--line);text-decoration:none}
+.titem .lvl{justify-self:start;font-size:.7rem;font-weight:600;letter-spacing:.06em;color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:2px 6px}
+.titem b{display:block;font-size:1.02rem;line-height:1.3}
+.titem small{display:block;margin-top:1px;font-size:.84rem;color:var(--muted)}
+.titem .ok svg{width:18px;height:18px;color:var(--accent)}
+.titem:active{background:var(--accent-soft)}
+.talk{display:flex;flex-direction:column;gap:14px;padding-top:16px}
+.talk .eplay .pbtn{flex:1;justify-content:center}
+.tintro{margin:0;font-size:.95rem;line-height:1.6}
+.bubbles{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+.bub{max-width:90%;display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:7px 12px 10px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.bub.theirs{align-self:flex-start;border-bottom-left-radius:4px}
+.bub.mine{align-self:flex-end;background:var(--accent-soft);border-color:transparent;border-bottom-right-radius:4px}
+.who{margin:0;font-size:.72rem;letter-spacing:.04em;color:var(--muted);font-weight:600}
+.bub.mine .who{color:var(--accent)}
+.say{font-family:var(--f-display);font-size:1.12rem;line-height:1.55;padding:1px 6px;margin-left:-6px;border-radius:6px}
+.bub.mine .say.speaking,.bub.mine .wd.on,.bub.mine .wd:active{background:var(--surface)!important;box-shadow:none}
+.say .acts{white-space:nowrap}
+.bz{font-size:.92rem}
+.be{font-size:.86rem;color:var(--en)}
+.mic{display:inline-flex;align-items:center;gap:4px;vertical-align:-3px;margin-left:2px;padding:4px;border-radius:6px;color:var(--accent);font-family:var(--f-body);font-size:.78rem;font-variant-numeric:tabular-nums}
+.mic svg{width:16px;height:16px}
+.mic:active{background:var(--surface)}
+.mic.on,.txtbtn.on,.txtbtn.primary.on{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.recbox{align-self:stretch;display:flex;flex-direction:column;gap:6px;margin-top:6px;padding-top:8px;border-top:1px dashed var(--line)}
+.recbox p{margin:0}
+.recbox .marked{font-size:1.05rem;line-height:1.9}
+.rp .bub.future{display:none}
+.rp .bub.turn{align-self:stretch;max-width:none;box-shadow:0 0 0 2px var(--accent)}
+.rp .bub.turn:not(.shown) .say{color:transparent;text-shadow:0 0 9px var(--ink);user-select:none;cursor:pointer}
+.rp .bub.turn:not(.shown) .say button,.rp .bub.turn .bz,.rp .bub.turn .be{display:none}
+.turnbar{align-self:stretch;display:flex;flex-direction:column;gap:8px;margin-top:8px;padding-top:10px;border-top:1px dashed var(--accent)}
+.prompt{margin:0;font-size:.88rem;color:var(--muted)}
+.prompt b{display:block;margin-top:2px;font-size:1.05rem;color:var(--ink)}
+.tips{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.tips li{display:flex;flex-direction:column;align-items:flex-start}
+.tip .exit:active,.tip .speaking{background:var(--surface)!important}
 @media (hover:hover){
   .pcard:hover{border-color:var(--accent)}
   .pw:hover,.keys button:hover{background:var(--accent-soft)}
+  .titem:hover{background:var(--surface)}
+  .mic:hover{background:var(--surface)}
+  .tip .exit:hover{background:var(--surface)}
 }
 
 @media (prefers-reduced-motion: reduce){

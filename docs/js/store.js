@@ -19,7 +19,8 @@ export const DEFAULTS = {
   rate: 0.8, voiceIt: null, voiceEn: null,
   exOpen: false, playEx: false,
   essayView: "sent", essayZh: true, essayEn: true, essayHide: false, echo: false,
-  newPerDay: 10, newFrom: 1, autoSay: true
+  newPerDay: 10, newFrom: 1, autoSay: true,
+  talkRole: "B", talkZh: true, talkEn: true, recognize: false
 };
 export const settings = Object.assign({}, DEFAULTS, store.get("settings", {}));
 export const saveSettings = () => store.set("settings", settings);
@@ -29,3 +30,6 @@ export const stars = new Set(store.get("stars", []));
 export const learned = new Set(store.get("learned", []));
 export const saveStars = () => store.set("stars", [...stars]);
 export const saveLearned = () => store.set("learned", [...learned]);
+// dialogues whose role-play has been finished at least once
+export const talked = new Set(store.get("talked", []));
+export const saveTalked = () => store.set("talked", [...talked]);
