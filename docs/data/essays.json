@@ -1,0 +1,775 @@
+{"essays":[
+{"l":"A1","t":"描述","topic":"个人","title":"Mi presento","pit":"Presentati: nome, età, nazionalità, dove abiti e che cosa fai. (40-50 parole)","pzh":"介绍你自己：姓名、年龄、国籍、住在哪里、做什么。（40–50词）","tip":"用现在时介绍基本信息。注意 mi chiamo（我叫）和 ho … anni（年龄用 avere）。","s":[
+["Ciao, mi chiamo Li e sono cinese.","你好，我叫李，我是中国人。","Hi, my name is Li and I'm Chinese."],
+["Ho trentadue anni.","我三十二岁。","I'm thirty-two years old."],
+["Abito a Roma, in un piccolo appartamento vicino alla stazione Termini.","我住在罗马，在特米尼车站附近的一套小公寓里。","I live in Rome, in a small flat near Termini station."],
+["Lavoro in un ufficio e la sera studio l'italiano.","我在一家公司上班，晚上学意大利语。","I work in an office and in the evening I study Italian."],
+["Mi piace molto cucinare e camminare per la città.","我很喜欢做饭和在城里散步。","I really like cooking and walking around the city."],
+["Il fine settimana vado al mercato con i miei amici.","周末我和朋友们去市场。","At the weekend I go to the market with my friends."]
+]},
+{"l":"A1","t":"描述","topic":"家庭","title":"La mia famiglia","pit":"Descrivi la tua famiglia. (40-50 parole)","pzh":"描述你的家庭。（40–50词）","tip":"单数亲属名词前的物主形容词不加冠词：mio padre、mia madre。职业用 fare l'ingegnere 或 essere insegnante。","s":[
+["La mia famiglia vive in Cina, a Shanghai.","我的家人住在中国上海。","My family lives in China, in Shanghai."],
+["Mio padre si chiama Li Jian e fa l'ingegnere.","我爸爸叫李建，是工程师。","My father is called Li Jian and he's an engineer."],
+["Mia madre si chiama Wang Hua ed è insegnante.","我妈妈叫王华，是老师。","My mother is called Wang Hua and she's a teacher."],
+["Ho anche una sorella più giovane, che studia all'università.","我还有一个妹妹，在上大学。","I also have a younger sister, who studies at university."],
+["Ogni domenica parliamo in videochiamata.","每个周日我们视频通话。","Every Sunday we talk on a video call."],
+["Mi manca molto la mia famiglia!","我很想念我的家人！","I miss my family a lot!"]
+]},
+{"l":"A1","t":"描述","topic":"日常","title":"La mia giornata","pit":"Descrivi una tua giornata tipica. (40-50 parole)","pzh":"描述你典型的一天。（40–50词）","tip":"反身动词 mi sveglio；时间表达 alle sette、alle otto e mezza、verso le undici。","s":[
+["La mattina mi sveglio alle sette.","早上我七点醒。","In the morning I wake up at seven."],
+["Faccio colazione al bar: un cappuccino e un cornetto.","我在咖啡馆吃早饭：一杯卡布奇诺和一个牛角包。","I have breakfast at the bar: a cappuccino and a croissant."],
+["Alle otto e mezza prendo la metro per andare al lavoro.","八点半我坐地铁去上班。","At half past eight I take the metro to go to work."],
+["Lavoro fino alle cinque.","我工作到五点。","I work until five."],
+["La sera cucino, guardo la TV e leggo un po'.","晚上我做饭、看电视、读点书。","In the evening I cook, watch TV and read a bit."],
+["Vado a dormire verso le undici.","我大约十一点睡觉。","I go to bed around eleven."]
+]},
+{"l":"A1","t":"描述","topic":"住房","title":"La mia casa","pit":"Descrivi la tua casa. (40-50 parole)","pzh":"描述你的住处。（40–50词）","tip":"c'è（单数）/ ci sono（复数）表示“有”。形容词一般放在名词后：un divano verde。","s":[
+["Abito in un appartamento al terzo piano.","我住在一套三楼的公寓里。","I live in a flat on the third floor."],
+["La casa non è grande, ma è luminosa.","房子不大，但很明亮。","The flat isn't big, but it's bright."],
+["Ci sono una cucina, un bagno e una camera da letto.","有一个厨房、一个卫生间和一间卧室。","There's a kitchen, a bathroom and a bedroom."],
+["In soggiorno ho un divano verde e una libreria.","客厅里有一张绿色沙发和一个书架。","In the living room I have a green sofa and a bookcase."],
+["Dalla finestra vedo una piccola piazza con una fontana.","从窗户能看到一个带喷泉的小广场。","From the window I can see a small square with a fountain."],
+["Mi piace molto la mia casa!","我很喜欢我的家！","I really like my home!"]
+]},
+{"l":"A1","t":"非正式信件","topic":"旅行","title":"Cartolina dal mare","pit":"Scrivi una cartolina a un amico dalle vacanze. (30-40 parole)","pzh":"度假时给朋友写一张明信片。（30–40词）","tip":"明信片开头用 Cara/Caro，结尾用 Un abbraccio、Baci 或 A presto。","s":[
+["Cara Giulia,","亲爱的朱莉娅：","Dear Giulia,"],
+["sono a Sperlonga con due amici.","我和两个朋友在斯佩隆加。","I'm in Sperlonga with two friends."],
+["Il mare è bellissimo e fa molto caldo.","海很美，天气很热。","The sea is beautiful and it's very hot."],
+["La mattina andiamo in spiaggia e la sera mangiamo il pesce in un piccolo ristorante.","早上我们去沙滩，晚上在一家小餐馆吃鱼。","In the morning we go to the beach and in the evening we eat fish in a small restaurant."],
+["Torno a Roma domenica.","我周日回罗马。","I'm going back to Rome on Sunday."],
+["Un abbraccio, Li","拥抱你，李","A hug, Li"]
+]},
+{"l":"A1","t":"非正式信件","topic":"社交","title":"Un invito a cena","pit":"Scrivi un messaggio a un amico per invitarlo a cena a casa tua. (30-40 parole)","pzh":"给朋友发消息，邀请他来家里吃晚饭。（30–40词）","tip":"邀请的三要素是时间、地点、活动。提议时间可以用 Ci vediamo alle…?","s":[
+["Ciao Marco!","你好，马可！","Hi Marco!"],
+["Sabato sera faccio una cena a casa mia.","周六晚上我在家请吃饭。","On Saturday evening I'm having a dinner at my place."],
+["Cucino i ravioli cinesi!","我包饺子！","I'm making Chinese dumplings!"],
+["Vengono anche Giulia e Paolo.","朱莉娅和保罗也来。","Giulia and Paolo are coming too."],
+["Ci vediamo alle otto?","我们八点见好吗？","Shall we meet at eight?"],
+["Il mio indirizzo è via Marsala 10, terzo piano.","我的地址是马尔萨拉街10号三楼。","My address is Via Marsala 10, third floor."],
+["Fammi sapere!","告诉我一声！","Let me know!"]
+]},
+{"l":"A1","t":"描述","topic":"城市","title":"Roma, la mia città","pit":"Descrivi la città dove abiti. (40-50 parole)","pzh":"描述你住的城市。（40–50词）","tip":"mi piace + 单数，mi piacciono + 复数。举例用 come…。","s":[
+["Roma è una città molto grande e antica.","罗马是一座很大很古老的城市。","Rome is a very big and ancient city."],
+["Ci sono tanti monumenti famosi, come il Colosseo e il Pantheon.","有很多著名古迹，比如斗兽场和万神殿。","There are lots of famous monuments, like the Colosseum and the Pantheon."],
+["Il traffico è un problema, ma la metro è comoda.","交通是个问题，但地铁很方便。","The traffic is a problem, but the metro is convenient."],
+["Mi piacciono le piazze, le fontane e i piccoli bar.","我喜欢广场、喷泉和小咖啡馆。","I like the squares, the fountains and the little bars."],
+["Per me Roma è la città più bella del mondo!","对我来说，罗马是世界上最美的城市！","For me Rome is the most beautiful city in the world!"]
+]},
+{"l":"A1","t":"描述","topic":"爱好","title":"Il mio tempo libero","pit":"Racconta che cosa fai nel tempo libero. (40-50 parole)","pzh":"讲讲你空闲时做什么。（40–50词）","tip":"频率表达：il martedì（每周二）、la sera（晚上）。mi piace 后接动词原形。","s":[
+["Nel tempo libero mi piace fare tante cose.","空闲时间我喜欢做很多事。","In my free time I like doing lots of things."],
+["Il martedì e il giovedì vado in palestra.","每周二和周四我去健身房。","On Tuesdays and Thursdays I go to the gym."],
+["Il sabato mattina corro a Villa Borghese.","周六早上我在博尔盖塞公园跑步。","On Saturday mornings I run in Villa Borghese."],
+["La sera ascolto musica italiana o guardo un film.","晚上我听意大利音乐或看电影。","In the evening I listen to Italian music or watch a film."],
+["Mi piace anche cucinare per i miei amici.","我也喜欢给朋友们做饭。","I also like cooking for my friends."],
+["Invece non mi piace fare shopping.","但我不喜欢逛街购物。","But I don't like going shopping."]
+]},
+{"l":"A1","t":"非正式信件","topic":"日常","title":"Un biglietto per il coinquilino","pit":"Scrivi un biglietto al tuo coinquilino: esci e gli chiedi di fare qualcosa. (30-40 parole)","pzh":"给室友留张便条：你要出门，请他帮忙做点事。（30–40词）","tip":"便条要简短：说明你去哪、什么时候回来、请对方做什么。请求用 puoi + 动词原形。","s":[
+["Ciao Paolo,","你好，保罗：","Hi Paolo,"],
+["esco per andare al lavoro e torno stasera alle sette.","我出门上班了，今晚七点回来。","I'm going out to work and I'll be back at seven this evening."],
+["Per favore, puoi comprare il pane e il latte?","请你买点面包和牛奶好吗？","Could you please buy some bread and milk?"],
+["I soldi sono sul tavolo della cucina.","钱在厨房桌子上。","The money is on the kitchen table."],
+["Alle quattro arriva il tecnico per la lavatrice.","四点修洗衣机的师傅会来。","At four the technician is coming for the washing machine."],
+["Grazie mille! Li","非常感谢！李","Thanks a lot! Li"]
+]},
+{"l":"A1","t":"描述","topic":"饮食","title":"Il mio piatto preferito","pit":"Descrivi il tuo piatto preferito. (40-50 parole)","pzh":"描述你最喜欢的一道菜。（40–50词）","tip":"直接宾语代词 la 指代前面的 la carbonara。soprattutto 表示“尤其”。","s":[
+["Il mio piatto preferito è la carbonara.","我最喜欢的菜是培根蛋面。","My favourite dish is carbonara."],
+["È un piatto tipico di Roma.","这是一道罗马特色菜。","It's a typical Roman dish."],
+["Ci sono pochi ingredienti: pasta, uova, guanciale, pecorino e pepe.","原料很少：意面、鸡蛋、猪脸肉、佩科里诺奶酪和胡椒。","There are few ingredients: pasta, eggs, guanciale, pecorino and pepper."],
+["La mangio spesso in una trattoria vicino a casa.","我常在家附近的一家小馆子吃。","I often eat it in a trattoria near home."],
+["Mi piace anche la cucina cinese, soprattutto i ravioli di mia madre.","我也喜欢中国菜，尤其是我妈妈包的饺子。","I also like Chinese food, especially my mother's dumplings."]
+]},
+{"l":"A1","t":"描述","topic":"人物","title":"Il mio amico Marco","pit":"Descrivi un tuo amico. (40-50 parole)","pzh":"描述你的一个朋友。（40–50词）","tip":"外貌用 essere（è alto）和 avere（ha i capelli neri）。性格形容词：simpatico、gentile。","s":[
+["Marco è il mio migliore amico a Roma.","马可是我在罗马最好的朋友。","Marco is my best friend in Rome."],
+["Ha trentacinque anni e lavora in una banca.","他三十五岁，在银行工作。","He's thirty-five and works in a bank."],
+["È alto e ha i capelli neri e corti.","他个子高，黑色短发。","He's tall and has short black hair."],
+["È molto simpatico e gentile.","他人很好，很友善。","He's very nice and kind."],
+["Mi aiuta sempre con l'italiano.","他总是帮我学意大利语。","He always helps me with my Italian."],
+["Il sabato andiamo insieme allo stadio a vedere la Roma.","周六我们一起去体育场看罗马队比赛。","On Saturdays we go to the stadium together to watch Roma."]
+]},
+{"l":"A1","t":"描述","topic":"天气","title":"Il tempo a Roma","pit":"Descrivi il clima della tua città nelle diverse stagioni. (40-50 parole)","pzh":"描述你所在城市四季的天气。（40–50词）","tip":"天气用 fare：fa caldo、fa freddo、fa bel tempo。季节前用 in：in estate、in inverno。","s":[
+["A Roma il clima è mite.","罗马气候温和。","In Rome the climate is mild."],
+["In primavera fa bel tempo e ci sono tanti fiori.","春天天气好，花很多。","In spring the weather is nice and there are lots of flowers."],
+["In estate fa molto caldo, a volte quaranta gradi!","夏天很热，有时到四十度！","In summer it's very hot, sometimes forty degrees!"],
+["In autunno piove spesso.","秋天经常下雨。","In autumn it often rains."],
+["In inverno fa freddo, ma non nevica quasi mai.","冬天冷，但几乎不下雪。","In winter it's cold, but it almost never snows."],
+["La mia stagione preferita è la primavera.","我最喜欢的季节是春天。","My favourite season is spring."]
+]},
+{"l":"A1","t":"描述","topic":"学习","title":"Studio l'italiano","pit":"Racconta perché e come studi l'italiano. (40-50 parole)","pzh":"讲讲你为什么、怎样学意大利语。（40–50词）","tip":"da + 时间 + 现在时 表示“已经……多久了”：studio da sei mesi。","s":[
+["Studio l'italiano da sei mesi.","我学意大利语六个月了。","I've been studying Italian for six months."],
+["Vado a una scuola di lingue due volte a settimana.","我每周去两次语言学校。","I go to a language school twice a week."],
+["La mia insegnante si chiama Paola ed è molto brava.","我的老师叫保拉，她非常好。","My teacher is called Paola and she's very good."],
+["A casa ascolto podcast e uso un'app per le parole nuove.","在家我听播客，用应用记新单词。","At home I listen to podcasts and use an app for new words."],
+["Studio l'italiano perché vivo a Roma e voglio parlare con tutti.","我学意大利语是因为住在罗马，想和大家交流。","I study Italian because I live in Rome and I want to talk to everyone."]
+]},
+{"l":"A1","t":"描述","topic":"日常","title":"Il mio fine settimana","pit":"Racconta che cosa fai di solito nel fine settimana. (40-50 parole)","pzh":"讲讲你周末通常做什么。（40–50词）","tip":"顺序词 poi；条件句 se fa bel tempo…。注意形容词的性：女性写 stanca、contenta。","s":[
+["Il fine settimana non lavoro.","周末我不上班。","At the weekend I don't work."],
+["Il sabato mattina dormo fino alle nove.","周六早上我睡到九点。","On Saturday mornings I sleep until nine."],
+["Poi faccio la spesa al mercato e pulisco la casa.","然后去市场买菜，打扫房子。","Then I do the shopping at the market and clean the house."],
+["Il pomeriggio incontro gli amici in centro.","下午我在市中心和朋友见面。","In the afternoon I meet friends in the centre."],
+["La domenica, se fa bel tempo, andiamo al parco o al mare.","周日如果天气好，我们去公园或海边。","On Sundays, if the weather's nice, we go to the park or the seaside."],
+["La sera sono stanco, ma contento.","晚上我很累，但很开心。","In the evening I'm tired, but happy."]
+]},
+{"l":"A1","t":"非正式信件","topic":"社交","title":"Rispondo a un invito","pit":"Un amico ti invita alla sua festa. Rispondi: non puoi andare e spieghi perché. (30-40 parole)","pzh":"朋友邀请你参加聚会。回复说你去不了，并说明原因。（30–40词）","tip":"礼貌拒绝的顺序：先感谢，再用 purtroppo 说明原因，最后提出改天见面。","s":[
+["Ciao Giulia,","你好，朱莉娅：","Hi Giulia,"],
+["grazie per l'invito alla tua festa!","谢谢你邀请我参加聚会！","thanks for the invitation to your party!"],
+["Purtroppo sabato non posso venire.","可惜周六我去不了。","Unfortunately I can't come on Saturday."],
+["Arrivano i miei genitori dalla Cina e vado a prenderli all'aeroporto.","我父母从中国来，我要去机场接他们。","My parents are arriving from China and I'm going to pick them up at the airport."],
+["Possiamo vederci la settimana prossima per un caffè?","我们下周见面喝杯咖啡好吗？","Can we meet up next week for a coffee?"],
+["Buona festa! Li","祝聚会愉快！李","Have a great party! Li"]
+]},
+{"l":"A1","t":"描述","topic":"日常","title":"Il mio bar preferito","pit":"Descrivi il tuo bar preferito. (40-50 parole)","pzh":"描述你最喜欢的咖啡馆。（40–50词）","tip":"地点表达 sotto casa、al banco；价格用 costa…。","s":[
+["Il mio bar preferito è sotto casa.","我最喜欢的咖啡馆就在楼下。","My favourite bar is right below my flat."],
+["È piccolo, ma c'è sempre tanta gente.","它很小，但总是有很多人。","It's small, but there are always lots of people."],
+["Il barista si chiama Franco ed è molto simpatico.","咖啡师叫佛朗哥，人非常好。","The barista is called Franco and he's very friendly."],
+["Ogni mattina prendo un caffè al banco.","每天早上我站在吧台喝杯咖啡。","Every morning I have a coffee at the counter."],
+["Costa un euro e venti.","一欧二十。","It costs one euro twenty."],
+["Al bar leggo il giornale e parlo con i vicini.","在咖啡馆我看报纸，和邻居聊天。","At the bar I read the newspaper and talk with the neighbours."]
+]},
+{"l":"A1","t":"描述","topic":"城市","title":"Il mio quartiere","pit":"Descrivi il quartiere dove abiti. (40-50 parole)","pzh":"描述你住的街区。（40–50词）","tip":"vicino a + 名词；c'è（单数）/ ci sono（复数）。","s":[
+["Abito nel quartiere Monti, nel centro di Roma.","我住在罗马市中心的蒙蒂区。","I live in the Monti neighbourhood, in the centre of Rome."],
+["È un quartiere vecchio e molto bello.","这是个古老而美丽的街区。","It's an old and very beautiful neighbourhood."],
+["Ci sono tanti negozi, bar e ristoranti.","有很多商店、咖啡馆和餐厅。","There are lots of shops, bars and restaurants."],
+["Vicino a casa mia ci sono un supermercato e una farmacia.","我家附近有一家超市和一家药店。","Near my house there's a supermarket and a pharmacy."],
+["La sera la piazza è piena di giovani.","晚上广场上全是年轻人。","In the evening the square is full of young people."],
+["È un po' rumoroso, ma mi piace molto.","有点吵，但我很喜欢。","It's a bit noisy, but I like it a lot."]
+]},
+{"l":"A1","t":"正式信件","topic":"学习","title":"Email alla scuola di lingue","pit":"Scrivi un'email a una scuola di lingue per chiedere informazioni su un corso. (40-50 parole)","pzh":"给语言学校写邮件，询问课程信息。（40–50词）","tip":"正式邮件用 Buongiorno 开头、Cordiali saluti 结尾。用 vorrei 礼貌地表达愿望。","s":[
+["Buongiorno,","您好，","Good morning,"],
+["mi chiamo Li e vorrei iscrivermi a un corso di italiano.","我叫李，想报名参加意大利语课程。","my name is Li and I'd like to enrol on an Italian course."],
+["Sono principiante.","我是初学者。","I'm a beginner."],
+["Lavoro di giorno, quindi preferisco un corso serale.","我白天上班，所以更想上晚上的课。","I work during the day, so I prefer an evening course."],
+["Quanto costa il corso e quando comincia?","课程多少钱，什么时候开始？","How much does the course cost and when does it start?"],
+["Ci sono lezioni anche il sabato mattina?","周六上午也有课吗？","Are there lessons on Saturday mornings too?"],
+["Grazie mille. Cordiali saluti, Li","非常感谢。此致敬礼，李","Thank you very much. Kind regards, Li"]
+]},
+{"l":"A1","t":"非正式信件","topic":"家庭","title":"Buon compleanno!","pit":"Scrivi un messaggio di auguri a una persona della tua famiglia. (30-40 parole)","pzh":"给家人写一条生日祝福消息。（30–40词）","tip":"祝福用 Tanti auguri。compiere … anni 表示“满……岁”。","s":[
+["Cara Mei,","亲爱的美：","Dear Mei,"],
+["tanti auguri di buon compleanno!","生日快乐！","happy birthday!"],
+["Oggi compi vent'anni, che bello!","今天你满二十岁了，真好！","Today you turn twenty, how lovely!"],
+["Mi dispiace non essere con te in Cina.","很遗憾不能和你一起在中国。","I'm sorry I'm not with you in China."],
+["Ti mando un regalo da Roma: una borsa italiana.","我从罗马给你寄了一份礼物：一个意大利包。","I'm sending you a present from Rome: an Italian bag."],
+["Ci sentiamo stasera in videochiamata! Un bacio, Li","今晚视频聊！亲亲，李","Let's talk tonight on a video call! A kiss, Li"]
+]},
+{"l":"A1","t":"描述","topic":"交通","title":"Come vado al lavoro","pit":"Racconta come vai al lavoro o a scuola. (40-50 parole)","pzh":"讲讲你怎么去上班或上学。（40–50词）","tip":"交通方式：in metro、in bici、in macchina、a piedi。ci metto + 时间 表示“花……时间”。","s":[
+["Il mio ufficio è in via Nazionale, a quattro chilometri da casa.","我的办公室在民族大街，离家四公里。","My office is on Via Nazionale, four kilometres from home."],
+["Di solito vado in metro.","我通常坐地铁去。","I usually go by metro."],
+["Prendo la linea A e scendo a Repubblica.","我坐A线，在共和国广场站下车。","I take line A and get off at Repubblica."],
+["Ci metto venti minuti.","要二十分钟。","It takes me twenty minutes."],
+["Quando fa bel tempo vado in bici, è più bello.","天气好时我骑车去，更舒服。","When the weather's nice I go by bike, it's nicer."],
+["Non vado mai in macchina: c'è troppo traffico!","我从不开车：车太多了！","I never go by car: there's too much traffic!"]
+]},
+{"l":"A2","t":"叙述","topic":"日常","title":"Il mio ultimo fine settimana","pit":"Racconta che cosa hai fatto lo scorso fine settimana. (60-80 parole)","pzh":"讲讲你上个周末做了什么。（60–80词）","tip":"近过去时：去、待等表示移动或状态的动词用 essere（sono andato、sono rimasto），买、学、做饭用 avere。","s":[
+["Lo scorso fine settimana è stato molto bello.","上个周末过得很开心。","Last weekend was really nice."],
+["Sabato mattina sono andato al mercato di Campo de' Fiori con un'amica.","周六早上我和一个朋友去了鲜花广场市场。","On Saturday morning I went to the Campo de' Fiori market with a friend."],
+["Abbiamo comprato frutta, verdura e un po' di formaggio.","我们买了水果、蔬菜和一点奶酪。","We bought fruit, vegetables and a bit of cheese."],
+["Il pomeriggio ho studiato italiano e la sera ho cucinato per alcuni colleghi.","下午我学了意大利语，晚上给几个同事做了饭。","In the afternoon I studied Italian and in the evening I cooked for some colleagues."],
+["Domenica ha piovuto, così sono rimasto a casa.","周日下雨了，所以我待在家里。","On Sunday it rained, so I stayed at home."],
+["Ho letto un libro e ho guardato un film italiano.","我读了一本书，看了一部意大利电影。","I read a book and watched an Italian film."],
+["È stato un fine settimana rilassante.","这是个轻松的周末。","It was a relaxing weekend."]
+]},
+{"l":"A2","t":"非正式信件","topic":"住房","title":"La mia nuova casa","pit":"Scrivi un'email a un amico per raccontare la tua nuova casa. (60-80 parole)","pzh":"给朋友写邮件，介绍你的新家。（60–80词）","tip":"比较级 più grande di…。邮件结构：问候→消息→细节→邀请→结尾。","s":[
+["Caro Marco,","亲爱的马可：","Dear Marco,"],
+["come stai? Ti scrivo per darti una bella notizia: ho cambiato casa!","你好吗？写信告诉你一个好消息：我搬家了！","how are you? I'm writing to give you some good news: I've moved house!"],
+["Il nuovo appartamento è a Testaccio, vicino alla metro Piramide.","新公寓在泰斯塔奇奥，靠近金字塔地铁站。","The new flat is in Testaccio, near Piramide metro station."],
+["È più grande di quello vecchio e ha un balcone con tante piante.","比旧的大，还有个种满植物的阳台。","It's bigger than the old one and has a balcony with lots of plants."],
+["I vicini sono molto gentili e il quartiere è tranquillo.","邻居们很友善，街区也很安静。","The neighbours are very kind and the area is quiet."],
+["Sabato prossimo faccio una piccola festa: vuoi venire?","下周六我办个小聚会：你想来吗？","Next Saturday I'm having a little party: do you want to come?"],
+["Fammi sapere! Un abbraccio, Li","告诉我一声！拥抱你，李","Let me know! A hug, Li"]
+]},
+{"l":"A2","t":"非正式信件","topic":"旅行","title":"Cartolina da Firenze","pit":"Scrivi una cartolina da una città che stai visitando. (50-70 parole)","pzh":"在旅行的城市给朋友写一张明信片。（50–70词）","tip":"ieri / oggi / domani 搭配不同时态。metterci + 时间 表示“花了多久”。","s":[
+["Cara Giulia,","亲爱的朱莉娅：","Dear Giulia,"],
+["ti scrivo da Firenze!","我从佛罗伦萨给你写信！","I'm writing to you from Florence!"],
+["Sono arrivato ieri mattina con il treno da Roma: ci ho messo solo un'ora e mezza.","我昨天早上坐火车从罗马到的，只用了一个半小时。","I arrived yesterday morning on the train from Rome: it only took an hour and a half."],
+["Ieri ho visitato il Duomo e la Galleria degli Uffizi.","昨天我参观了大教堂和乌菲齐美术馆。","Yesterday I visited the Duomo and the Uffizi Gallery."],
+["Oggi ho attraversato il Ponte Vecchio e ho mangiato la bistecca alla fiorentina.","今天我走过了老桥，还吃了佛罗伦萨牛排。","Today I walked across the Ponte Vecchio and ate a Florentine steak."],
+["La città è piccola ma bellissima.","这座城市不大，但非常美。","The city is small but beautiful."],
+["Torno domani sera. A presto! Li","我明晚回去。回头见！李","I'm back tomorrow evening. See you soon! Li"]
+]},
+{"l":"A2","t":"正式信件","topic":"工作","title":"Oggi non posso venire","pit":"Scrivi un messaggio al tuo capo: oggi non puoi andare al lavoro. (50-70 parole)","pzh":"给上司发消息：今天你没法去上班。（50–70词）","tip":"对上司用敬称 Lei（Le mando、può scrivermi）。先说明原因，再交代后续安排。","s":[
+["Buongiorno dottor Bianchi,","比安基先生，您好：","Good morning Dr Bianchi,"],
+["mi dispiace, ma oggi non posso venire in ufficio.","很抱歉，今天我没法去办公室。","I'm sorry, but I can't come to the office today."],
+["Ieri sera ho avuto la febbre alta e stanotte non ho dormito.","昨晚我发高烧，夜里也没睡好。","Last night I had a high fever and I didn't sleep."],
+["Stamattina sono andato dal medico e mi ha dato tre giorni di malattia.","今天早上我去看了医生，他给我开了三天病假。","This morning I went to the doctor and he gave me three days' sick leave."],
+["Le mando il certificato oggi pomeriggio.","今天下午我把证明发给您。","I'll send you the certificate this afternoon."],
+["Se c'è qualcosa di urgente, può scrivermi un'email.","如果有急事，您可以给我发邮件。","If there's anything urgent, you can send me an email."],
+["Cordiali saluti, Li","此致敬礼，李","Kind regards, Li"]
+]},
+{"l":"A2","t":"叙述","topic":"饮食","title":"Una cena in trattoria","pit":"Racconta una cena in un ristorante. (60-80 parole)","pzh":"讲讲一次在餐厅吃晚饭的经历。（60–80词）","tip":"叙述事件用近过去时，描述状态用未完成过去时（era buonissima）。ci torneremo 用将来时。","s":[
+["Venerdì scorso sono andato a cena in una trattoria di Trastevere con due colleghi.","上周五我和两个同事去特拉斯提弗列的一家小馆子吃晚饭。","Last Friday I went to dinner at a trattoria in Trastevere with two colleagues."],
+["Avevamo prenotato un tavolo all'aperto.","我们订了一张室外的桌子。","We had booked a table outside."],
+["Come antipasto abbiamo preso i fiori di zucca fritti.","前菜我们点了炸西葫芦花。","As a starter we had fried courgette flowers."],
+["Poi io ho ordinato la cacio e pepe, che era buonissima.","然后我点了黑胡椒奶酪面，非常好吃。","Then I ordered the cacio e pepe, which was delicious."],
+["Il cameriere era simpatico e ci ha consigliato un vino del Lazio.","服务员很友善，给我们推荐了一款拉齐奥的葡萄酒。","The waiter was friendly and recommended a wine from Lazio to us."],
+["Alla fine abbiamo diviso il conto: trenta euro a testa.","最后我们分摊了账单：每人三十欧。","In the end we split the bill: thirty euros each."],
+["Ci torneremo sicuramente!","我们肯定还会再去！","We'll definitely go back!"]
+]},
+{"l":"A2","t":"叙述","topic":"个人","title":"Quando ero piccolo","pit":"Racconta com'era la tua vita quando eri bambino. (60-80 parole)","pzh":"讲讲你小时候的生活。（60–80词）","tip":"用未完成过去时描述过去的习惯和背景：abitavo、andavo、giocavo。","s":[
+["Quando ero piccolo abitavo in una città vicino a Shanghai.","我小时候住在上海附近的一座城市。","When I was little I lived in a city near Shanghai."],
+["La mia casa era piccola, ma aveva un giardino.","我家很小，但有个花园。","My house was small, but it had a garden."],
+["Ogni mattina andavo a scuola a piedi con mia sorella.","每天早上我和妹妹走路去上学。","Every morning I walked to school with my sister."],
+["Il pomeriggio giocavo con i miei amici nel cortile.","下午我和朋友们在院子里玩。","In the afternoon I played with my friends in the courtyard."],
+["Mia nonna cucinava per tutta la famiglia e io l'aiutavo a fare i ravioli.","奶奶给全家做饭，我帮她包饺子。","My grandmother cooked for the whole family and I helped her make dumplings."],
+["D'estate andavamo al mare per una settimana.","夏天我们去海边待一个星期。","In summer we went to the seaside for a week."],
+["Ero un bambino felice.","我是个快乐的孩子。","I was a happy child."]
+]},
+{"l":"A2","t":"叙述","topic":"旅行","title":"I miei progetti per l'estate","pit":"Racconta i tuoi progetti per le prossime vacanze. (60-80 parole)","pzh":"讲讲你下次假期的计划。（60–80词）","tip":"将来时：avrò、tornerò、starò、farò。quando 引导的将来时间从句也要用将来时。","s":[
+["Quest'estate avrò tre settimane di ferie.","今年夏天我会有三周假期。","This summer I'll have three weeks' holiday."],
+["A luglio tornerò in Cina per vedere la mia famiglia.","七月我会回中国看家人。","In July I'll go back to China to see my family."],
+["Starò a Shanghai dieci giorni e poi andrò a Pechino con mia sorella.","我会在上海待十天，然后和妹妹去北京。","I'll stay in Shanghai for ten days and then go to Beijing with my sister."],
+["Ad agosto, quando tornerò in Italia, farò un viaggio in Sicilia.","八月回意大利后，我会去西西里旅行。","In August, when I come back to Italy, I'll take a trip to Sicily."],
+["Voglio vedere Palermo e il mare di San Vito Lo Capo.","我想去看巴勒莫和圣维托洛卡波的海。","I want to see Palermo and the sea at San Vito Lo Capo."],
+["Spero di riposarmi un po' e di mangiare tanti cannoli!","希望能好好休息一下，吃很多奶油卷！","I hope to rest a bit and eat lots of cannoli!"]
+]},
+{"l":"A2","t":"正式信件","topic":"住房","title":"La lavatrice non funziona","pit":"Scrivi un'email al padrone di casa: qualcosa in casa non funziona. (60-80 parole)","pzh":"给房东写邮件：家里有东西坏了。（60–80词）","tip":"da tre giorni + 现在时 表示问题持续的时间。用 Può…? 提出请求，并说明你方便的时间。","s":[
+["Gentile signor Rossi,","尊敬的罗西先生：","Dear Mr Rossi,"],
+["le scrivo perché da tre giorni la lavatrice non funziona.","我写信是因为洗衣机已经坏了三天了。","I'm writing because the washing machine hasn't been working for three days."],
+["Quando la accendo, fa un rumore strano e l'acqua non esce.","一开机就发出奇怪的声音，水也排不出来。","When I turn it on, it makes a strange noise and the water doesn't drain."],
+["Ho già provato a pulire il filtro, ma purtroppo il problema è rimasto.","我已经试着清理了过滤器，但可惜问题还在。","I've already tried cleaning the filter, but unfortunately the problem is still there."],
+["Può mandare un tecnico questa settimana?","您这周能派个维修师傅来吗？","Could you send a technician this week?"],
+["Sono a casa tutti i giorni dopo le sei di sera.","我每天晚上六点后都在家。","I'm at home every day after six in the evening."],
+["Grazie in anticipo. Cordiali saluti, Li","提前感谢。此致敬礼，李","Thank you in advance. Kind regards, Li"]
+]},
+{"l":"A2","t":"非正式信件","topic":"城市","title":"Ti consiglio Villa Borghese","pit":"Scrivi a un amico che viene a Roma: consigliagli un posto da visitare. (60-80 parole)","pzh":"给要来罗马的朋友写信，推荐一个值得去的地方。（60–80词）","tip":"推荐用 ti consiglio di + 动词原形；无人称结构 si può…；devi + 动词原形 表示“必须”。","s":[
+["Ciao Tommaso,","你好，托马索：","Hi Tommaso,"],
+["che bello che vieni a Roma il mese prossimo!","你下个月来罗马，太好了！","how great that you're coming to Rome next month!"],
+["Ti consiglio di visitare Villa Borghese, il mio parco preferito.","我推荐你去博尔盖塞公园，我最喜欢的公园。","I recommend you visit Villa Borghese, my favourite park."],
+["È molto grande e si può noleggiare una bici o una barca sul laghetto.","公园很大，可以租自行车，也可以在小湖上划船。","It's very big and you can hire a bike or a boat on the little lake."],
+["Dentro c'è anche la Galleria Borghese, ma devi prenotare il biglietto prima.","里面还有博尔盖塞美术馆，但得提前订票。","Inside there's also the Borghese Gallery, but you have to book your ticket in advance."],
+["Dalla terrazza del Pincio si vede tutta la città: al tramonto è stupenda!","从平乔山观景台能看到全城：日落时美极了！","From the Pincio terrace you can see the whole city: at sunset it's stunning!"],
+["Se vuoi, ci andiamo insieme. A presto!","你愿意的话，我们一起去。回头见！","If you like, we'll go together. See you soon!"]
+]},
+{"l":"A2","t":"描述","topic":"节日","title":"Natale e Capodanno cinese","pit":"Confronta una festa italiana con una festa del tuo paese. (60-80 parole)","pzh":"比较一个意大利节日和你们国家的一个节日。（60–80词）","tip":"比较用 invece、anche。相互动作 si scambiano；无人称 si mangiano。","s":[
+["In Italia la festa più importante è il Natale.","在意大利，最重要的节日是圣诞节。","In Italy the most important holiday is Christmas."],
+["Le famiglie si riuniscono, mangiano insieme e si scambiano i regali.","家人团聚，一起吃饭，互赠礼物。","Families get together, eat together and exchange presents."],
+["In Cina, invece, la festa più importante è il Capodanno cinese.","而在中国，最重要的节日是春节。","In China, on the other hand, the most important holiday is Chinese New Year."],
+["Anche da noi la famiglia si riunisce e si mangiano i ravioli.","我们也是一家人团聚，吃饺子。","We too get together as a family and eat dumplings."],
+["I bambini ricevono buste rosse con i soldi.","孩子们会收到装钱的红包。","Children receive red envelopes with money."],
+["Quest'anno ho passato il Natale con amici italiani: è stata una bella esperienza.","今年我和意大利朋友一起过了圣诞节：这是一次很棒的经历。","This year I spent Christmas with Italian friends: it was a great experience."]
+]},
+{"l":"A2","t":"叙述","topic":"购物","title":"Un problema con la giacca","pit":"Racconta un problema che hai avuto con un acquisto. (60-80 parole)","pzh":"讲讲一次购物时遇到的问题。（60–80词）","tip":"近过去时叙述事件，未完成过去时描述状态（c'era、non avevano）。连接词 così、alla fine。","s":[
+["La settimana scorsa ho comprato una giacca in un negozio di via del Corso.","上周我在科尔索大街的一家店买了一件外套。","Last week I bought a jacket in a shop on Via del Corso."],
+["A casa ho visto che c'era un piccolo buco sulla manica.","到家后我发现袖子上有个小洞。","At home I saw that there was a small hole on the sleeve."],
+["Il giorno dopo sono tornato al negozio con lo scontrino.","第二天我拿着小票回到了店里。","The next day I went back to the shop with the receipt."],
+["La commessa è stata molto gentile e mi ha chiesto scusa.","店员很客气，还向我道了歉。","The shop assistant was very kind and apologised to me."],
+["Purtroppo non avevano la stessa giacca nella mia taglia.","可惜同一款没有我的尺码了。","Unfortunately they didn't have the same jacket in my size."],
+["Così ho scelto un maglione e ho pagato la differenza.","于是我选了一件毛衣，补了差价。","So I chose a jumper and paid the difference."],
+["Alla fine sono rimasto contento.","最后我还是挺满意的。","In the end I was happy."]
+]},
+{"l":"A2","t":"叙述","topic":"城市","title":"Il mio primo giorno a Roma","pit":"Racconta il tuo primo giorno in una nuova città. (60-80 parole)","pzh":"讲讲你在一座新城市的第一天。（60–80词）","tip":"fa 表示“……以前”：un anno fa。描述感受用未完成过去时：ero stanco、ero felice。","s":[
+["Sono arrivato a Roma un anno fa, a settembre.","我一年前的九月来到罗马。","I arrived in Rome a year ago, in September."],
+["Il primo giorno ero molto stanco per il viaggio, ma anche emozionato.","第一天我因为旅途很累，但也很激动。","On the first day I was very tired from the journey, but also excited."],
+["Ho preso il treno dall'aeroporto e sono andato in albergo.","我从机场坐火车去了酒店。","I took the train from the airport and went to the hotel."],
+["Nel pomeriggio ho fatto una passeggiata e ho visto la Fontana di Trevi.","下午我去散步，看到了特雷维喷泉。","In the afternoon I went for a walk and saw the Trevi Fountain."],
+["Ho lanciato una moneta, come fanno tutti i turisti.","我像所有游客那样扔了一枚硬币。","I threw a coin, like all the tourists do."],
+["La sera ho mangiato la mia prima pizza romana.","晚上我吃了第一份罗马披萨。","In the evening I ate my first Roman pizza."],
+["Non capivo quasi niente, ma ero felice.","我几乎什么都听不懂，但很开心。","I understood almost nothing, but I was happy."]
+]},
+{"l":"A2","t":"描述","topic":"学习","title":"Come studio l'italiano","pit":"Racconta come studi l'italiano e che cosa trovi difficile. (60-80 parole)","pzh":"讲讲你怎样学意大利语，觉得什么最难。（60–80词）","tip":"直接宾语代词 le 指代 le parole。最高级：la cosa più difficile。","s":[
+["Studio l'italiano da un anno e adesso parlo abbastanza bene.","我学意大利语一年了，现在说得还不错。","I've been studying Italian for a year and now I speak quite well."],
+["All'inizio ho frequentato un corso intensivo di due mesi.","一开始我上了两个月的强化课程。","At first I attended a two-month intensive course."],
+["Adesso studio da solo: ogni giorno imparo dieci parole nuove e le ripeto con un'app.","现在我自学：每天学十个新词，用应用复习。","Now I study on my own: every day I learn ten new words and review them with an app."],
+["La cosa più difficile per me è la grammatica, soprattutto gli articoli e le preposizioni.","对我来说最难的是语法，尤其是冠词和介词。","The hardest thing for me is grammar, especially articles and prepositions."],
+["Anche capire i romani quando parlano veloce non è facile!","罗马人说话快的时候，听懂也不容易！","Understanding Romans when they speak fast isn't easy either!"],
+["Il mio obiettivo è fare l'esame B1 l'anno prossimo.","我的目标是明年考B1。","My goal is to take the B1 exam next year."]
+]},
+{"l":"A2","t":"非正式信件","topic":"社交","title":"Grazie per la bella serata","pit":"Scrivi un messaggio per ringraziare un'amica di una serata. (50-70 parole)","pzh":"写一条消息，感谢朋友的一次晚餐招待。（50–70词）","tip":"volevo（未完成过去时）语气更礼貌。mi è piaciuto + 动词原形；ancora di più 表示“更加”。","s":[
+["Cara Lucia,","亲爱的露西娅：","Dear Lucia,"],
+["volevo ringraziarti per la cena di ieri sera.","想谢谢你昨晚的晚餐。","I wanted to thank you for dinner last night."],
+["È stata una serata bellissima!","那真是个美好的夜晚！","It was a lovely evening!"],
+["La lasagna era buonissima e il tiramisù ancora di più.","千层面非常好吃，提拉米苏更好吃。","The lasagne was delicious and the tiramisù even more so."],
+["Mi è piaciuto molto conoscere i tuoi amici: sono tutti molto simpatici.","我很高兴认识了你的朋友们：他们人都很好。","I really enjoyed meeting your friends: they're all very nice."],
+["La prossima volta vi invito io a casa mia per una cena cinese.","下次我请你们来我家吃中餐。","Next time I'll invite you to my place for a Chinese dinner."],
+["Un abbraccio e a presto, Li","拥抱你，回头见，李","A hug and see you soon, Li"]
+]},
+{"l":"A2","t":"描述","topic":"人物","title":"La mia insegnante di italiano","pit":"Descrivi una persona che ammiri. (60-80 parole)","pzh":"描述一个你敬佩的人。（60–80词）","tip":"关系代词 che；prima di + 动词原形；grazie a + 人 表示“多亏”。","s":[
+["La persona che ammiro di più a Roma è la mia insegnante di italiano, Paola.","我在罗马最敬佩的人是我的意大利语老师保拉。","The person I admire most in Rome is my Italian teacher, Paola."],
+["Ha circa cinquant'anni, i capelli ricci e gli occhiali.","她大约五十岁，卷发，戴眼镜。","She's about fifty, with curly hair and glasses."],
+["È sempre allegra e molto paziente con gli studenti.","她总是很开朗，对学生非常有耐心。","She's always cheerful and very patient with the students."],
+["Prima di insegnare ha vissuto in Giappone per dieci anni, quindi capisce bene le difficoltà degli stranieri.","教书之前她在日本住过十年，所以很理解外国人的困难。","Before teaching she lived in Japan for ten years, so she understands foreigners' difficulties well."],
+["Le sue lezioni sono divertenti: usiamo canzoni, film e giochi.","她的课很有趣：我们用歌曲、电影和游戏学习。","Her lessons are fun: we use songs, films and games."],
+["Grazie a lei ho imparato ad amare l'italiano.","多亏了她，我学会了热爱意大利语。","Thanks to her I've learned to love Italian."]
+]},
+{"l":"A2","t":"叙述","topic":"健康","title":"Dal medico","pit":"Racconta una visita dal medico. (60-80 parole)","pzh":"讲讲一次看医生的经历。（60–80词）","tip":"间接引语：mi ha detto che era…。mi ha consigliato di + 动词原形。","s":[
+["Il mese scorso avevo mal di gola e la tosse da una settimana.","上个月我喉咙痛、咳嗽，已经一个星期了。","Last month I'd had a sore throat and a cough for a week."],
+["Così ho preso un appuntamento con il medico di base.","于是我约了家庭医生。","So I made an appointment with my GP."],
+["Lo studio era pieno e ho aspettato quasi un'ora.","诊所人很多，我等了快一个小时。","The surgery was full and I waited almost an hour."],
+["Il medico mi ha visitato e mi ha detto che era solo un'influenza.","医生给我做了检查，说只是流感。","The doctor examined me and told me it was just flu."],
+["Mi ha prescritto uno sciroppo e mi ha consigliato di riposare.","他给我开了糖浆，建议我多休息。","He prescribed a syrup and advised me to rest."],
+["Sono andato in farmacia e ho mostrato la tessera sanitaria.","我去了药店，出示了医保卡。","I went to the pharmacy and showed my health card."],
+["Dopo cinque giorni stavo già meglio.","五天后我就好多了。","After five days I was already better."]
+]},
+{"l":"A2","t":"叙述","topic":"交通","title":"Lo sciopero dei mezzi","pit":"Racconta una giornata in cui hai avuto un problema con i trasporti. (60-80 parole)","pzh":"讲讲一次遇到交通问题的经历。（60–80词）","tip":"non lo sapevo（未完成过去时表示当时的状态）；con un'ora di ritardo；per fortuna。","s":[
+["Venerdì scorso c'era lo sciopero dei mezzi pubblici.","上周五公共交通罢工。","Last Friday there was a public transport strike."],
+["Non lo sapevo, così sono andato alla fermata come sempre.","我不知道，所以像往常一样去了车站。","I didn't know, so I went to the stop as usual."],
+["Ho aspettato l'autobus per mezz'ora, ma non è arrivato.","我等了半小时公交，但车没来。","I waited half an hour for the bus, but it didn't come."],
+["Anche la metro era chiusa.","地铁也停了。","The metro was closed too."],
+["Alla fine ho preso un monopattino elettrico e sono arrivato in ufficio con un'ora di ritardo.","最后我骑了一辆电动滑板车，到办公室晚了一个小时。","In the end I took an electric scooter and got to the office an hour late."],
+["Per fortuna il mio capo è stato comprensivo.","幸好老板很理解。","Luckily my boss was understanding."],
+["Adesso controllo sempre le notizie sugli scioperi!","现在我总会查看罢工消息！","Now I always check the news about strikes!"]
+]},
+{"l":"A2","t":"描述","topic":"健康","title":"Una vita sana","pit":"Che cosa fai per stare bene? Dai anche un consiglio. (60-80 parole)","pzh":"你为保持健康做些什么？再给一条建议。（60–80词）","tip":"cercare di + 动词原形（尽量做）；频率 tre volte a settimana；无人称 si scoprono。","s":[
+["Per stare bene cerco di fare una vita sana.","为了身体健康，我尽量过健康的生活。","To stay well I try to lead a healthy life."],
+["Mangio molta frutta e verdura e bevo almeno un litro e mezzo d'acqua al giorno.","我吃很多水果蔬菜，每天至少喝一升半水。","I eat lots of fruit and vegetables and drink at least a litre and a half of water a day."],
+["Non fumo e bevo vino solo il fine settimana.","我不抽烟，只在周末喝点葡萄酒。","I don't smoke and only drink wine at the weekend."],
+["Tre volte a settimana vado in piscina o corro al parco.","我每周三次去游泳或在公园跑步。","Three times a week I go swimming or run in the park."],
+["Cerco anche di dormire almeno sette ore.","我也尽量保证睡七个小时。","I also try to sleep at least seven hours."],
+["Il mio consiglio è camminare tanto: a Roma è facile e si scoprono sempre posti nuovi!","我的建议是多走路：在罗马很容易，还总能发现新地方！","My advice is to walk a lot: in Rome it's easy and you always discover new places!"]
+]},
+{"l":"A2","t":"正式信件","topic":"学习","title":"Informazioni sul corso di cucina","pit":"Scrivi un'email formale per chiedere informazioni su un corso. (60-80 parole)","pzh":"写一封正式邮件，询问一门课程的情况。（60–80词）","tip":"正式邮件开头用 Gentili signori；vorrei sapere + 间接疑问句；结尾 Resto in attesa di una vostra risposta。","s":[
+["Gentili signori,","尊敬的先生们/女士们：","Dear Sir or Madam,"],
+["ho visto sul vostro sito il corso di cucina romana e vorrei avere alcune informazioni.","我在贵网站上看到了罗马菜烹饪课，想了解一些情况。","I saw the Roman cooking course on your website and would like some information."],
+["Vorrei sapere quante lezioni ci sono e quanto dura ogni lezione.","我想知道一共几节课，每节课多长时间。","I'd like to know how many lessons there are and how long each lesson lasts."],
+["Lavoro fino alle sei, quindi per me è meglio un corso serale o nel fine settimana.","我工作到六点，所以晚上或周末的课更适合我。","I work until six, so an evening or weekend course is better for me."],
+["Inoltre, il prezzo comprende anche gli ingredienti?","另外，价格包含食材吗？","Also, does the price include the ingredients?"],
+["Resto in attesa di una vostra risposta.","期待您的回复。","I look forward to your reply."],
+["Cordiali saluti, Li Wei","此致敬礼，李伟","Kind regards, Li Wei"]
+]},
+{"l":"A2","t":"叙述","topic":"购物","title":"Un acquisto online","pit":"Racconta un acquisto che hai fatto su internet. (60-80 parole)","pzh":"讲讲一次网购的经历。（60–80词）","tip":"最高级 il più economico；代词 l'ha lasciato（lo + ha 缩合）。","s":[
+["Il mese scorso ho comprato una macchina del caffè su internet.","上个月我在网上买了一台咖啡机。","Last month I bought a coffee machine online."],
+["Ho confrontato i prezzi su diversi siti e ho scelto il più economico.","我在几个网站上比了价，选了最便宜的。","I compared prices on several websites and chose the cheapest."],
+["Ho pagato con la carta e il pacco è arrivato dopo tre giorni.","我用银行卡付款，三天后包裹就到了。","I paid by card and the parcel arrived after three days."],
+["Purtroppo non ero a casa, quindi il corriere l'ha lasciato al portiere.","可惜我不在家，所以快递员把它留给了门房。","Unfortunately I wasn't at home, so the courier left it with the concierge."],
+["La macchina funziona benissimo e il caffè è ottimo.","咖啡机很好用，咖啡也很棒。","The machine works really well and the coffee is excellent."],
+["Comprare online è comodo, ma preferisco aiutare i negozi del quartiere.","网购很方便，但我更愿意支持街区里的小店。","Buying online is convenient, but I prefer to support neighbourhood shops."]
+]},
+{"l":"B1","t":"正式信件","topic":"旅行","title":"Reclamo: volo cancellato","pit":"Il tuo volo è stato cancellato. Scrivi un'email alla compagnia aerea per lamentarti e chiedere un rimborso. (100-120 parole)","pzh":"你的航班被取消了。给航空公司写邮件投诉并要求退款。（100–120词）","tip":"投诉信结构：说明事件→描述问题→表明态度（ritengo che + 虚拟式）→提出要求→附件→结尾。né… né… 表示“既不……也不……”。","s":[
+["Spettabile compagnia,","尊敬的贵公司：","Dear Sir or Madam,"],
+["vi scrivo in merito al volo Roma–Shanghai del 12 marzo, che è stato cancellato poche ore prima della partenza.","我写信是关于3月12日罗马飞上海的航班，该航班在起飞前几小时被取消。","I am writing regarding the Rome–Shanghai flight on 12 March, which was cancelled a few hours before departure."],
+["Nessuno ci ha spiegato il motivo e, nonostante le mie richieste, non mi è stato offerto né un albergo né un pasto.","没有人向我们解释原因，尽管我一再询问，也没有为我提供酒店或餐食。","Nobody explained the reason to us and, despite my requests, I was offered neither a hotel nor a meal."],
+["Ho dovuto dormire in aeroporto e sono partito solo il giorno dopo, perdendo un importante appuntamento di lavoro.","我不得不在机场过夜，第二天才出发，错过了一个重要的工作约会。","I had to sleep at the airport and only left the next day, missing an important work appointment."],
+["Ritengo che questo trattamento sia inaccettabile.","我认为这种对待是无法接受的。","I believe this treatment is unacceptable."],
+["Vi chiedo quindi il rimborso del biglietto e un risarcimento, come previsto dalla normativa europea.","因此我要求退还票款并给予赔偿，这是欧洲法规所规定的。","I therefore request a refund of the ticket and compensation, as provided for by European regulations."],
+["In allegato trovate la carta d'imbarco e le ricevute delle spese.","附件中有登机牌和开销收据。","Attached you will find the boarding pass and the receipts for my expenses."],
+["In attesa di un vostro riscontro, porgo distinti saluti.","期待您的回复，此致敬礼。","Awaiting your reply, yours faithfully."],
+["Li Wei","李伟","Li Wei"]
+]},
+{"l":"B1","t":"观点","topic":"社会","title":"Meglio la città o la campagna?","pit":"È meglio vivere in città o in campagna? Esprimi la tua opinione. (100-120 parole)","pzh":"住在城市好还是乡村好？谈谈你的观点。（100–120词）","tip":"观点作文：亮出观点（secondo me）→ da un lato… dall'altro…→ tuttavia 转折 → penso che + 虚拟式 总结。","s":[
+["Molte persone sognano di lasciare la città e vivere in campagna, ma secondo me non è una scelta semplice.","很多人梦想离开城市去乡下生活，但在我看来这不是个简单的选择。","Many people dream of leaving the city and living in the countryside, but in my opinion it's not a simple choice."],
+["Da un lato, la vita in campagna è più tranquilla: l'aria è pulita, c'è più spazio e le case costano meno.","一方面，乡下生活更安静：空气清新，空间更大，房子也更便宜。","On the one hand, life in the countryside is quieter: the air is clean, there's more space and houses cost less."],
+["Dall'altro lato, in città ci sono più opportunità di lavoro, più servizi e una vita culturale ricca.","另一方面，城市里有更多工作机会、更多服务，文化生活也更丰富。","On the other hand, in the city there are more job opportunities, more services and a rich cultural life."],
+["Per uno straniero come me, abitare a Roma è molto utile: posso frequentare corsi di lingua, incontrare persone di tutto il mondo e muovermi senza macchina.","对我这样的外国人来说，住在罗马很有用：可以上语言课，结识世界各地的人，不用开车也能出行。","For a foreigner like me, living in Rome is very useful: I can attend language courses, meet people from all over the world and get around without a car."],
+["Tuttavia, il traffico e il rumore a volte sono stressanti.","不过，交通和噪音有时让人很有压力。","However, the traffic and the noise are sometimes stressful."],
+["Per questo penso che la soluzione ideale sia vivere in città e passare i fine settimana in campagna.","所以我认为理想的办法是住在城里，周末去乡下。","That's why I think the ideal solution is to live in the city and spend weekends in the countryside."]
+]},
+{"l":"B1","t":"正式信件","topic":"工作","title":"Lettera di candidatura","pit":"Hai letto un annuncio di lavoro per un albergo. Scrivi una lettera di candidatura. (100-120 parole)","pzh":"你看到了一家酒店的招聘启事。写一封求职信。（100–120词）","tip":"求职信：职位→个人信息→经历（近过去时）→语言能力→性格→为什么合适（penso che + 虚拟式）→附件。","s":[
+["Gentile Responsabile del personale,","尊敬的人事主管：","Dear Personnel Manager,"],
+["ho letto il vostro annuncio per un posto di receptionist e vorrei proporre la mia candidatura.","我看到了贵方招聘前台的启事，想申请这个职位。","I read your advertisement for a receptionist position and would like to apply."],
+["Mi chiamo Li Wei, ho trentadue anni e vivo a Roma da due anni.","我叫李伟，三十二岁，在罗马生活了两年。","My name is Li Wei, I'm thirty-two and I've been living in Rome for two years."],
+["In Cina ho lavorato per cinque anni in un grande albergo di Shanghai, prima alla reception e poi come responsabile dei clienti asiatici.","在中国我曾在上海一家大酒店工作五年，先在前台，后来负责亚洲客户。","In China I worked for five years in a large hotel in Shanghai, first at reception and then in charge of Asian guests."],
+["Parlo cinese, inglese e italiano a livello B1, che sto migliorando con un corso serale.","我会说中文、英语，意大利语达到B1水平，并正在通过夜校提高。","I speak Chinese, English and Italian at B1 level, which I'm improving with an evening course."],
+["Sono una persona precisa, paziente e abituata a lavorare in gruppo.","我做事细致、有耐心，习惯团队合作。","I'm a precise and patient person, used to working in a team."],
+["Penso che la mia esperienza possa essere utile per accogliere i numerosi turisti cinesi.","我认为我的经验能帮助接待众多的中国游客。","I think my experience could be useful in welcoming the many Chinese tourists."],
+["Allego il mio curriculum e resto a disposizione per un colloquio.","随信附上简历，期待面试机会。","I attach my CV and remain available for an interview."],
+["Cordiali saluti, Li Wei","此致敬礼，李伟","Kind regards, Li Wei"]
+]},
+{"l":"B1","t":"叙述","topic":"旅行","title":"Un viaggio indimenticabile","pit":"Racconta un viaggio che non dimenticherai mai. (100-120 parole)","pzh":"讲一次你永远不会忘记的旅行。（100–120词）","tip":"先过去时 avevamo noleggiato 交代背景；mentre + 未完成过去时 搭配近过去时；相互动词 ci siamo capiti。","s":[
+["Il viaggio più bello della mia vita l'ho fatto l'anno scorso in Puglia, con due amici italiani.","我人生中最美的一次旅行是去年和两个意大利朋友去普利亚。","I took the best trip of my life last year in Puglia, with two Italian friends."],
+["Avevamo noleggiato una macchina e ogni giorno visitavamo un posto diverso.","我们租了一辆车，每天去一个不同的地方。","We had hired a car and every day we visited a different place."],
+["Ricordo soprattutto Alberobello, con le sue case bianche a forma di cono, i trulli.","我尤其记得阿尔贝罗贝洛，那里有圆锥形的白房子，叫作“特鲁利”。","I especially remember Alberobello, with its white cone-shaped houses, the trulli."],
+["Un pomeriggio, mentre cercavamo una spiaggia, ci siamo persi su una strada di campagna.","一天下午，我们在找沙滩时，在一条乡间小路上迷了路。","One afternoon, while we were looking for a beach, we got lost on a country road."],
+["Un contadino ci ha invitato a casa sua e ci ha offerto pane, olio e pomodori del suo orto.","一位农民邀请我们去他家，请我们吃他菜园里的面包、橄榄油和西红柿。","A farmer invited us to his house and offered us bread, oil and tomatoes from his garden."],
+["Siamo rimasti con lui fino al tramonto, a parlare di cucina e di famiglia.","我们和他一直待到日落，聊美食和家庭。","We stayed with him until sunset, talking about food and family."],
+["Non parlavo ancora bene l'italiano, ma ci siamo capiti benissimo.","那时我的意大利语还说得不好，但我们彼此完全能理解。","I didn't speak Italian well yet, but we understood each other perfectly."],
+["Quel giorno ho capito che l'ospitalità italiana non è solo uno stereotipo.","那天我明白了，意大利人的热情好客不只是刻板印象。","That day I understood that Italian hospitality isn't just a stereotype."]
+]},
+{"l":"B1","t":"观点","topic":"科技","title":"I social network: pro e contro","pit":"I social network: quali sono i vantaggi e gli svantaggi? (100-120 parole)","pzh":"社交媒体有哪些优点和缺点？（100–120词）","tip":"利弊结构：引入→优点（grazie a、inoltre）→缺点（tuttavia、infine）→结论。a condizione che + 虚拟式。","s":[
+["Oggi quasi tutti usano i social network, ma è giusto chiedersi se siano più utili o dannosi.","如今几乎人人都用社交媒体，但值得思考它们是利大于弊还是弊大于利。","Today almost everyone uses social networks, but it's right to ask whether they're more useful or harmful."],
+["Per chi vive all'estero, come me, i vantaggi sono evidenti.","对像我这样住在国外的人来说，好处显而易见。","For those who live abroad, like me, the advantages are obvious."],
+["Grazie ai social posso restare in contatto con la mia famiglia in Cina, condividere foto e trovare informazioni utili sulla città.","多亏社交媒体，我能和在中国的家人保持联系、分享照片，还能找到有关这座城市的有用信息。","Thanks to social media I can stay in touch with my family in China, share photos and find useful information about the city."],
+["Inoltre, molti gruppi online aiutano gli stranieri a risolvere problemi pratici, come trovare casa o un medico.","此外，很多网上群组帮助外国人解决实际问题，比如找房子或找医生。","Moreover, many online groups help foreigners solve practical problems, like finding a home or a doctor."],
+["Tuttavia, i social hanno anche aspetti negativi.","然而，社交媒体也有负面影响。","However, social media also has negative aspects."],
+["Si passa troppo tempo davanti allo schermo e si rischia di vivere la vita solo attraverso il telefono.","人们花太多时间盯着屏幕，有可能只通过手机来过生活。","People spend too much time in front of the screen and risk living life only through their phones."],
+["Infine, circolano molte notizie false.","最后，网上流传着很多假新闻。","Finally, a lot of fake news circulates."],
+["Secondo me i social sono uno strumento utile, a condizione che li usiamo con moderazione.","在我看来，社交媒体是有用的工具，前提是我们适度使用。","In my opinion social media is a useful tool, provided we use it in moderation."]
+]},
+{"l":"B1","t":"非正式信件","topic":"城市","title":"Consigli per trasferirsi a Roma","pit":"Un'amica vuole trasferirsi a Roma. Scrivile una lettera con alcuni consigli. (100-120 parole)","pzh":"一位朋友想搬到罗马。给她写信提些建议。（100–120词）","tip":"建议信多用命令式：fai、iscriviti、abbi pazienza；ti consiglio di + 动词原形；sono felice che + 虚拟式。","s":[
+["Cara Xiaomei,","亲爱的小美：","Dear Xiaomei,"],
+["che bella notizia! Sono felicissimo che tu venga a vivere a Roma.","真是个好消息！你要来罗马生活，我太高兴了。","What great news! I'm so happy that you're coming to live in Rome."],
+["Ti do qualche consiglio pratico.","给你一些实用建议。","Let me give you some practical advice."],
+["Prima di tutto, appena arrivi, fai subito il codice fiscale: serve per tutto, dal contratto d'affitto alla SIM.","首先，一到就马上办税号：从租房合同到手机卡都需要它。","First of all, as soon as you arrive, get your tax code straight away: you need it for everything, from the rental contract to the SIM card."],
+["Per la casa, ti consiglio di non cercare in centro, dove gli affitti sono altissimi.","找房子的话，我建议你别在市中心找，那里房租特别高。","For housing, I advise you not to look in the centre, where rents are very high."],
+["Quartieri come il Pigneto o San Lorenzo sono più economici e ben collegati.","像皮涅托或圣洛伦佐这样的街区更便宜，交通也方便。","Neighbourhoods like Pigneto or San Lorenzo are cheaper and well connected."],
+["Inoltre, iscriviti a un corso di italiano: imparerai la lingua e conoscerai tante persone.","另外，报个意大利语课吧：既能学语言，又能认识很多人。","Also, sign up for an Italian course: you'll learn the language and meet lots of people."],
+["Infine, abbi pazienza con la burocrazia: è lenta, ma alla fine tutto si risolve.","最后，对办事流程要有耐心：虽然慢，但最后总能办好。","Finally, be patient with the bureaucracy: it's slow, but in the end everything gets sorted."],
+["Se hai bisogno di aiuto, chiamami quando vuoi! Un abbraccio, Li","需要帮忙的话随时给我打电话！拥抱你，李","If you need help, call me whenever you like! A hug, Li"]
+]},
+{"l":"B1","t":"观点","topic":"环境","title":"Piccoli gesti per l'ambiente","pit":"Che cosa possiamo fare ogni giorno per proteggere l'ambiente? (100-120 parole)","pzh":"我们每天可以为保护环境做些什么？（100–120词）","tip":"无人称 si può；关系代词 che；假设句 se + 未完成虚拟式 + 条件式（se tutti cambiassero…, il risultato sarebbe…）。","s":[
+["Il cambiamento climatico è uno dei problemi più gravi del nostro tempo, e molti pensano che solo i governi possano risolverlo.","气候变化是我们这个时代最严重的问题之一，很多人认为只有政府才能解决。","Climate change is one of the most serious problems of our time, and many people think that only governments can solve it."],
+["Secondo me, invece, anche i piccoli gesti quotidiani sono importanti.","但在我看来，日常的小举动也很重要。","In my opinion, however, small everyday actions are also important."],
+["Per esempio, si può usare meno la macchina e scegliere i mezzi pubblici o la bicicletta.","比如，可以少开车，选择公共交通或自行车。","For example, you can use the car less and choose public transport or the bicycle."],
+["A casa è utile spegnere le luci, non sprecare l'acqua e fare con attenzione la raccolta differenziata.","在家里，随手关灯、不浪费水、认真做好垃圾分类都很有用。","At home it's useful to turn off the lights, not waste water and sort the recycling carefully."],
+["Quando facciamo la spesa, possiamo portare le nostre borse e comprare prodotti locali, che non viaggiano per migliaia di chilometri.","购物时，我们可以自带购物袋，买本地产品，因为它们不用运输几千公里。","When we do the shopping, we can bring our own bags and buy local products, which don't travel thousands of kilometres."],
+["Naturalmente questi gesti da soli non bastano.","当然，光靠这些举动是不够的。","Of course these actions aren't enough on their own."],
+["Tuttavia, se tutti cambiassero un po' le proprie abitudini, il risultato sarebbe enorme.","然而，如果每个人都稍微改变一下习惯，效果将是巨大的。","However, if everyone changed their habits a little, the result would be enormous."]
+]},
+{"l":"B1","t":"正式信件","topic":"住房","title":"Richiesta di informazioni su un appartamento","pit":"Hai visto un annuncio per un appartamento in affitto. Scrivi un'email all'agenzia. (100-120 parole)","pzh":"你看到一则租房广告。给中介写邮件。（100–120词）","tip":"条件式表礼貌：sarei interessato、vorrei、sarei disponibile。间接疑问：vorrei sapere se…。","s":[
+["Buongiorno,","您好：","Good morning,"],
+["ho visto sul vostro sito l'annuncio del bilocale in via Ostiense e sarei interessato a visitarlo.","我在贵网站上看到了奥斯蒂恩塞街一室一厅的广告，想去看看房。","I saw the advertisement for the one-bedroom flat on Via Ostiense on your website and would be interested in viewing it."],
+["Prima di fissare un appuntamento, però, vorrei avere alcune informazioni.","不过在约看房之前，我想先了解一些情况。","Before setting up an appointment, however, I'd like some information."],
+["Innanzitutto, l'affitto di 850 euro comprende le spese condominiali?","首先，850欧的房租包含物业费吗？","First of all, does the rent of 850 euros include the building charges?"],
+["Vorrei anche sapere se il riscaldamento è autonomo o centralizzato e a quanto ammonta la caparra.","我还想知道暖气是独立的还是集中的，押金是多少。","I'd also like to know whether the heating is independent or central and how much the deposit is."],
+["Inoltre, il contratto prevede la cedolare secca?","另外，合同采用单一税制吗？","Also, does the contract use the flat-rate tax regime?"],
+["Cerco un appartamento solo per me, non ho animali e non fumo.","房子只是我一个人住，我不养宠物，也不抽烟。","I'm looking for a flat just for myself, I have no pets and I don't smoke."],
+["Sono un lavoratore dipendente con contratto a tempo indeterminato e posso presentare le ultime buste paga.","我是签有长期合同的雇员，可以提供最近的工资单。","I'm an employee with a permanent contract and can provide my latest payslips."],
+["Sarei disponibile per una visita nei giorni feriali dopo le 18 o il sabato mattina.","我工作日晚上六点后或周六上午都可以看房。","I'd be available for a viewing on weekdays after 6 pm or on Saturday morning."],
+["Grazie per l'attenzione. Cordiali saluti, Li Wei","感谢您的关注。此致敬礼，李伟","Thank you for your attention. Kind regards, Li Wei"]
+]},
+{"l":"B1","t":"描述","topic":"节日","title":"Il Capodanno cinese","pit":"Descrivi a un amico italiano una festa tradizionale del tuo paese. (100-120 parole)","pzh":"向一位意大利朋友介绍你们国家的一个传统节日。（100–120词）","tip":"介绍节日：时间→准备→活动→意义。无人称 si fanno；anche se 表让步；da quando + 现在时。","s":[
+["La festa più importante in Cina è il Capodanno cinese, che si chiama anche Festa di Primavera.","中国最重要的节日是农历新年，也叫春节。","The most important festival in China is Chinese New Year, also called the Spring Festival."],
+["La data cambia ogni anno, perché segue il calendario lunare, ma di solito cade tra gennaio e febbraio.","日期每年不同，因为按照农历，但通常在一二月之间。","The date changes every year, because it follows the lunar calendar, but it usually falls between January and February."],
+["Prima della festa le famiglie puliscono la casa e la decorano con carta rossa, il colore della fortuna.","节前家家户户打扫房子，用象征好运的红纸装饰。","Before the festival families clean their houses and decorate them with red paper, the colour of good luck."],
+["La sera della vigilia tutti tornano a casa dei genitori per una grande cena, dove non possono mancare i ravioli.","除夕夜大家都回父母家吃团圆饭，饺子必不可少。","On New Year's Eve everyone goes back to their parents' house for a big dinner, where dumplings are a must."],
+["A mezzanotte si fanno i fuochi d'artificio per allontanare la sfortuna.","午夜放烟花驱除霉运。","At midnight there are fireworks to drive away bad luck."],
+["I più giovani ricevono dai parenti le buste rosse, i famosi hongbao.","年轻一辈会从亲戚那里收到红包。","Younger people receive red envelopes, the famous hongbao, from their relatives."],
+["Per me è il momento più bello dell'anno, anche se da quando vivo a Roma lo festeggio con gli amici all'Esquilino.","对我来说这是一年中最美好的时刻，尽管自从住在罗马，我都和朋友们在埃斯奎利诺过节。","For me it's the best time of the year, even though since I've lived in Rome I celebrate it with friends in Esquilino."]
+]},
+{"l":"B1","t":"观点","topic":"工作","title":"Lo smart working","pit":"Lavorare da casa: è un vantaggio o uno svantaggio? (100-120 parole)","pzh":"在家办公是优势还是劣势？（100–120词）","tip":"penso che / credo che + 虚拟式（abbia、sia）。用 prima di tutto、inoltre、d'altra parte 组织论点。","s":[
+["Dopo la pandemia molte aziende italiane hanno introdotto lo smart working, cioè la possibilità di lavorare da casa.","疫情之后，很多意大利公司引入了远程办公，也就是可以在家工作。","After the pandemic many Italian companies introduced smart working, that is the possibility of working from home."],
+["Io lo faccio due giorni a settimana e penso che abbia molti vantaggi.","我每周有两天在家办公，我认为它有很多好处。","I do it two days a week and I think it has many advantages."],
+["Prima di tutto, non perdo tempo nel traffico e posso organizzare meglio la giornata.","首先，我不用把时间浪费在路上，能更好地安排一天。","First of all, I don't waste time in traffic and I can organise my day better."],
+["Inoltre, risparmio sui trasporti e sui pranzi fuori.","另外，我还省了交通费和在外吃午饭的钱。","Moreover, I save on transport and on lunches out."],
+["D'altra parte, lavorare sempre da casa può diventare faticoso.","另一方面，一直在家工作也会让人疲惫。","On the other hand, always working from home can become tiring."],
+["Si perde il contatto con i colleghi e a volte è difficile separare il lavoro dalla vita privata.","会和同事失去联系，有时也很难把工作和私人生活分开。","You lose contact with colleagues and sometimes it's hard to separate work from private life."],
+["Per uno straniero come me, inoltre, l'ufficio è un'occasione importante per parlare italiano.","而且，对我这样的外国人来说，办公室是说意大利语的重要机会。","For a foreigner like me, moreover, the office is an important opportunity to speak Italian."],
+["Per questo credo che la soluzione migliore sia un equilibrio tra casa e ufficio.","所以我认为最好的办法是在家和办公室之间取得平衡。","That's why I believe the best solution is a balance between home and office."]
+]},
+{"l":"B1","t":"叙述","topic":"学习","title":"Un malinteso divertente","pit":"Racconta un episodio divertente legato alla lingua italiana. (100-120 parole)","pzh":"讲一件和意大利语有关的趣事。（100–120词）","tip":"未完成过去时描述背景（ero、volevo），近过去时推进情节。间接引语：mi ha risposto che…。","s":[
+["Quando sono arrivato in Italia, il mio italiano era ancora molto limitato e un giorno è successa una cosa divertente.","我刚来意大利时，意大利语还很有限，有一天发生了一件好笑的事。","When I arrived in Italy, my Italian was still very limited and one day something funny happened."],
+["Ero al mercato e volevo comprare della frutta per fare una torta.","我在市场上，想买些水果做蛋糕。","I was at the market and wanted to buy some fruit to make a cake."],
+["Al banco ho chiesto con sicurezza «un chilo di pesce», ma in realtà volevo «un chilo di pesche».","我在摊位前很自信地说要“一公斤鱼”，其实我想要的是“一公斤桃子”。","At the stall I confidently asked for «un chilo di pesce» (a kilo of fish), but I actually wanted «un chilo di pesche» (a kilo of peaches)."],
+["Il fruttivendolo mi ha guardato stupito e mi ha risposto che il pesce era dall'altra parte del mercato.","水果摊主惊讶地看着我，回答说卖鱼的在市场另一头。","The greengrocer looked at me in astonishment and replied that the fish was on the other side of the market."],
+["Quando ho capito l'errore, siamo scoppiati a ridere tutti e due.","我明白自己说错后，我们俩都大笑起来。","When I understood the mistake, we both burst out laughing."],
+["Mi sono vergognato un po', ma lui è stato molto gentile e mi ha regalato una pesca in più.","我有点不好意思，但他人很好，还多送了我一个桃子。","I was a bit embarrassed, but he was very kind and gave me an extra peach."],
+["Da quel giorno sono diventato un suo cliente fisso.","从那天起我成了他的老顾客。","From that day I became one of his regular customers."],
+["Ho imparato che sbagliando s'impara, e a volte si trova anche un amico.","我明白了：在错误中学习，有时还能交到朋友。","I learned that you learn from your mistakes, and sometimes you even make a friend."]
+]},
+{"l":"B1","t":"观点","topic":"文化","title":"Recensione: La grande bellezza","pit":"Scrivi la recensione di un film che hai visto. (100-120 parole)","pzh":"为你看过的一部电影写一篇影评。（100–120词）","tip":"影评结构：基本信息→情节简介→优点（mi ha colpito）→缺点（devo ammettere che）→推荐。dopo averlo visto 是完成式不定式。","s":[
+["Qualche settimana fa ho visto La grande bellezza, il film di Paolo Sorrentino che ha vinto l'Oscar nel 2014.","几周前我看了保罗·索伦蒂诺的《绝美之城》，这部电影2014年获得了奥斯卡奖。","A few weeks ago I watched La grande bellezza, Paolo Sorrentino's film that won the Oscar in 2014."],
+["Il protagonista è Jep Gambardella, uno scrittore che ha appena compiuto sessantacinque anni e vive tra feste e salotti romani.","主人公是杰普·甘巴尔代拉，一位刚满六十五岁的作家，生活在罗马的派对和社交圈之间。","The protagonist is Jep Gambardella, a writer who has just turned sixty-five and lives among Roman parties and salons."],
+["Dietro la vita mondana, però, Jep cerca qualcosa di più profondo.","然而在浮华生活背后，杰普在寻找更深刻的东西。","Behind the glamorous life, however, Jep is looking for something deeper."],
+["La cosa che mi ha colpito di più è la fotografia: Roma sembra un quadro, soprattutto all'alba.","最打动我的是摄影：罗马就像一幅画，尤其是在黎明时分。","What struck me most is the cinematography: Rome looks like a painting, especially at dawn."],
+["Anche la musica è bellissima e l'attore Toni Servillo è straordinario.","音乐也非常美，演员托尼·塞尔维洛的表演非常出色。","The music is also beautiful and the actor Toni Servillo is extraordinary."],
+["Devo ammettere che alcune scene sono lente e non è facile capire tutti i dialoghi.","我得承认有些场景节奏很慢，也不是所有对白都好懂。","I have to admit that some scenes are slow and it's not easy to understand all the dialogue."],
+["Tuttavia lo consiglio a chi vive a Roma: dopo averlo visto, guarderete la città con occhi diversi.","不过，我推荐住在罗马的人去看：看完之后，你会用不同的眼光看这座城市。","However, I recommend it to anyone who lives in Rome: after seeing it, you'll look at the city with different eyes."]
+]},
+{"l":"B1","t":"观点","topic":"学习","title":"Perché imparare le lingue","pit":"Perché è importante imparare le lingue straniere? (100-120 parole)","pzh":"为什么学外语很重要？（100–120词）","tip":"最高级后接虚拟式：una delle esperienze più utili che si possano fare。论点用 prima di tutto / inoltre / infine 串联。","s":[
+["Secondo me imparare una lingua straniera è una delle esperienze più utili e arricchenti che si possano fare.","在我看来，学一门外语是人能做的最有用、最充实的经历之一。","In my opinion learning a foreign language is one of the most useful and enriching experiences you can have."],
+["Prima di tutto, conoscere più lingue offre maggiori opportunità di lavoro, soprattutto in un mondo sempre più internazionale.","首先，懂多种语言能带来更多工作机会，尤其是在一个越来越国际化的世界里。","First of all, knowing more languages offers greater job opportunities, especially in an increasingly international world."],
+["Io, per esempio, sto studiando l'inglese per l'IELTS e l'italiano per vivere meglio qui a Roma.","比如我，正在为雅思学英语，为了在罗马生活得更好学意大利语。","I, for example, am studying English for IELTS and Italian to live better here in Rome."],
+["Inoltre, una lingua non è solo un insieme di parole: è un modo diverso di vedere il mondo.","此外，语言不只是一堆单词：它是看世界的另一种方式。","Moreover, a language isn't just a set of words: it's a different way of seeing the world."],
+["Quando ho cominciato a capire le battute dei miei colleghi, ho sentito di far parte davvero della loro cultura.","当我开始听懂同事们的玩笑时，我感到自己真正融入了他们的文化。","When I started understanding my colleagues' jokes, I felt I was truly part of their culture."],
+["Infine, studiare una lingua allena la mente e la memoria.","最后，学语言能锻炼头脑和记忆力。","Finally, studying a language trains the mind and the memory."],
+["Certo, richiede tempo e pazienza, ma i risultati ripagano tutti gli sforzi.","当然，这需要时间和耐心，但收获会回报所有的努力。","Of course, it takes time and patience, but the results repay all the effort."]
+]},
+{"l":"B1","t":"正式信件","topic":"健康","title":"Spostare un appuntamento","pit":"Devi spostare un appuntamento importante. Scrivi un'email formale. (100-120 parole)","pzh":"你需要更改一个重要预约。写一封正式邮件。（100–120词）","tip":"正式邮件全程用敬称 Lei（le scrivo、la prego）。a causa di 说明原因；nel caso in cui + 未完成虚拟式。","s":[
+["Gentile dottoressa Ferri,","尊敬的费里医生：","Dear Dr Ferri,"],
+["le scrivo in merito alla visita specialistica prenotata per giovedì 14 novembre alle ore 10.","我写信是关于预约在11月14日周四上午10点的专科就诊。","I am writing regarding the specialist appointment booked for Thursday 14 November at 10 am."],
+["Purtroppo, a causa di un impegno di lavoro che non posso rimandare, quel giorno sarò fuori Roma.","很遗憾，由于一项无法推迟的工作安排，那天我将不在罗马。","Unfortunately, because of a work commitment that I cannot postpone, I will be away from Rome that day."],
+["Le chiedo quindi, se possibile, di spostare l'appuntamento alla settimana successiva.","因此，如果可能的话，请您把预约改到下一周。","I would therefore ask you, if possible, to move the appointment to the following week."],
+["Sarei disponibile qualsiasi mattina, oppure il pomeriggio dopo le 16.","我任何一天上午都可以，或者下午四点以后。","I would be available any morning, or in the afternoon after 4 pm."],
+["Mi rendo conto che le liste d'attesa sono lunghe e mi scuso per il disagio.","我知道候诊名单很长，对造成的不便深表歉意。","I realise that the waiting lists are long and I apologise for the inconvenience."],
+["Nel caso in cui non fosse possibile spostare la visita, la prego di comunicarmelo, così potrò disdirla e lasciare il posto a un altro paziente.","如果无法改期，请您告知我，这样我可以取消预约，把位置留给其他病人。","Should it not be possible to move the appointment, please let me know, so that I can cancel it and leave the slot to another patient."],
+["La ringrazio per la comprensione. Distinti saluti, Li Wei","感谢您的理解。此致敬礼，李伟","Thank you for your understanding. Yours sincerely, Li Wei"]
+]},
+{"l":"B1","t":"正式信件","topic":"城市","title":"Lettera al Municipio: il parco","pit":"Scrivi una lettera al Comune per segnalare un problema del tuo quartiere e proporre una soluzione. (100-120 parole)","pzh":"给市政部门写信，反映你所在街区的一个问题并提出解决办法。（100–120词）","tip":"反映问题信：自我介绍→问题描述（da alcuni mesi + 现在时）→后果→建议（条件式 sarebbe necessario）→结尾。","s":[
+["Egregio Presidente del Municipio,","尊敬的区长：","Dear President of the Municipio,"],
+["sono un residente di via Appia Nuova e le scrivo per segnalare la situazione del parco del nostro quartiere.","我是新阿皮亚大街的居民，写信向您反映我们街区公园的情况。","I'm a resident of Via Appia Nuova and I'm writing to report the situation of our neighbourhood park."],
+["Da alcuni mesi il parco è molto trascurato: l'erba è alta, i giochi per bambini sono rotti e la sera non c'è illuminazione.","几个月来公园疏于管理：草长得很高，儿童游乐设施坏了，晚上也没有照明。","For some months the park has been very neglected: the grass is long, the children's play equipment is broken and there's no lighting in the evening."],
+["Molte famiglie hanno smesso di andarci, ed è un peccato, perché è l'unico spazio verde della zona.","很多家庭已经不去了，这很可惜，因为那是这一带唯一的绿地。","Many families have stopped going there, and it's a shame, because it's the only green space in the area."],
+["Vorrei proporre alcune soluzioni.","我想提出几点建议。","I would like to propose some solutions."],
+["Prima di tutto, sarebbe necessario un intervento di pulizia e la riparazione dei giochi.","首先，需要清理公园并修复游乐设施。","First of all, cleaning work and repairs to the play equipment would be necessary."],
+["Inoltre, molti residenti, me compreso, sarebbero disposti a organizzare giornate di volontariato per curare il verde.","此外，包括我在内的很多居民都愿意组织志愿日来养护绿地。","Moreover, many residents, myself included, would be willing to organise volunteer days to look after the greenery."],
+["Confido in un suo intervento e porgo distinti saluti.","期待您的处理，此致敬礼。","I trust you will take action, and send my best regards."],
+["Li Wei","李伟","Li Wei"]
+]},
+{"l":"B1","t":"描述","topic":"家庭","title":"Una persona importante","pit":"Descrivi una persona che è stata importante nella tua vita. (100-120 parole)","pzh":"描述一个对你人生很重要的人。（100–120词）","tip":"描写过去的人：未完成过去时（era、leggeva）+ 先过去时（non aveva studiato）+ 强调句 è stata lei a…。","s":[
+["La persona più importante della mia vita è stata mia nonna.","我生命中最重要的人是我的奶奶。","The most important person in my life was my grandmother."],
+["Quando ero bambino, i miei genitori lavoravano tutto il giorno e io passavo i pomeriggi a casa sua.","我小时候，父母整天上班，我下午都在她家度过。","When I was a child, my parents worked all day and I spent my afternoons at her house."],
+["Era una donna semplice, ma molto saggia e piena di curiosità.","她是个朴实的人，但非常睿智，充满好奇心。","She was a simple woman, but very wise and full of curiosity."],
+["Non aveva studiato molto, eppure leggeva il giornale ogni giorno e mi faceva mille domande sulla scuola.","她没读过多少书，却每天看报纸，还会问我很多关于学校的问题。","She hadn't studied much, and yet she read the newspaper every day and asked me a thousand questions about school."],
+["È stata lei a insegnarmi a cucinare e, soprattutto, a non avere paura delle cose nuove.","是她教会了我做饭，更重要的是，教会了我不要害怕新事物。","It was she who taught me to cook and, above all, not to be afraid of new things."],
+["Quando le ho detto che volevo trasferirmi in Italia, i miei genitori erano preoccupati, ma lei mi ha detto: «Vai, il mondo è grande».","当我告诉她我想搬到意大利时，我父母很担心，但她对我说：“去吧，世界很大。”","When I told her I wanted to move to Italy, my parents were worried, but she said to me: «Go, the world is big»."],
+["Purtroppo è morta due anni fa, ma ogni volta che preparo i ravioli penso a lei.","可惜她两年前去世了，但每次包饺子我都会想起她。","Unfortunately she died two years ago, but every time I make dumplings I think of her."]
+]},
+{"l":"B1","t":"观点","topic":"社会","title":"Il turismo di massa a Roma","pit":"Il turismo di massa: risorsa o problema per le città? (100-120 parole)","pzh":"大众旅游对城市来说是资源还是问题？（100–120词）","tip":"così … che … 表示结果；副动词 limitando、promuovendo 表示方式；non… ma… 表示对比。","s":[
+["Ogni anno Roma accoglie milioni di turisti e il dibattito sul turismo di massa è sempre più acceso.","每年罗马接待数以百万计的游客，关于大众旅游的争论越来越激烈。","Every year Rome welcomes millions of tourists and the debate on mass tourism is increasingly heated."],
+["Da un lato, il turismo è una risorsa fondamentale per l'economia.","一方面，旅游业是经济的重要资源。","On the one hand, tourism is a fundamental resource for the economy."],
+["Crea posti di lavoro in alberghi, ristoranti e negozi, e permette di finanziare la cura dei monumenti.","它在酒店、餐馆和商店创造就业岗位，还能为古迹维护提供资金。","It creates jobs in hotels, restaurants and shops, and helps fund the upkeep of monuments."],
+["Dall'altro lato, però, il centro storico rischia di trasformarsi in un parco a tema.","但另一方面，历史中心区有可能变成一个主题公园。","On the other hand, however, the historic centre risks turning into a theme park."],
+["Molti appartamenti diventano case vacanza, gli affitti aumentano e i residenti sono costretti ad andare in periferia.","很多公寓变成度假屋，房租上涨，居民被迫搬到郊区。","Many flats become holiday lets, rents go up and residents are forced to move to the suburbs."],
+["Inoltre, alcune zone sono così affollate che è difficile viverci.","此外，有些地方人多到很难居住。","Moreover, some areas are so crowded that it's hard to live there."],
+["A mio parere non bisogna fermare il turismo, ma gestirlo meglio, per esempio limitando gli affitti brevi e promuovendo i quartieri meno conosciuti.","我认为，不应该阻止旅游，而是应该更好地管理，比如限制短租、推广不太知名的街区。","In my view tourism shouldn't be stopped, but managed better, for example by limiting short-term rentals and promoting lesser-known neighbourhoods."]
+]},
+{"l":"B1","t":"观点","topic":"工作","title":"Lavoro e tempo libero","pit":"Com'è possibile trovare un equilibrio tra lavoro e tempo libero? (100-120 parole)","pzh":"怎样在工作和闲暇之间找到平衡？（100–120词）","tip":"对比过去与现在：未完成过去时 guadagnavo / non avevo + 近过去时 ho scoperto。关系从句中的虚拟式：un hobby che ci aiuti a…。","s":[
+["In Cina per anni ho lavorato dieci o undici ore al giorno.","在中国，我曾经多年每天工作十到十一个小时。","In China for years I worked ten or eleven hours a day."],
+["Guadagnavo bene, ma non avevo mai tempo per me stesso né per i miei amici.","我挣得不少，但从来没有属于自己或陪朋友的时间。","I earned well, but I never had time for myself or for my friends."],
+["Quando mi sono trasferito in Italia, ho scoperto un ritmo di vita diverso.","搬到意大利后，我发现了一种不同的生活节奏。","When I moved to Italy, I discovered a different pace of life."],
+["Qui la pausa pranzo è sacra e il fine settimana è dedicato alla famiglia e agli amici.","在这里午休是神圣的，周末是留给家人和朋友的。","Here the lunch break is sacred and the weekend is devoted to family and friends."],
+["All'inizio mi sentivo quasi in colpa, ma poi ho capito che riposarsi non significa essere pigri.","一开始我几乎觉得有负罪感，但后来明白了，休息不等于懒惰。","At first I almost felt guilty, but then I understood that resting doesn't mean being lazy."],
+["Secondo me, per trovare un equilibrio bisogna prima di tutto imparare a dire di no e spegnere il telefono dopo il lavoro.","在我看来，要找到平衡，首先要学会说不，下班后关掉手机。","In my opinion, to find a balance you first have to learn to say no and switch off your phone after work."],
+["È anche importante avere un hobby che ci aiuti a staccare.","有一个能帮我们放松下来的爱好也很重要。","It's also important to have a hobby that helps us switch off."],
+["Da quando seguo questi principi, lavoro meglio e sono più sereno.","自从遵循这些原则，我工作更高效，心情也更平静。","Since I've been following these principles, I work better and I'm calmer."]
+]},
+{"l":"B1","t":"观点","topic":"个人","title":"Se vincessi alla lotteria","pit":"Che cosa faresti se vincessi un milione di euro? (100-120 parole)","pzh":"如果你中了一百万欧元，你会做什么？（100–120词）","tip":"假设句 se + 未完成虚拟式（vincessi）+ 条件式（farei、comprerei）。宾语前置：una parte dei soldi la darei。","s":[
+["Se vincessi un milione di euro, la prima cosa che farei sarebbe aiutare la mia famiglia.","如果我中了一百万欧元，第一件事就是帮助我的家人。","If I won a million euros, the first thing I'd do would be to help my family."],
+["Comprerei una casa più grande ai miei genitori, così potrebbero vivere più comodi in pensione.","我会给父母买一套更大的房子，让他们退休后住得更舒服。","I'd buy my parents a bigger house, so they could live more comfortably in retirement."],
+["Poi realizzerei un sogno che ho da molto tempo: aprire un piccolo ristorante cinese a Roma, con piatti tradizionali e prezzi onesti.","然后我会实现一个藏在心里很久的梦想：在罗马开一家小中餐馆，做传统菜，价格公道。","Then I'd fulfil a dream I've had for a long time: opening a small Chinese restaurant in Rome, with traditional dishes and honest prices."],
+["Non lascerei subito il mio lavoro, perché penso che sia importante avere una routine.","我不会马上辞职，因为我认为保持规律的生活很重要。","I wouldn't leave my job straight away, because I think it's important to have a routine."],
+["Una parte dei soldi la darei a un'associazione che aiuta gli stranieri appena arrivati in Italia, perché so quanto sia difficile all'inizio.","我会把一部分钱捐给一个帮助刚来意大利的外国人的协会，因为我知道一开始有多难。","I'd give part of the money to an association that helps foreigners who have just arrived in Italy, because I know how hard it is at the beginning."],
+["Infine, farei un lungo viaggio in Sud America.","最后，我会去南美洲长途旅行。","Finally, I'd take a long trip to South America."],
+["Ma forse, prima di tutto, dovrei cominciare a comprare i biglietti della lotteria!","不过，也许首先我得开始买彩票才行！","But perhaps, first of all, I'd have to start buying lottery tickets!"]
+]},
+{"l":"B1","t":"非正式信件","topic":"个人","title":"Il mio primo anno in Italia","pit":"Scrivi a un amico per raccontare come è andato il tuo primo anno in Italia. (100-120 parole)","pzh":"给朋友写信，讲讲你在意大利的第一年过得怎么样。（100–120词）","tip":"混合时态：近过去时总结经历，未完成过去时描述当时的状态。情态动词后接 essere 类动词时，助动词也用 essere：sono dovuto tornare。","s":[
+["Caro Chen,","亲爱的陈：","Dear Chen,"],
+["è passato un anno da quando sono arrivato a Roma e voglio raccontarti come sta andando.","我来罗马已经一年了，想跟你说说近况。","A year has passed since I arrived in Rome and I want to tell you how things are going."],
+["I primi mesi non sono stati facili: non capivo quasi niente e la burocrazia mi faceva impazzire.","头几个月不容易：我几乎什么都听不懂，办手续让我抓狂。","The first months weren't easy: I understood almost nothing and the bureaucracy drove me crazy."],
+["Per ottenere il permesso di soggiorno sono dovuto tornare in Questura quattro volte!","为了拿到居留，我不得不去了四次警察局！","To get my residence permit I had to go back to the Questura four times!"],
+["Piano piano, però, le cose sono migliorate.","不过，情况慢慢好转了。","Little by little, though, things improved."],
+["Ho trovato un appartamento in un quartiere tranquillo, mi sono iscritto a un corso di italiano e mi sono fatto degli amici.","我在一个安静的街区找到了公寓，报了意大利语课，也交到了朋友。","I found a flat in a quiet neighbourhood, signed up for an Italian course and made some friends."],
+["Adesso riesco a lavorare in italiano e la settimana scorsa ho superato l'esame B1!","现在我能用意大利语工作，上周还通过了B1考试！","Now I can work in Italian and last week I passed the B1 exam!"],
+["Se vieni a trovarmi, ti porto a mangiare la migliore carbonara di Roma.","你要是来看我，我带你去吃罗马最好的培根蛋面。","If you come and visit me, I'll take you to eat the best carbonara in Rome."],
+["Ti aspetto! Un abbraccio, Li","等你来！拥抱你，李","I'll be waiting for you! A hug, Li"]
+]},
+{"l":"B2","t":"正式信件","topic":"日常","title":"Reclamo: una bolletta sbagliata","pit":"Hai ricevuto una bolletta della luce molto più alta del normale. Scrivi un reclamo formale alla compagnia elettrica. (150-180 parole)","pzh":"你收到了一张比平时高很多的电费账单。给电力公司写一封正式投诉信。（150–180词）","tip":"投诉信的论证链：事实（金额对比）→理由（dal momento che）→证据（vi allego）→要求→后果（qualora + 未完成虚拟式 + 条件式）。bensì 用在否定之后，表示“而是”。","s":[
+["Spettabile Servizio Clienti,","尊敬的客服部门：","Dear Customer Service,"],
+["vi scrivo in merito alla bolletta della luce relativa ai mesi di luglio e agosto, che mi è stata recapitata la settimana scorsa.","我写信是关于上周寄到的7、8月份的电费账单。","I am writing regarding the electricity bill for July and August, which was delivered to me last week."],
+["Con mia grande sorpresa, l'importo richiesto è di 412 euro, mentre di solito per lo stesso periodo pago circa 90 euro.","令我非常吃惊的是，账单金额为412欧元，而往常同期我只付约90欧元。","To my great surprise, the amount requested is 412 euros, whereas I usually pay about 90 euros for the same period."],
+["Dal momento che vivo da solo e che ad agosto sono stato in Cina per tre settimane, è evidente che si tratta di un errore.","由于我一个人住，而且八月份我在中国待了三周，这显然是个错误。","Since I live alone and spent three weeks in China in August, this is clearly an error."],
+["Controllando il dettaglio, ho notato che i consumi non sono stati calcolati in base alla lettura reale del contatore, bensì su una stima.","查看明细时，我发现用电量不是按电表的实际读数计算的，而是按估算计算的。","Checking the breakdown, I noticed that consumption was not calculated from the actual meter reading, but from an estimate."],
+["Vi allego quindi una foto del contatore scattata ieri, con la lettura aggiornata.","因此我附上一张昨天拍的电表照片，上面有最新读数。","I am therefore attaching a photo of the meter taken yesterday, showing the updated reading."],
+["Vi chiedo di ricalcolare l'importo e di inviarmi una nuova bolletta corretta.","请贵公司重新计算金额，并给我寄一张更正后的新账单。","I ask you to recalculate the amount and send me a new, corrected bill."],
+["Nel frattempo ho sospeso l'addebito automatico sul mio conto corrente, poiché non intendo pagare una cifra che non corrisponde ai miei consumi effettivi.","在此期间，我已暂停了银行账户的自动扣款，因为我不打算支付与实际用量不符的金额。","In the meantime I have suspended the direct debit from my current account, as I do not intend to pay an amount that does not reflect my actual consumption."],
+["Qualora non ricevessi una risposta entro trenta giorni, mi vedrei costretto a rivolgermi a un'associazione dei consumatori.","如果三十天内得不到答复，我将不得不求助于消费者协会。","Should I not receive a reply within thirty days, I would be forced to turn to a consumer association."],
+["Confidando in una rapida soluzione, porgo distinti saluti.","期待问题尽快解决，此致敬礼。","Trusting in a prompt resolution, yours faithfully."],
+["Li Wei","李伟","Li Wei"]
+]},
+{"l":"B2","t":"观点","topic":"科技","title":"L'intelligenza artificiale e il lavoro","pit":"L'intelligenza artificiale cambierà il mondo del lavoro. È un'opportunità o una minaccia? Scrivi un testo argomentativo. (150-180 parole)","pzh":"人工智能将改变职场。这是机遇还是威胁？写一篇议论文。（150–180词）","tip":"议论文结构：引入话题→承认风险（è innegabile che + 虚拟式）→反驳（d'altro canto）→个人经验→让步（sebbene + 虚拟式）→结论（a patto che + 虚拟式）。被动语态 vengono svolte。","s":[
+["Negli ultimi anni l'intelligenza artificiale è entrata nella vita quotidiana di milioni di persone, e molti si chiedono quali conseguenze avrà sul lavoro.","近几年来，人工智能已经进入了数百万人的日常生活，很多人在问它会对工作产生什么影响。","In recent years artificial intelligence has entered the daily lives of millions of people, and many wonder what consequences it will have for work."],
+["È innegabile che alcune professioni siano a rischio.","不可否认，一些职业面临风险。","It is undeniable that some professions are at risk."],
+["Molte attività ripetitive, come tradurre documenti semplici o rispondere ai clienti, vengono già svolte da programmi sempre più precisi.","很多重复性的工作，比如翻译简单文件或回复客户，已经由越来越精准的程序来完成。","Many repetitive tasks, such as translating simple documents or answering customers, are already carried out by increasingly accurate programs."],
+["D'altro canto, la storia ci insegna che ogni rivoluzione tecnologica ha eliminato alcuni mestieri, ma ne ha creati di nuovi.","另一方面，历史告诉我们，每一次技术革命都淘汰了一些职业，但也创造了新的职业。","On the other hand, history teaches us that every technological revolution has eliminated some jobs but created new ones."],
+["Basti pensare a quante professioni legate a internet non esistevano trent'anni fa.","想想看，有多少与互联网相关的职业在三十年前根本不存在。","Just think how many internet-related professions did not exist thirty years ago."],
+["Personalmente uso l'intelligenza artificiale ogni giorno per controllare i miei testi in italiano, e devo ammettere che mi fa risparmiare molto tempo.","我个人每天都用人工智能检查我的意大利语文章，必须承认它帮我节省了很多时间。","Personally, I use AI every day to check my Italian texts, and I must admit it saves me a lot of time."],
+["Sebbene sia uno strumento utilissimo, però, non sostituisce la creatività, l'empatia e il giudizio critico delle persone.","不过，尽管它是非常有用的工具，却无法取代人的创造力、同理心和批判性判断。","Although it is an extremely useful tool, however, it does not replace people's creativity, empathy and critical judgement."],
+["Il vero rischio, a mio avviso, è che i lavoratori meno qualificati restino indietro.","在我看来，真正的风险是技能较低的劳动者会被落下。","The real risk, in my view, is that less qualified workers will be left behind."],
+["Per questo motivo i governi dovrebbero investire nella formazione continua.","因此，政府应该投资于继续教育。","For this reason governments should invest in lifelong learning."],
+["In conclusione, credo che l'intelligenza artificiale possa essere una grande opportunità, a patto che nessuno venga lasciato solo di fronte al cambiamento.","总之，我认为人工智能可以是一个巨大的机遇，前提是没有人在变革面前被孤立无援。","In conclusion, I believe AI can be a great opportunity, provided that nobody is left alone in the face of change."]
+]},
+{"l":"B2","t":"观点","topic":"社会","title":"La lingua e la cittadinanza","pit":"Per ottenere la cittadinanza italiana bisogna dimostrare di conoscere la lingua almeno al livello B1. Sei d'accordo con questa regola? (150-180 parole)","pzh":"申请意大利国籍需要证明意大利语至少达到B1水平。你赞同这个规定吗？（150–180词）","tip":"立场要鲜明，但要承认对方的道理。è giusto che、affinché、purché 后面都接虚拟式。ciò non toglie che + 虚拟式 意思是“但这并不妨碍……”，可以用来引出补充条件。","s":[
+["Dal 2018 chi chiede la cittadinanza italiana deve presentare un certificato di lingua di livello B1.","自2018年起，申请意大利国籍的人必须提交B1水平的语言证书。","Since 2018 anyone applying for Italian citizenship has had to submit a B1 language certificate."],
+["Alcuni considerano questa regola un ostacolo inutile, ma io sono sostanzialmente d'accordo.","有人认为这个规定是不必要的障碍，但我基本上是赞同的。","Some consider this rule an unnecessary obstacle, but I basically agree with it."],
+["Secondo me è giusto che chi vuole diventare cittadino sappia comunicare nella lingua del paese.","在我看来，想成为公民的人应该能用这个国家的语言交流，这是合理的。","In my opinion it is right that those who want to become citizens can communicate in the country's language."],
+["Senza la lingua non si possono capire le notizie, partecipare alla vita pubblica o difendere i propri diritti, per esempio davanti a un contratto di lavoro.","不懂语言，就无法看懂新闻、参与公共生活或维护自己的权利，比如面对一份劳动合同时。","Without the language you cannot understand the news, take part in public life or defend your rights, for example when faced with an employment contract."],
+["Il livello B1, inoltre, non è eccessivo: permette di cavarsela nelle situazioni quotidiane, senza richiedere una conoscenza perfetta.","此外，B1水平并不过高：它足以应付日常情况，并不要求精通。","Moreover, B1 is not excessive: it lets you get by in everyday situations without requiring perfect knowledge."],
+["Ciò non toglie che lo Stato debba fare la sua parte.","但这并不意味着国家就可以袖手旁观。","That said, the State must still do its part."],
+["Molti stranieri lavorano tutto il giorno e non hanno né il tempo né i soldi per frequentare un corso.","很多外国人整天工作，既没有时间也没有钱去上课。","Many foreigners work all day and have neither the time nor the money to attend a course."],
+["Sarebbe quindi opportuno offrire più corsi serali gratuiti, affinché tutti abbiano le stesse possibilità.","因此，应该提供更多免费的夜间课程，让所有人都有同样的机会。","It would therefore be advisable to offer more free evening courses, so that everyone has the same opportunities."],
+["Io stesso ho imparato l'italiano grazie a una scuola pubblica per adulti, dove ho trovato insegnanti bravissimi.","我自己就是在一所公立成人学校学会意大利语的，在那里遇到了非常好的老师。","I myself learned Italian thanks to a public school for adults, where I found excellent teachers."],
+["In conclusione, la regola è giusta, purché sia accompagnata da un reale sostegno all'integrazione.","总之，这个规定是合理的，前提是要配合切实的融入支持。","In conclusion, the rule is fair, provided it is accompanied by real support for integration."]
+]},
+{"l":"B2","t":"文章","topic":"城市","title":"Vivere a Roma da straniero","pit":"Una rivista online cerca articoli sul tema «Vivere in Italia da straniero». Scrivi un articolo raccontando la tua esperienza e dando consigli ai lettori. (150-180 parole)","pzh":"一家网络杂志征集以“作为外国人在意大利生活”为主题的文章。写一篇文章，讲述你的经历并给读者建议。（150–180词）","tip":"杂志文章要有吸引人的开头，可以直接对读者说话（chi arriva…、ai nuovi arrivati…）。过去将来时 pensavo che … sarebbe stata 表示“当时以为会……”。建议部分用 voi 的命令式：imparate、armatevi、non chiudetevi。","s":[
+["Chi arriva a Roma per restarci scopre presto che la città eterna non è solo quella delle cartoline.","来罗马定居的人很快就会发现，这座永恒之城不只是明信片上的样子。","Anyone who comes to Rome to stay soon discovers that the Eternal City is not just the one on the postcards."],
+["Quando mi sono trasferito qui, tre anni fa, pensavo che la difficoltà più grande sarebbe stata la lingua.","三年前我搬来这里时，以为最大的困难会是语言。","When I moved here three years ago, I thought the biggest difficulty would be the language."],
+["Mi sbagliavo: la vera sfida è stata capire come funzionano le cose.","我错了：真正的挑战是弄明白事情是怎么运作的。","I was wrong: the real challenge was understanding how things work."],
+["Per ottenere un documento possono servire settimane, e spesso ogni ufficio dà informazioni diverse.","办一份证件可能需要几周时间，而且各个部门给的信息常常不一样。","Getting a document can take weeks, and each office often gives different information."],
+["Eppure, col tempo, ho imparato ad apprezzare il ritmo romano.","然而，随着时间推移，我学会了欣赏罗马的节奏。","And yet, over time, I learned to appreciate the Roman pace."],
+["Qui le relazioni contano più delle regole: il barista che ti saluta per nome o la vicina che ti spiega come scegliere il medico di base valgono più di qualsiasi guida.","在这里，人际关系比规章更重要：叫得出你名字的咖啡师，或者告诉你怎么选家庭医生的邻居，比任何指南都管用。","Here relationships matter more than rules: the barista who greets you by name or the neighbour who explains how to choose a GP are worth more than any guidebook."],
+["Ai nuovi arrivati vorrei dare tre consigli.","我想给新来的人三条建议。","I would like to give newcomers three pieces of advice."],
+["Primo, imparate l'italiano il prima possibile, anche se al lavoro parlate inglese.","第一，尽早学意大利语，即使你们工作时说英语。","First, learn Italian as soon as possible, even if you speak English at work."],
+["Secondo, armatevi di pazienza e fotocopiate ogni documento due volte.","第二，要有耐心，每份文件都复印两份。","Second, arm yourselves with patience and photocopy every document twice."],
+["Terzo, non chiudetevi nella vostra comunità: uscite, fate domande, sbagliate.","第三，不要把自己封闭在同胞圈子里：多出门、多提问、不要怕犯错。","Third, don't shut yourselves away in your own community: go out, ask questions, make mistakes."],
+["Roma non vi accoglierà subito a braccia aperte, ma una volta conquistata non vi lascerà più.","罗马不会马上张开双臂欢迎你们，但一旦你们赢得了它，它就再也不会放开你们。","Rome won't welcome you with open arms straight away, but once you've won it over, it will never let you go."]
+]},
+{"l":"B2","t":"文章","topic":"文化","title":"Recensione: L'amica geniale","pit":"Scrivi la recensione di un libro italiano che hai letto per il blog della tua scuola di lingua. (150-180 parole)","pzh":"为你语言学校的博客写一篇意大利小说的书评。（150–180词）","tip":"书评结构：作品信息→情节（不剧透）→人物与主题→语言→缺点→推荐对象。过去分词作定语：pubblicato nel 2011、cresciute in un quartiere。dopo averlo letto 是完成式不定式。","s":[
+["Il libro che vorrei consigliare è L'amica geniale di Elena Ferrante, pubblicato nel 2011 e diventato un successo internazionale.","我想推荐的书是埃莱娜·费兰特的《我的天才女友》，这本书2011年出版，后来在国际上大获成功。","The book I would like to recommend is My Brilliant Friend by Elena Ferrante, published in 2011 and since an international success."],
+["È il primo di quattro romanzi che raccontano l'amicizia tra Lenù e Lila, due bambine cresciute in un quartiere povero di Napoli negli anni Cinquanta.","这是四部曲的第一部，讲述了莱农和莉拉之间的友谊，两个女孩在五十年代那不勒斯的一个贫穷街区长大。","It is the first of four novels about the friendship between Lenù and Lila, two girls who grow up in a poor neighbourhood of Naples in the 1950s."],
+["Lila è intelligentissima ma ribelle, mentre Lenù, la narratrice, è studiosa e insicura.","莉拉极其聪明但叛逆，而叙述者莱农则勤奋好学，却缺乏自信。","Lila is extremely clever but rebellious, while Lenù, the narrator, is studious and insecure."],
+["Il loro rapporto, fatto di affetto ma anche di rivalità, è descritto con una sincerità che mi ha colpito profondamente.","她们的关系既有深情也有竞争，作者以一种深深打动我的坦诚来描写它。","Their relationship, made of affection but also of rivalry, is described with a sincerity that struck me deeply."],
+["Oltre alla storia personale, il romanzo offre un ritratto vivissimo dell'Italia del dopoguerra, segnata dalla povertà, dalla violenza e dal desiderio di riscatto.","除了个人故事，小说还生动描绘了战后意大利的面貌：贫穷、暴力以及翻身的渴望。","Beyond the personal story, the novel offers a vivid portrait of post-war Italy, marked by poverty, violence and the desire for redemption."],
+["Lo stile è semplice ma intenso, quindi adatto anche a chi, come me, studia l'italiano da qualche anno.","文风简洁而有力，所以也适合像我这样学了几年意大利语的人。","The style is simple but intense, so it also suits those who, like me, have been studying Italian for a few years."],
+["L'unico difetto è che all'inizio ci sono moltissimi personaggi, e non è facile ricordare chi è chi.","唯一的缺点是开头人物特别多，很难记住谁是谁。","The only drawback is that at the beginning there are a great many characters, and it isn't easy to remember who is who."],
+["Per fortuna l'edizione italiana contiene un elenco dei personaggi.","幸好意大利语版附有人物表。","Fortunately the Italian edition includes a list of characters."],
+["Lo consiglio a tutti, soprattutto a chi vuole capire meglio il Sud Italia: dopo averlo letto, non vedrete l'ora di cominciare il secondo volume.","我向所有人推荐，尤其是想更好地了解意大利南部的人：读完之后，你们会迫不及待地想看第二部。","I recommend it to everyone, especially those who want to understand southern Italy better: after reading it, you won't be able to wait to start the second volume."]
+]},
+{"l":"B2","t":"正式信件","topic":"城市","title":"Lettera al direttore: le buche di Roma","pit":"Scrivi una lettera al direttore di un quotidiano locale per denunciare un problema della tua città e proporre una soluzione. (150-180 parole)","pzh":"给一家地方日报的主编写信，揭示你所在城市的一个问题并提出解决办法。（150–180词）","tip":"致报社的信：先说明身份和写信原因，再用亲身经历和具体事实支撑，最后提出建议。过去完成时被动 era stata segnalata；条件式 si potrebbero creare 让建议听起来更客气。","s":[
+["Gentile Direttore,","尊敬的主编：","Dear Editor,"],
+["sono un cittadino straniero che vive a Roma da alcuni anni e ogni giorno vado al lavoro in bicicletta.","我是一名在罗马生活了几年的外国公民，每天骑自行车上班。","I am a foreign citizen who has lived in Rome for a few years and I cycle to work every day."],
+["Le scrivo perché la situazione delle strade della nostra città è diventata davvero pericolosa.","我写信是因为我们城市的道路状况已经变得非常危险。","I am writing because the condition of our city's roads has become truly dangerous."],
+["Il mese scorso, in via Tuscolana, sono caduto a causa di una buca nascosta da una pozzanghera e mi sono rotto il polso.","上个月在图斯科拉纳大街，我因为一个被水坑盖住的坑洞摔倒，摔断了手腕。","Last month, on Via Tuscolana, I fell because of a pothole hidden by a puddle and broke my wrist."],
+["Quella stessa buca era stata segnalata da diversi residenti, ma nessuno l'aveva riparata.","那个坑洞此前已经有好几位居民报告过，但一直没有人修。","That same pothole had been reported by several residents, but nobody had repaired it."],
+["Non si tratta di un caso isolato: basta fare un giro in qualsiasi quartiere per rendersi conto che il problema riguarda tutta la città.","这不是个别情况：随便去哪个街区转一圈，就会发现这个问题遍及整个城市。","This is not an isolated case: you only have to go round any neighbourhood to realise that the problem affects the whole city."],
+["Si parla tanto di mobilità sostenibile, eppure chi sceglie la bici rischia ogni giorno la propria sicurezza.","大家都在谈论绿色出行，然而选择骑车的人每天都在拿自己的安全冒险。","There is so much talk of sustainable mobility, and yet those who choose to cycle put their safety at risk every day."],
+["A mio parere, si potrebbero creare una mappa online delle buche, aggiornata dai cittadini, e una squadra di intervento rapido per le riparazioni più urgenti.","我认为，可以建立一个由市民更新的坑洞在线地图，并成立一支快速维修队处理最紧急的修补。","In my opinion, an online map of potholes, updated by citizens, could be created, along with a rapid-response team for the most urgent repairs."],
+["In questo modo si eviterebbero molti incidenti e si risparmierebbero anche i soldi dei risarcimenti.","这样既能避免很多事故，也能省下赔偿金。","This would prevent many accidents and also save the money spent on compensation."],
+["Spero che la mia lettera possa contribuire a sensibilizzare l'amministrazione.","希望我的信能促使市政府重视这个问题。","I hope my letter can help raise the administration's awareness."],
+["Cordiali saluti, Li Wei","此致敬礼，李伟","Kind regards, Li Wei"]
+]},
+{"l":"B2","t":"叙述","topic":"旅行","title":"Il giorno in cui ho perso il passaporto","pit":"Racconta un'esperienza in cui le cose sono andate storte, ma che alla fine si è risolta bene. (150-180 parole)","pzh":"讲述一次事情出了岔子、但最终圆满解决的经历。（150–180词）","tip":"叙述文的时态配合：近过去时推进情节，未完成过去时描述背景（stavo facendo、nessuno rispondeva），过去完成时交代更早发生的事（l'avevo portato、era rimasto）。用 a un tratto、con mia enorme sorpresa、da allora 串联情节。","s":[
+["Due anni fa, il giorno prima di partire per Pechino, mi è successa una cosa che non dimenticherò mai.","两年前，在出发去北京的前一天，我遇到了一件永远不会忘记的事。","Two years ago, the day before leaving for Beijing, something happened to me that I will never forget."],
+["Stavo facendo la valigia quando mi sono accorto che il passaporto non era nel cassetto dove lo tenevo sempre.","我正在收拾行李时，发现护照不在我一直放它的抽屉里。","I was packing my suitcase when I realised that my passport wasn't in the drawer where I always kept it."],
+["Ho cercato dappertutto, sempre più agitato, ma senza risultato.","我到处找，越来越慌，却一无所获。","I searched everywhere, more and more agitated, but to no avail."],
+["A un tratto mi sono ricordato che la settimana prima l'avevo portato in banca per aprire un conto.","突然我想起来，前一周我曾经带着它去银行开户。","All of a sudden I remembered that the week before I had taken it to the bank to open an account."],
+["Ho chiamato subito la filiale, ma era sabato pomeriggio e nessuno rispondeva.","我马上给那家支行打电话，但那天是周六下午，没有人接。","I immediately called the branch, but it was Saturday afternoon and nobody answered."],
+["Disperato, ho scritto un messaggio al consulente che mi aveva seguito, senza sperarci troppo.","绝望之下，我给之前接待我的客户经理发了条消息，并没抱太大希望。","In desperation, I sent a message to the adviser who had dealt with me, without holding out much hope."],
+["Con mia enorme sorpresa, mi ha risposto dopo dieci minuti: il passaporto era rimasto sulla sua scrivania e lui l'aveva messo in cassaforte.","令我万分惊讶的是，他十分钟后就回复了：护照落在了他的办公桌上，他已经把它放进了保险柜。","To my enormous surprise, he replied after ten minutes: the passport had been left on his desk and he had put it in the safe."],
+["Non solo, si è offerto di aprire la banca la mattina dopo, prima del mio volo.","不仅如此，他还主动提出第二天早上在我登机前开门让我去取。","What's more, he offered to open the bank the next morning, before my flight."],
+["Alle otto ero davanti alla porta, con il cuore in gola, e alle dieci ero già in aeroporto.","八点我就站在门口，心都提到了嗓子眼，十点我已经到了机场。","At eight I was at the door, my heart in my mouth, and by ten I was already at the airport."],
+["Da allora controllo i documenti mille volte, e ogni Natale porto a quel consulente una scatola di dolci cinesi.","从那以后，我会把证件检查无数遍；每年圣诞节，我都会给那位客户经理送一盒中式点心。","Since then I check my documents a thousand times, and every Christmas I take that adviser a box of Chinese sweets."]
+]},
+{"l":"B2","t":"正式信件","topic":"学习","title":"Lettera di motivazione per un master","pit":"Vuoi iscriverti a un master all'università. Scrivi una lettera di motivazione alla commissione. (150-180 parole)","pzh":"你想报读大学的一个硕士项目。给招生委员会写一封动机信。（150–180词）","tip":"动机信：申请项目→教育与工作背景→为什么选这个项目→职业目标→结尾。完成式副动词 avendo lavorato 表示“由于曾经……”；间接疑问句 quanto siano cambiate 用虚拟式；ritengo che + 虚拟式。","s":[
+["Gentile Commissione,","尊敬的委员会：","Dear Admissions Committee,"],
+["con la presente desidero presentare la mia candidatura al Master in Management del Turismo per il prossimo anno accademico.","特此申请下一学年的旅游管理硕士项目。","I hereby wish to apply for the Master's in Tourism Management for the next academic year."],
+["Mi sono laureato in Lingue e Letterature Straniere presso un'università di Shanghai e, in seguito, ho lavorato per cinque anni nel settore alberghiero.","我毕业于上海一所大学的外国语言文学专业，之后在酒店业工作了五年。","I graduated in Foreign Languages and Literature from a university in Shanghai and then worked for five years in the hotel industry."],
+["Da due anni vivo a Roma, dove lavoro come receptionist in un albergo del centro.","我在罗马住了两年，在市中心的一家酒店做前台。","I have lived in Rome for two years, where I work as a receptionist in a hotel in the centre."],
+["Avendo lavorato sia in Cina sia in Italia, ho potuto osservare quanto siano cambiate le esigenze dei turisti asiatici, che oggi cercano esperienze più autentiche e personalizzate.","由于在中国和意大利都工作过，我观察到亚洲游客的需求发生了多大的变化，如今他们寻求的是更真实、更个性化的体验。","Having worked both in China and in Italy, I have been able to observe how much the needs of Asian tourists have changed: today they look for more authentic and personalised experiences."],
+["Il vostro master mi interessa in particolare per i corsi di marketing digitale e di gestione sostenibile delle destinazioni.","贵项目尤其吸引我的是数字营销和目的地可持续管理方面的课程。","Your master's interests me in particular for its courses in digital marketing and sustainable destination management."],
+["Il mio obiettivo è contribuire a sviluppare un turismo di qualità tra la Cina e l'Italia, valorizzando anche le località meno conosciute.","我的目标是为发展中意之间的高品质旅游贡献力量，同时推广不太知名的地方。","My goal is to help develop quality tourism between China and Italy, also promoting lesser-known places."],
+["Parlo cinese, inglese e italiano, lingua di cui ho ottenuto la certificazione B2.","我会说中文、英语和意大利语，意大利语已取得B2证书。","I speak Chinese, English and Italian, in which I have obtained B2 certification."],
+["Ritengo che la mia esperienza internazionale possa arricchire anche il lavoro di gruppo in aula.","我相信我的国际经验也能为课堂上的小组合作增色。","I believe my international experience could also enrich group work in class."],
+["Ringraziando per l'attenzione, resto a disposizione per un eventuale colloquio.","感谢关注，如有面试机会，我随时可以参加。","Thank you for your attention; I remain available for an interview."],
+["Distinti saluti, Li Wei","此致敬礼，李伟","Yours faithfully, Li Wei"]
+]},
+{"l":"B2","t":"观点","topic":"环境","title":"Moda veloce, consumo responsabile","pit":"La «moda veloce» (fast fashion) ha prezzi bassi ma un costo ambientale altissimo. Che cosa ne pensi? (150-180 parole)","pzh":"“快时尚”价格低廉，但环境代价极高。你怎么看？（150–180词）","tip":"让步：benché + 虚拟式（sia、cerchino）。比较：più … di quanto + 直陈式。被动：vengono prodotti、vengono realizzati。anziché + 动词原形 表示“而不是”；副动词 obbligando 表示方式。","s":[
+["Ogni anno nel mondo vengono prodotti miliardi di capi d'abbigliamento, molti dei quali vengono indossati pochissime volte prima di finire nella spazzatura.","全世界每年生产数十亿件衣服，其中很多只穿过寥寥几次就被扔进了垃圾桶。","Every year billions of items of clothing are produced worldwide, many of which are worn only a handful of times before ending up in the rubbish."],
+["È il risultato della cosiddetta moda veloce, che propone nuove collezioni ogni settimana a prezzi bassissimi.","这就是所谓“快时尚”的结果，它每周都推出新款，价格极低。","This is the result of so-called fast fashion, which offers new collections every week at very low prices."],
+["Benché sia comprensibile che molte persone, soprattutto i giovani, cerchino vestiti economici, il prezzo reale di questi prodotti è molto più alto di quello che paghiamo in negozio.","虽然很多人、尤其是年轻人想买便宜衣服是可以理解的，但这些产品的真实代价远高于我们在店里付的钱。","Although it is understandable that many people, especially young people, look for cheap clothes, the real price of these products is much higher than what we pay in the shop."],
+["L'industria tessile consuma enormi quantità d'acqua e inquina fiumi e mari.","纺织业消耗大量的水，还污染河流和海洋。","The textile industry consumes enormous amounts of water and pollutes rivers and seas."],
+["Inoltre, molti capi vengono realizzati da lavoratori pagati pochissimo, in condizioni spesso inaccettabili.","此外，很多衣服是由工资极低的工人在常常难以接受的条件下生产的。","Moreover, many garments are made by very poorly paid workers, often in unacceptable conditions."],
+["Come consumatori abbiamo più potere di quanto pensiamo.","作为消费者，我们拥有的力量比自己以为的更大。","As consumers we have more power than we think."],
+["Personalmente ho deciso di comprare meno e meglio: scelgo capi di qualità, li faccio riparare anziché buttarli e, quando posso, compro nei mercatini dell'usato, come quello di via Sannio.","我个人决定少买、买好的：我选质量好的衣服，坏了拿去修而不是扔掉，有机会就去二手市场买，比如桑尼奥街的市场。","Personally, I have decided to buy less but better: I choose quality garments, have them repaired instead of throwing them away and, when I can, buy at second-hand markets, like the one in Via Sannio."],
+["Anche le istituzioni, però, devono intervenire, per esempio obbligando le aziende a indicare l'impatto ambientale di ogni prodotto.","不过，相关机构也必须介入，比如强制企业标明每件产品对环境的影响。","Institutions, however, must also step in, for example by requiring companies to state the environmental impact of each product."],
+["Solo così la moda potrà diventare davvero sostenibile.","只有这样，时尚才能真正实现可持续。","Only in this way can fashion become truly sustainable."]
+]},
+{"l":"B2","t":"观点","topic":"教育","title":"Il cellulare in classe","pit":"In molte scuole l'uso dello smartphone in classe è stato vietato. Sei favorevole o contrario a questa decisione? (150-180 parole)","pzh":"很多学校禁止在课堂上使用智能手机。你赞成还是反对这个决定？（150–180词）","tip":"立场句：sono favorevole / contrario a…。论点用 prima di tutto、in secondo luogo 排序。让步：pur + 副动词（pur riconoscendo）。结论里 non… bensì… 表示“不是……而是……”。","s":[
+["Negli ultimi anni molti paesi, tra cui l'Italia, hanno deciso di vietare l'uso del cellulare in classe.","近几年来，包括意大利在内的很多国家都决定禁止在课堂上使用手机。","In recent years many countries, including Italy, have decided to ban the use of mobile phones in class."],
+["Si tratta di una scelta che fa discutere, ma io sono decisamente favorevole.","这一选择引起了争议，但我坚决赞成。","It is a controversial choice, but I am firmly in favour."],
+["Prima di tutto, numerose ricerche dimostrano che la presenza del telefono, anche spento, riduce la concentrazione degli studenti.","首先，大量研究表明，手机即使关机，只要在身边，也会降低学生的注意力。","First of all, numerous studies show that the presence of a phone, even switched off, reduces students' concentration."],
+["Le notifiche continue rendono difficile seguire una lezione o leggere un testo lungo con attenzione.","不断的通知让人难以专心听课或仔细阅读长文。","Constant notifications make it hard to follow a lesson or read a long text carefully."],
+["In secondo luogo, la scuola dovrebbe essere anche un luogo di relazioni.","其次，学校也应该是建立人际关系的地方。","Secondly, school should also be a place for relationships."],
+["Durante l'intervallo è molto più sano chiacchierare, giocare o perfino litigare con i compagni che fissare uno schermo in silenzio.","课间休息时，和同学聊天、玩耍甚至吵架，都比默默盯着屏幕健康得多。","During break it is much healthier to chat, play or even argue with classmates than to stare silently at a screen."],
+["Pur riconoscendo che la tecnologia è importante per la didattica, credo che si possano usare tablet e computer della scuola, sotto il controllo degli insegnanti.","虽然我承认技术对教学很重要，但我认为可以在老师的监督下使用学校的平板和电脑。","While recognising that technology is important for teaching, I believe school tablets and computers can be used under teachers' supervision."],
+["Alcuni genitori temono di non poter contattare i figli in caso di emergenza, ma in quel caso basta chiamare la segreteria.","有些家长担心紧急情况下联系不到孩子，但遇到这种情况给学校办公室打电话就行了。","Some parents fear they won't be able to contact their children in an emergency, but in that case it is enough to call the school office."],
+["In conclusione, vietare il cellulare in classe non significa rifiutare il progresso, bensì restituire alla scuola il suo ruolo.","总之，禁止在课堂上用手机并不意味着拒绝进步，而是让学校回归它应有的角色。","In conclusion, banning phones in class does not mean rejecting progress, but rather giving school back its proper role."]
+]},
+{"l":"B2","t":"文章","topic":"学习","title":"Relazione: il sondaggio tra gli studenti","pit":"La tua scuola di lingua ha fatto un sondaggio tra gli studenti. Scrivi una breve relazione per la direzione con i risultati principali e alcune proposte. (150-180 parole)","pzh":"你的语言学校在学生中做了一次问卷调查。给校方写一份简短报告，说明主要结果并提出建议。（150–180词）","tip":"报告文体要客观、多用无人称（sono emerse、si propone di）：先说目的，再列数据，最后提建议。百分比写成 il 78 per cento。过去分词作定语：il sondaggio distribuito a ottobre。","s":[
+["Oggetto: risultati del sondaggio sulla soddisfazione degli studenti","主题：学生满意度调查结果","Subject: results of the student satisfaction survey"],
+["Lo scopo di questa relazione è presentare i risultati del sondaggio distribuito a ottobre agli studenti dei corsi serali.","本报告旨在介绍十月份向夜校学生发放的问卷调查的结果。","The purpose of this report is to present the results of the survey given to evening-course students in October."],
+["Hanno risposto 86 studenti su 110, provenienti da ventidue paesi diversi.","110名学生中有86人作答，他们来自二十二个不同的国家。","86 out of 110 students responded, from twenty-two different countries."],
+["Nel complesso, il giudizio è positivo: il 78 per cento si dichiara soddisfatto o molto soddisfatto dei corsi.","总体来看，评价是积极的：78%的人表示对课程满意或非常满意。","Overall, the assessment is positive: 78 per cent say they are satisfied or very satisfied with the courses."],
+["Gli aspetti più apprezzati sono la preparazione degli insegnanti e l'atmosfera accogliente delle classi.","最受好评的是老师的专业水平和课堂的融洽氛围。","The most appreciated aspects are the teachers' expertise and the welcoming atmosphere in class."],
+["Anche la segreteria riceve giudizi molto positivi per la sua disponibilità.","学校办公室也因热情周到而获得了很高的评价。","The office also receives very positive feedback for its helpfulness."],
+["Sono emerse, tuttavia, alcune criticità.","不过，调查也暴露了一些问题。","However, some problems emerged."],
+["Più della metà degli studenti considera le aule troppo piccole e rumorose, mentre il 40 per cento vorrebbe più attività di conversazione.","超过一半的学生认为教室太小太吵，而40%的人希望增加口语练习活动。","More than half of the students find the classrooms too small and noisy, while 40 per cent would like more conversation activities."],
+["Molti, infine, hanno segnalato la difficoltà di conciliare gli orari dei corsi con il lavoro.","最后，很多人反映课程时间很难和工作协调。","Finally, many reported difficulty fitting course times around their work."],
+["Alla luce di questi dati, si propone di organizzare un laboratorio di conversazione il sabato mattina e di offrire alcune lezioni anche online.","根据这些数据，建议在周六上午开设口语工作坊，并提供部分网课。","In light of these figures, it is proposed to run a conversation workshop on Saturday mornings and to offer some lessons online as well."],
+["Sarebbe inoltre utile ripetere il sondaggio alla fine dell'anno per verificare l'efficacia di questi cambiamenti.","此外，最好在年底再做一次调查，以检验这些改变的效果。","It would also be useful to repeat the survey at the end of the year to check how effective these changes have been."]
+]},
+{"l":"B2","t":"非正式信件","topic":"工作","title":"A un'amica che ha perso il lavoro","pit":"Una tua amica ti scrive che ha perso il lavoro ed è molto scoraggiata. Rispondile per incoraggiarla e darle qualche consiglio. (150-180 parole)","pzh":"一位朋友写信告诉你她失业了，非常沮丧。给她回信，鼓励她并提些建议。（150–180词）","tip":"安慰与建议：mi dispiace che + 虚拟式（tu abbia perso）；假设句 se fossi in te + 条件式（mi prenderei）；否定命令式 non chiuderti；口语邀请 ti va di…?","s":[
+["Carissima Giulia,","亲爱的朱莉娅：","Dearest Giulia,"],
+["ho appena letto la tua email e mi dispiace tantissimo che tu abbia perso il lavoro proprio adesso, dopo tutti i sacrifici che hai fatto.","我刚读了你的邮件，很难过你偏偏在这个时候丢了工作，你之前付出了那么多。","I've just read your email and I'm so sorry that you've lost your job right now, after all the sacrifices you've made."],
+["Capisco benissimo come ti senti: anch'io, quando sono arrivato in Italia, ho passato mesi a mandare curriculum senza ricevere risposte.","我完全理解你的感受：我刚来意大利时，也花了好几个月投简历却没有回音。","I understand perfectly how you feel: when I arrived in Italy, I too spent months sending out CVs without getting any replies."],
+["Però ti assicuro che non è colpa tua: l'azienda ha chiuso un intero reparto, non ha giudicato il tuo lavoro.","但我向你保证，这不是你的错：公司关掉了整个部门，并不是否定你的工作。","But I assure you it's not your fault: the company closed an entire department, it didn't judge your work."],
+["Se fossi in te, mi prenderei qualche settimana per riposare e riflettere su che cosa vuoi davvero.","如果我是你，我会给自己几周时间休息，好好想想自己真正想要什么。","If I were you, I'd take a few weeks to rest and think about what you really want."],
+["Hai sempre detto che ti piacerebbe lavorare nell'editoria: forse questa è l'occasione giusta per provarci.","你一直说想从事出版工作：也许这正是尝试的好机会。","You've always said you'd like to work in publishing: maybe this is the right moment to give it a try."],
+["Nel frattempo, iscriviti al Centro per l'impiego e informati sui corsi di formazione gratuiti, che spesso sono ottimi.","在此期间，去就业中心登记，再了解一下免费的职业培训课程，那些课程往往很不错。","In the meantime, register with the job centre and find out about free training courses, which are often excellent."],
+["E soprattutto non chiuderti in casa: ti va di venire a cena da me sabato?","最重要的是别把自己关在家里：周六来我家吃晚饭怎么样？","And above all, don't shut yourself away at home: do you fancy coming to dinner at mine on Saturday?"],
+["Cucino io e parliamo con calma di tutto.","我来做饭，我们慢慢聊。","I'll cook and we can talk everything through calmly."],
+["Sono sicuro che fra qualche mese ripenserai a questo momento come all'inizio di qualcosa di nuovo.","我相信几个月后，你回想起此刻，会觉得这是新事物的开始。","I'm sure that in a few months you'll look back on this moment as the beginning of something new."],
+["Ti abbraccio forte, Li","紧紧拥抱你，李","A big hug, Li"]
+]},
+{"l":"B2","t":"正式信件","topic":"工作","title":"Lettera di dimissioni","pit":"Hai trovato un nuovo lavoro e devi lasciare quello attuale. Scrivi una lettera di dimissioni alla tua responsabile. (150-180 parole)","pzh":"你找到了新工作，需要辞去现在的工作。给你的上司写一封辞职信。（150–180词）","tip":"辞职信要礼貌、简洁：说明决定→最后工作日（nel rispetto del periodo di preavviso）→原因→感谢→交接安排。被动：mi è stato offerto、sono stato assunto；in modo che + 虚拟式（avvenga）。","s":[
+["Gentile dottoressa Marini,","尊敬的马里尼女士：","Dear Dr Marini,"],
+["con la presente le comunico la mia decisione di dimettermi dalla posizione di receptionist presso il nostro albergo.","特此通知您，我决定辞去在我们酒店的前台职位。","I hereby inform you of my decision to resign from my position as receptionist at our hotel."],
+["Nel rispetto del periodo di preavviso previsto dal contratto, il mio ultimo giorno di lavoro sarà il 31 gennaio.","按照合同规定的预告期，我的最后一个工作日将是1月31日。","In accordance with the notice period set out in my contract, my last working day will be 31 January."],
+["Si tratta di una scelta che non ho preso alla leggera.","这个决定我并不是轻易做出的。","It is not a decision I have taken lightly."],
+["Mi è stato offerto un posto in un'agenzia di viaggi specializzata nel turismo asiatico, che mi permetterà di crescere professionalmente e di utilizzare il master che sto per concludere.","一家专营亚洲旅游的旅行社给了我一个职位，这将让我在职业上获得成长，并用上我即将完成的硕士学位。","I have been offered a position at a travel agency specialising in Asian tourism, which will allow me to grow professionally and make use of the master's degree I am about to complete."],
+["Desidero ringraziarla sinceramente per la fiducia che mi ha dimostrato in questi tre anni.","我衷心感谢您这三年来对我的信任。","I would like to sincerely thank you for the trust you have shown me over these three years."],
+["Quando sono stato assunto, il mio italiano era ancora incerto, eppure lei mi ha dato la possibilità di imparare e di assumermi sempre più responsabilità.","我被录用的时候，意大利语还不太好，但您给了我学习的机会，让我承担越来越多的责任。","When I was hired, my Italian was still shaky, and yet you gave me the chance to learn and take on more and more responsibility."],
+["Lavorare con lei e con i colleghi è stata un'esperienza molto preziosa.","和您以及同事们一起工作，是一段非常宝贵的经历。","Working with you and my colleagues has been a very valuable experience."],
+["Nelle prossime settimane sarò lieto di affiancare la persona che prenderà il mio posto, in modo che il passaggio avvenga senza difficoltà.","在接下来的几周里，我很乐意带一带接替我的人，让交接顺利进行。","In the coming weeks I will be glad to work alongside the person who takes my place, so that the handover goes smoothly."],
+["Con stima e riconoscenza, Li Wei","怀着敬意与感激，李伟","With respect and gratitude, Li Wei"]
+]},
+{"l":"B2","t":"观点","topic":"社会","title":"I giovani e la casa dei genitori","pit":"In Italia molti giovani vivono con i genitori fino a trent'anni e oltre. Quali sono le cause di questo fenomeno? Confrontalo con il tuo paese. (150-180 parole)","pzh":"在意大利，很多年轻人到三十岁甚至更大还和父母住在一起。这一现象的原因是什么？与你的国家作比较。（150–180词）","tip":"原因分析：da un lato… dall'altro…、a ciò si aggiunge…。non è che + 虚拟式（non è che siano pigri）用来否定一种常见看法。比较本国时用 anche da noi、per certi versi。","s":[
+["In Italia l'età media in cui i giovani lasciano la casa dei genitori si aggira intorno ai trent'anni, una delle più alte d'Europa.","在意大利，年轻人离开父母家的平均年龄在三十岁左右，是欧洲最高的之一。","In Italy the average age at which young people leave their parents' home is around thirty, one of the highest in Europe."],
+["Si parla spesso di «bamboccioni», ma secondo me non è che i giovani italiani siano pigri o viziati.","人们常说意大利年轻人是“巨婴”，但在我看来，并不是意大利年轻人懒惰或被宠坏了。","People often call them «bamboccioni», overgrown kids, but in my opinion it's not that young Italians are lazy or spoilt."],
+["Le cause sono soprattutto economiche.","原因主要是经济上的。","The causes are mainly economic."],
+["Da un lato, molti contratti di lavoro sono precari e gli stipendi d'ingresso sono bassi.","一方面，很多劳动合同不稳定，起薪也很低。","On the one hand, many employment contracts are precarious and starting salaries are low."],
+["Dall'altro, gli affitti nelle grandi città sono aumentati moltissimo: a Roma una stanza in un appartamento condiviso può costare più di cinquecento euro al mese.","另一方面，大城市的房租涨了很多：在罗马，合租公寓里的一个房间每月可能要五百多欧元。","On the other hand, rents in big cities have risen enormously: in Rome a room in a shared flat can cost more than five hundred euros a month."],
+["A ciò si aggiunge un fattore culturale: la famiglia italiana resta un punto di riferimento molto forte, e restare a casa non è visto come un fallimento.","此外还有文化因素：意大利家庭依然是非常重要的依靠，留在家里并不被视为失败。","On top of this there is a cultural factor: the Italian family remains a very strong point of reference, and staying at home is not seen as a failure."],
+["In Cina la situazione è per certi versi simile.","在中国，情况在某些方面是相似的。","In China the situation is similar in some respects."],
+["Anche da noi i figli restano molto legati ai genitori, ma spesso si trasferiscono in un'altra città per studiare o lavorare, e a quel punto vivono da soli o con i colleghi.","我们那里的子女也和父母关系很紧密，但往往会去另一座城市读书或工作，到那时就独自住或和同事合住。","In China, too, children remain very close to their parents, but they often move to another city to study or work, and at that point they live alone or with colleagues."],
+["A mio avviso, per favorire l'autonomia dei giovani servirebbero contratti più stabili e affitti calmierati.","我认为，要促进年轻人独立，需要更稳定的合同和限价房租。","In my view, to encourage young people's independence, more stable contracts and capped rents would be needed."]
+]},
+{"l":"B2","t":"描述","topic":"饮食","title":"Il rito del caffè","pit":"Descrivi un'abitudine o una tradizione italiana che ti ha colpito e spiega perché. (150-180 parole)","pzh":"描述一个让你印象深刻的意大利习惯或传统，并说明原因。（150–180词）","tip":"描写文要用具体细节（地点、动作、对话）让画面生动。无人称 si：si beve、si ordina、ci si lamenta（反身动词的无人称用 ci si）。come se + 虚拟式过去完成时：come se avessi detto。","s":[
+["Tra le abitudini italiane, quella che mi ha colpito di più è il rito del caffè al bar.","在意大利人的习惯里，最让我印象深刻的是在咖啡馆喝咖啡的仪式。","Of all Italian habits, the one that struck me most is the ritual of coffee at the bar."],
+["In Cina bevo soprattutto tè, e quando bevevo un caffè lo prendevo da asporto, in un grande bicchiere di carta, magari camminando.","在中国我主要喝茶，喝咖啡的时候也是外带，装在一个大纸杯里，边走边喝。","In China I mainly drink tea, and when I had a coffee I took it away in a big paper cup, perhaps while walking."],
+["In Italia, invece, il caffè si beve in piedi, al banco, in pochi secondi.","而在意大利，咖啡是站在吧台前，几秒钟就喝完的。","In Italy, on the other hand, coffee is drunk standing up, at the counter, in a few seconds."],
+["Eppure non è un gesto frettoloso: è un momento sociale, in cui si scambiano due parole con il barista, si commenta la partita o ci si lamenta del traffico.","然而这并不是匆忙的举动：这是一个社交时刻，可以和咖啡师聊两句，评论一下球赛，或者抱怨一下交通。","And yet it isn't a hurried gesture: it's a social moment, in which you exchange a few words with the barista, comment on the match or complain about the traffic."],
+["Ci sono anche regole non scritte che ho imparato a mie spese.","这里还有一些不成文的规矩，是我吃过亏才学会的。","There are also unwritten rules that I learned the hard way."],
+["Per esempio, il cappuccino si ordina solo la mattina: la prima volta che l'ho chiesto dopo pranzo, il barista mi ha guardato come se avessi detto una bestemmia.","比如，卡布奇诺只在早上点：我第一次在午饭后点卡布奇诺时，咖啡师看我的眼神就好像我说了句亵渎神明的话。","For example, cappuccino is only ordered in the morning: the first time I asked for one after lunch, the barista looked at me as if I'd uttered a blasphemy."],
+["Mi piace anche la tradizione napoletana del caffè sospeso, che si paga in anticipo per chi non può permetterselo.","我也很喜欢那不勒斯的“待用咖啡”传统：提前付钱，留给买不起的人。","I also like the Neapolitan tradition of the caffè sospeso, paid for in advance for someone who can't afford it."],
+["Secondo me questo rito racconta molto degli italiani: amano le piccole pause e danno grande importanza ai rapporti umani, anche con gli sconosciuti.","我觉得这个仪式很能体现意大利人的特点：他们喜欢小憩片刻，也非常看重人与人之间的交往，即使是和陌生人。","In my view this ritual says a lot about Italians: they love short breaks and attach great importance to human contact, even with strangers."]
+]},
+{"l":"B2","t":"叙述","topic":"社会","title":"Volontario alla mensa","pit":"Racconta un'esperienza di volontariato o di aiuto agli altri e spiega che cosa ti ha insegnato. (150-180 parole)","pzh":"讲述一次做志愿者或帮助他人的经历，并说明它让你学到了什么。（150–180词）","tip":"叙述加反思：先讲经过，再写感受（mi ha fatto riflettere、mi sono reso conto che…）。过去分词独立结构 saputo che… 意思是“得知……之后”；完成式不定式 di aver insegnato；dare per scontato 表示“视为理所当然”。","s":[
+["L'inverno scorso un collega mi ha proposto di fare volontariato in una mensa per persone senza fissa dimora vicino alla stazione Termini.","去年冬天，一位同事提议我去特米尼车站附近一家为无家可归者开设的食堂做志愿者。","Last winter a colleague suggested I volunteer at a soup kitchen for homeless people near Termini station."],
+["All'inizio ero un po' titubante, perché temevo di non sapere come comportarmi.","一开始我有点犹豫，因为担心不知道该怎么做。","At first I was a little hesitant, because I was afraid I wouldn't know how to behave."],
+["Il primo sabato mi hanno affidato il compito di servire la minestra.","第一个周六，他们让我负责盛汤。","On the first Saturday they gave me the job of serving the soup."],
+["Davanti a me sono passate decine di persone: anziani italiani, giovani arrivati da poco dall'Africa, perfino un ex professore che parlava quattro lingue.","几十个人从我面前走过：意大利老人，刚从非洲来的年轻人，甚至还有一位会说四种语言的前教授。","Dozens of people passed in front of me: elderly Italians, young people recently arrived from Africa, even a former teacher who spoke four languages."],
+["Quest'ultimo, saputo che ero cinese, mi ha salutato in mandarino e mi ha raccontato di aver insegnato all'università prima di perdere tutto.","后者得知我是中国人，就用普通话跟我打招呼，还告诉我他在失去一切之前曾在大学教书。","The latter, on learning I was Chinese, greeted me in Mandarin and told me he had taught at university before losing everything."],
+["Quella conversazione mi ha fatto riflettere a lungo.","那次谈话让我思考了很久。","That conversation made me think for a long time."],
+["Mi sono reso conto che basta poco, una malattia, un divorzio o un lavoro perso, per ritrovarsi in strada.","我意识到，只需要一点点变故，一场病、一次离婚或一份丢掉的工作，人就可能流落街头。","I realised that it takes very little, an illness, a divorce or a lost job, to end up on the street."],
+["Da allora ci vado ogni due settimane.","从那以后，我每两周去一次。","Since then I've gone every two weeks."],
+["Non ho cambiato il mondo, ovviamente, ma ho imparato a guardare le persone senza giudicarle e a non dare per scontato quello che ho.","当然，我并没有改变世界，但我学会了不带评判地看待他人，也学会了不把自己拥有的一切视为理所当然。","I haven't changed the world, of course, but I've learned to look at people without judging them and not to take what I have for granted."],
+["E, cosa che non mi aspettavo, alla mensa ho trovato anche dei veri amici.","而且出乎我意料的是，我在食堂还交到了真正的朋友。","And, something I didn't expect, I also found some real friends at the soup kitchen."]
+]},
+{"l":"B2","t":"观点","topic":"健康","title":"La sanità pubblica italiana","pit":"Che cosa pensi del sistema sanitario del paese in cui vivi? Indica punti di forza e di debolezza. (150-180 parole)","pzh":"你怎样看待你所在国家的医疗体系？指出它的优点和不足。（150–180词）","tip":"优缺点分析：先肯定（garantisce、inoltre），再用 il rovescio della medaglia 转折。让步：nonostante + 虚拟式（sia）。andare + 过去分词表示“应该被……”：va difeso。","s":[
+["Quando racconto ai miei amici cinesi come funziona la sanità in Italia, spesso restano sorpresi.","当我跟中国朋友讲意大利的医疗是怎么运作的，他们常常很惊讶。","When I tell my Chinese friends how healthcare works in Italy, they are often surprised."],
+["Il Servizio sanitario nazionale, infatti, garantisce a tutti i residenti, stranieri compresi, il diritto alle cure, indipendentemente dal reddito.","事实上，国家医疗服务体系保障所有居民（包括外国人）享有医疗权利，与收入无关。","The National Health Service, in fact, guarantees all residents, foreigners included, the right to healthcare, regardless of income."],
+["Il medico di base è gratuito e il pronto soccorso non chiede la carta di credito prima di curarti.","家庭医生是免费的，急诊室也不会在治疗前先要你的信用卡。","The GP is free and A&E doesn't ask for your credit card before treating you."],
+["Inoltre, i medici sono generalmente molto preparati.","此外，医生们普遍医术精湛。","Moreover, doctors are generally very well trained."],
+["Il rovescio della medaglia sono le liste d'attesa.","硬币的另一面是漫长的候诊名单。","The other side of the coin is the waiting lists."],
+["L'anno scorso, per una semplice ecografia, mi hanno dato un appuntamento dopo sette mesi, e alla fine ho preferito pagare una clinica privata.","去年，做一个简单的B超，给我约到了七个月以后，最后我宁愿去私立诊所付费做。","Last year, for a simple ultrasound scan, I was given an appointment seven months later, and in the end I preferred to pay a private clinic."],
+["Nonostante il sistema sia pubblico, quindi, chi ha più soldi riesce a curarsi più rapidamente, e questo crea disuguaglianze.","因此，尽管体系是公立的，有钱的人却能更快得到治疗，这就造成了不平等。","So although the system is public, those with more money manage to get treated more quickly, and this creates inequality."],
+["Anche le differenze tra Nord e Sud sono notevoli.","南北之间的差距也很明显。","The differences between North and South are also considerable."],
+["Secondo me la sanità pubblica italiana è un patrimonio prezioso, che va difeso.","在我看来，意大利的公共医疗是一份宝贵的财富，应当加以捍卫。","In my opinion Italy's public health service is a precious asset that must be defended."],
+["Per farlo, però, è indispensabile assumere più personale e ridurre i tempi d'attesa, altrimenti sempre più persone saranno costrette a rivolgersi al privato.","但要做到这一点，就必须招聘更多医护人员、缩短等待时间，否则会有越来越多的人被迫求助于私立医疗。","To do so, however, it is essential to hire more staff and cut waiting times, otherwise more and more people will be forced to turn to private care."]
+]},
+{"l":"B2","t":"正式信件","topic":"住房","title":"Rumori in condominio","pit":"Un vicino fa rumore ogni notte e ha già ignorato le tue richieste. Scrivi all'amministratore del condominio. (150-180 parole)","pzh":"一位邻居每晚都制造噪音，并且已经无视了你的请求。给楼宇管理人写信。（150–180词）","tip":"正式投诉：事实（时间、频率）→已做的努力（pur avendo + 过去分词）→引用规定（prevede che + 虚拟式 venga rispettato）→请求（条件式 le chiederei）→后续措施（qualora + 虚拟式）。","s":[
+["Gentile Amministratore,","尊敬的楼宇管理人：","Dear Building Manager,"],
+["sono Li Wei, inquilino dell'interno 12 in via Marsala 10, e le scrivo per segnalare un problema che si protrae ormai da due mesi.","我是李伟，马尔萨拉街10号12室的住户，写信向您反映一个已经持续了两个月的问题。","I am Li Wei, tenant of flat 12 at Via Marsala 10, and I am writing to report a problem that has now been going on for two months."],
+["Il condomino dell'appartamento sopra il mio, il numero 15, ascolta musica ad alto volume quasi ogni notte, spesso fino alle tre.","我楼上15室的住户几乎每晚都大声放音乐，常常到凌晨三点。","The resident of the flat above mine, number 15, plays loud music almost every night, often until three o'clock."],
+["Pur avendo provato più volte a parlargli con gentilezza, la situazione non è cambiata.","尽管我多次客气地跟他沟通，情况仍然没有改变。","Although I have tried several times to speak to him politely, the situation has not changed."],
+["Anzi, l'ultima volta mi ha risposto in modo piuttosto scortese.","相反，上一次他回答得相当无礼。","On the contrary, the last time he answered me rather rudely."],
+["Vorrei ricordare che il regolamento condominiale prevede che dalle 23 alle 7 venga rispettato il silenzio.","我想提醒一下，楼宇管理规约规定晚上11点到早上7点之间必须保持安静。","I would like to point out that the building regulations require quiet to be observed from 11 pm to 7 am."],
+["La mancanza di sonno sta avendo conseguenze serie sul mio lavoro e sulla mia salute, e so che anche altri inquilini si sono lamentati.","睡眠不足已经严重影响到我的工作和健康，而且我知道其他住户也抱怨过。","The lack of sleep is having serious consequences for my work and my health, and I know other tenants have complained too."],
+["Le chiederei quindi di inviare al condomino un richiamo scritto e, se necessario, di discutere la questione alla prossima assemblea.","因此，请您向该住户发出书面警告，必要时在下一次业主大会上讨论此事。","I would therefore ask you to send the resident a written warning and, if necessary, to discuss the matter at the next residents' meeting."],
+["Qualora il problema dovesse continuare, sarò costretto a rivolgermi alle autorità competenti.","如果问题继续下去，我将不得不求助于有关部门。","Should the problem continue, I will be forced to turn to the relevant authorities."],
+["Ringraziandola per l'attenzione, le porgo distinti saluti.","感谢您的关注，此致敬礼。","Thanking you for your attention, yours faithfully."],
+["Li Wei","李伟","Li Wei"]
+]},
+{"l":"B2","t":"文章","topic":"饮食","title":"Recensione: una trattoria a Testaccio","pit":"Scrivi per un blog di cucina la recensione di un ristorante dove hai mangiato di recente. (150-180 parole)","pzh":"为一个美食博客写一篇最近去过的餐厅的点评。（150–180词）","tip":"餐厅点评：环境→菜品（具体描述口感）→服务→价格→总评。最高级后接虚拟式：la migliore che abbia mai mangiato。nonostante + 未完成虚拟式：nonostante il locale fosse pieno。","s":[
+["Sabato scorso, su consiglio di un collega romano, sono andato a cena «Da Nonna Pina», una piccola trattoria a conduzione familiare nel cuore di Testaccio.","上周六，在一位罗马同事的推荐下，我去了泰斯塔奇奥中心的一家家庭经营的小馆子“皮娜奶奶家”吃晚饭。","Last Saturday, on the advice of a Roman colleague, I went for dinner at «Da Nonna Pina», a small family-run trattoria in the heart of Testaccio."],
+["Il locale è semplice, con tovaglie a quadretti e foto in bianco e nero alle pareti, ma proprio per questo è accogliente.","店里装修简单，铺着格子桌布，墙上挂着黑白照片，但正因如此才显得温馨。","The place is simple, with checked tablecloths and black-and-white photos on the walls, but that is exactly what makes it welcoming."],
+["Come antipasto abbiamo diviso dei supplì, croccanti fuori e filanti dentro, esattamente come dovrebbero essere.","前菜我们分享了几个炸饭团，外酥里嫩还能拉丝，正是它们应有的样子。","As a starter we shared some supplì, crispy outside and stringy inside, exactly as they should be."],
+["Poi ho ordinato la coda alla vaccinara, un piatto tipico del quartiere, che si scioglieva in bocca.","然后我点了罗马式炖牛尾，这是该街区的特色菜，入口即化。","Then I ordered coda alla vaccinara, the neighbourhood's typical oxtail stew, which melted in the mouth."],
+["È probabilmente la migliore che abbia mai mangiato.","这可能是我吃过的最好的炖牛尾。","It's probably the best I have ever eaten."],
+["Leggermente deludente, invece, il tiramisù, un po' troppo dolce per i miei gusti.","相比之下，提拉米苏有点让人失望，对我来说太甜了。","The tiramisù, on the other hand, was slightly disappointing, a little too sweet for my taste."],
+["Il servizio è stato cordiale e veloce, nonostante il locale fosse pieno.","尽管店里坐满了人，服务依然热情又迅速。","The service was friendly and quick, even though the place was full."],
+["Il proprietario, figlio della famosa nonna Pina, è passato a ogni tavolo per chiedere se fosse tutto a posto.","店主是那位有名的皮娜奶奶的儿子，他到每张桌子前问一切是否满意。","The owner, son of the famous Nonna Pina, came round to every table to ask if everything was all right."],
+["Abbiamo speso trentacinque euro a testa, vino della casa compreso, un prezzo onesto per la qualità offerta.","我们人均花了三十五欧元，含自酿葡萄酒，以这样的品质来说价格很公道。","We spent thirty-five euros each, house wine included, a fair price for the quality on offer."],
+["Consiglio vivamente di prenotare, soprattutto nel fine settimana.","强烈建议提前订位，尤其是周末。","I strongly recommend booking, especially at the weekend."],
+["Voto: otto su dieci.","评分：十分制八分。","Rating: eight out of ten."]
+]},
+{"l":"B2","t":"叙述","topic":"个人","title":"Se non fossi venuto in Italia","pit":"Come sarebbe stata la tua vita se avessi fatto una scelta diversa? Scrivi un testo riflessivo. (150-180 parole)","pzh":"如果你当初做了不同的选择，你的生活会是什么样？写一篇反思性的文章。（150–180词）","tip":"与过去事实相反的假设：se + 虚拟式过去完成时（se non fossi partito）+ 过去条件式（non avrei scoperto）。混合假设句：se fossi rimasto lì, oggi guadagnerei…（过去的条件，现在的结果）。最高级后接虚拟式：il rimpianto più grande che io abbia。","s":[
+["Spesso mi chiedo come sarebbe stata la mia vita se, quattro anni fa, non avessi accettato quel lavoro a Roma.","我常常问自己，如果四年前没有接受罗马的那份工作，我的生活会是什么样。","I often wonder what my life would have been like if, four years ago, I hadn't accepted that job in Rome."],
+["All'epoca avevo un buon posto a Shanghai, un appartamento in centro e tutti i miei amici vicino.","那时我在上海有一份好工作，市中心有一套公寓，朋友们也都在身边。","At the time I had a good job in Shanghai, a flat in the centre and all my friends nearby."],
+["Se fossi rimasto lì, probabilmente oggi guadagnerei di più e sarei già diventato direttore d'albergo.","如果我留在那里，现在可能挣得更多，也许已经当上酒店经理了。","If I had stayed there, I would probably earn more today and would already have become a hotel manager."],
+["Avrei visto invecchiare da vicino i miei genitori e avrei potuto stare accanto a mia nonna negli ultimi anni della sua vita.","我能就近陪伴父母慢慢变老，也能在奶奶生命的最后几年陪在她身边。","I would have watched my parents grow old up close and been able to stay by my grandmother's side in the last years of her life."],
+["Questo è il rimpianto più grande che io abbia.","这是我最大的遗憾。","This is the greatest regret I have."],
+["D'altra parte, se non fossi partito, non avrei mai scoperto quanto sono capace di adattarmi.","另一方面，如果我没有离开，就永远不会发现自己的适应能力有多强。","On the other hand, if I hadn't left, I would never have discovered how adaptable I am."],
+["Non avrei imparato una nuova lingua, non avrei conosciuto persone che oggi considero la mia seconda famiglia e oggi non saprei godermi le piccole cose, come un pranzo domenicale che dura tre ore.","我不会学会一门新的语言，不会认识如今被我视为第二个家庭的人们，如今也不会懂得享受生活中的小事，比如一顿持续三个小时的周日午餐。","I wouldn't have learned a new language or met people I now consider my second family, and today I wouldn't know how to enjoy the little things, like a Sunday lunch that lasts three hours."],
+["Forse sarei stato più ricco, ma sicuramente meno curioso.","也许我会更富有，但一定不会这么有好奇心。","Perhaps I would have been richer, but certainly less curious."],
+["In fondo credo che non esistano scelte giuste o sbagliate in assoluto: ogni strada ci toglie qualcosa e ci regala qualcos'altro.","说到底，我认为没有绝对正确或错误的选择：每条路都会让我们失去一些，也会给予我们另一些。","Deep down I believe there are no absolutely right or wrong choices: every path takes something from us and gives us something else."],
+["Per quanto mi riguarda, rifarei tutto.","就我而言，我会重新再来一遍。","As far as I'm concerned, I'd do it all again."]
+]}
+]}

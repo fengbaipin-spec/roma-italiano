@@ -1,0 +1,17 @@
+{
+  "name": "罗马意大利语",
+  "short_name": "罗马意大利语",
+  "description": "罗马生活意大利语：15 册发音词典和 80 篇考试写作范文，点读发音，可以离线使用。",
+  "lang": "zh-CN",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f4f1",
+  "theme_color": "#f2f4f1",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
